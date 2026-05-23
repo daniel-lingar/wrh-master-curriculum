@@ -9,22 +9,22 @@
 > **NOT THERAPY. NO DISCLOSURE.**
 > This curriculum is a non-clinical psychoeducational intervention focused on system logic and physiological adaptation. It does not require, nor encourage, the disclosure of personal trauma history.
 
-This portal provides the standardized documentation, safety protocols, and metric tracking required for federal procurement and clinical oversight of the **"What Really Happened" (WRH) Master Curriculum**.
+This portal provides standardized documentation, safety boundaries, facilitator-support materials, and metric-tracking tools for review by partner organizations, pilot sites, program leaders, and procurement stakeholders evaluating the **"What Really Happened" (WRH) Master Curriculum**.
 
 ---
 
 ## 📋 Procurement & Safety Documentation
-*Formal documentation required for agency approval. Available upon request.*
+*Formal documentation prepared for partner and agency review. Available upon request where appropriate.*
 
-* **Executive Summary: Session 12 Clinical Safety** (Available upon request)
-    * **Target:** VISN Suicide Prevention Coordinators / Contracting Officers.
-    * **Content:** Hardened safety overlays (HO-12.1-3), SPI warm handoff protocols, and liability boundaries.
-* **Program-Level Clinical Safety Summary** (Available upon request)
-    * **Target:** Agency Leadership / Clinical Directors.
-    * **Content:** 75-session architecture, VHA 1030 compliance mapping, and facilitator tier matrix.
-* **S12 & Pilot Metric Tracker (Excel)** (Available upon request)
-    * **Target:** Program Managers / Facilitators.
-    * **Content:** Live dashboard with auto-calculating S-ACT risk bands and de-identified CSV export tools.
+* **Executive Summary: Session 12 Safety Overlay** (Available upon request)
+    * **Target:** Suicide prevention coordinators, program leaders, and contracting officers.
+    * **Content:** Safety overlays, warm-handoff protocols, participant-boundary language, and non-clinical scope limits.
+* **Program-Level Safety Summary** (Available upon request)
+    * **Target:** Agency leadership, clinical directors, and community program administrators.
+    * **Content:** 75-session architecture, facilitator role boundaries, escalation guidance, and implementation safeguards.
+* **S12 & Pilot Metric Tracker** (Available upon request)
+    * **Target:** Program managers and facilitators.
+    * **Content:** De-identified tracking structure for attendance, engagement, completion, participant feedback, and implementation observations.
 
 ---
 
@@ -39,7 +39,7 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 ---
 
 ## 🏢 Prime Contractor: Capitol Contracts LLC
-*Certified   )*
+*Non-clinical psychoeducational training, curriculum development, and implementation-support provider.*
 
 *   **UEI:** HH77KN5AV5X7
 *   **CAGE Code:** 9ZFJ6
@@ -61,6 +61,6 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 
 <p align="center">
   <b>© 2026 Capitol Contracts LLC</b><br>
-  <i>Standardizing Trauma Education for Federal Procurement</i><br>
+  <i>Structured Non-Clinical Trauma Education for Public, Community, and Institutional Settings</i><br>
   <a href="https://github.com/Mave9055/wrh-master-curriculum">Return to GitHub Repository</a>
 </p>
