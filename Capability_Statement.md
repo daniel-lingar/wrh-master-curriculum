@@ -6,44 +6,60 @@
 ---
 
 ### **Company Overview**
-Capitol Contracts LLC is a professional training and educational support services firm specializing in high-impact psychoeducational interventions for behavioral health, recovery, and risk mitigation. Our flagship product, the **"What Really Happened" (WRH) Master Curriculum**, is a proprietary 75-session program designed to support veterans and high-stress occupational groups through a structured, engineering-based framework.
+Capitol Contracts LLC develops educational support resources, peer-written frameworks, and structured program materials for institutional, court-adjacent, reentry, advocacy, recovery, veteran-serving, and community program settings.
+
+The company’s current public-facing educational resource lane centers on the **What Really Happened (WRH) Master Curriculum** and related plain-language tools that translate survival responses, shame, freeze, addiction patterns, and behavioral shutdown into usable educational frameworks without requiring trauma disclosure.
+
+### **Ownership / Management Authority**
+**William Dane Lingar — CEO / President / Majority Owner**
+
+William Dane Lingar holds final management authority for company strategy, contract decisions, pricing, banking, bidding, financial commitments, hiring, firing, compensation, and official business direction.
+
+Daniel Bret Lingar may support framework development, content drafting, technical execution, and operational implementation under the authority of the CEO / President. Daniel Bret Lingar should not be listed as owner, CEO, founder, president, primary owner/manager, or final decision authority in public-facing capability materials.
 
 ### **Core Competencies**
-*   **Proprietary Curriculum Development**: 75-session WRH Master Curriculum for behavioral health.
-*   **System Logic Translation**: Reframing trauma responses as predictable physiological adaptations.
-*   **Facilitator Standardization**: Providing standardized scripts and protocols for non-clinical delivery.
-*   **Risk Mitigation**: Specialized modules for crisis response and escalation management.
-*   **Veteran-Centric Solutions**: Tailored programming for VA, DoD, and veteran-serving organizations.
+* **Educational Resource Development**: Structured peer-written educational frameworks for program and participant use.
+* **Curriculum Architecture**: Sequenced learning materials that translate complex survival patterns into plain-language concepts.
+* **Court / Program Communication Tools**: Printable resources for freeze response, shutdown, shame, and accountability-preserving next steps.
+* **Facilitator Support Materials**: Non-clinical scripts, guardrails, implementation notes, and structured delivery aids.
+* **Institutional Translation**: Converting lived-experience and behavioral-pattern material into usable formats for staff, advocates, and program partners.
 
 ### **Differentiators**
-*   **Engineering-Based Framework**: Moves beyond "vulnerability-first" paradigms to technical diagnostic approaches.
-*   **Scalable & Replicable**: Standardized protocols ensure high-fidelity delivery across diverse settings.
-*   **Non-Clinical Efficiency**: Designed for rapid deployment by trained facilitators in non-clinical environments.
-*   **Federal Alignment**: Fully aligned with VA, DoD, and SAMHSA behavioral health standards.
+* **Plain-Language Translation**: Converts complex behavioral and nervous-system concepts into usable, non-clinical language.
+* **No-Disclosure Design**: Allows participants to use tools without being required to disclose trauma history.
+* **Accountability-Preserving Framework**: Explains function without excusing harm, missed obligations, or required repair.
+* **Structured Educational Architecture**: Provides sequenced materials rather than disconnected articles or loose discussion prompts.
+* **Peer-Written Perspective**: Built from lived-experience analysis and translated into practical educational resources.
 
-### **Past Performance**
-*   **WRH Master Curriculum Development**: Completed 75-session comprehensive framework.
-*   **Pilot Program Design**: Developed 30-session deployable pilot for institutional testing.
-*   **Facilitator Toolkit**: Created standardized operational governance for program facilitators.
+### **Relevant Experience**
+* **WRH Master Curriculum Development**: Structured educational framework for survival-pattern recognition, language-building, regulation concepts, accountability, and support.
+* **Rescue Boat Survival Doctrine**: Participant-facing and institutional resources addressing freeze, shame, addiction patterns, court fear, and repair language.
+* **Pilot Package Development**: Deployment-oriented materials for institutional review and field testing.
+* **Public Education Resource Publishing**: Web-based resource pages, printable handouts, and structured article series.
 
 ### **Company Data**
-*   **Legal Name**: Capitol Contracts LLC
-*   **Unique Entity ID (UEI)**: HH77KN5AV5X7
-*   **CAGE Code**: 9ZFJ6
-*   **Socio-Economic Status**: Small Business
-*   **NAICS Codes**:
-    *   **611430**: Professional and Management Development Training
-    *   **611710**: Educational Support Services
-    *   **541611**: Administrative Management and General Management Consulting Services
-    *   **624190**: Other Individual and Family Services
+* **Legal Name**: Capitol Contracts LLC
+* **Unique Entity ID (UEI)**: HH77KN5AV5X7
+* **CAGE Code**: 9ZFJ6
+* **Socio-Economic Status**: Small Business
+* **Primary Public-Facing NAICS Alignment**:
+  * **611710 — Educational Support Services**
 
 ---
-**Contact Information**
-Capitol Contracts LLC
-Daniel Lingar (Primary Owner/Manager)
-Business Address: 925 S Crawford St, Clarksville, AR 72830
-Email: info@capitolcontracts.com
-Phone: [Please provide phone]
-https://mave9055.github.io/wrh-master-curriculum/
 
-*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+### **Contact Information**
+**Capitol Contracts LLC**
+
+**William Dane Lingar — CEO / President / Majority Owner**
+
+Business Address: 925 S Crawford St, Clarksville, AR 72830
+
+Email: capitolcontracts@outlook.com
+
+Website: https://mave9055.github.io/capitol-contracts/
+
+WRH Curriculum Portal: https://mave9055.github.io/wrh-master-curriculum/
+
+---
+
+Educational resource materials. Not therapy. Not legal advice. Not medical treatment. No trauma disclosure required.
