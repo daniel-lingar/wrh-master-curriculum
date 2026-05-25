@@ -2,89 +2,99 @@
   <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
 </p>
 
-# "What Really Happened" (WRH) 75-Session Master Curriculum
+# What Really Happened (WRH) — 75-Session Master Curriculum
 
 > [!IMPORTANT]
-> **NOT THERAPY. NO DISCLOSURE.**
-> This curriculum is a non-clinical psychoeducational intervention focused on system logic and physiological adaptation. It does not require, nor encourage, the disclosure of personal trauma history.
+> **NOT THERAPY. NO DISCLOSURE. NON-CLINICAL EDUCATION.**
+> WRH is a structured psychoeducational curriculum focused on pattern recognition, system logic, nervous-system adaptation, and practical language-building. It does not require or encourage participants to disclose personal trauma history.
 
-## **Performance Work Statement (PWS) for the "What Really Happened" (WRH) Master Curriculum**
+## Source-of-Truth Repository
 
-### **1.0 Introduction and Background**
+This repository is the master home for the **What Really Happened (WRH) 75-Session Master Curriculum**.
 
-This document outlines the Performance Work Statement (PWS) for the "What Really Happened" (WRH) Master Curriculum, a comprehensive psychoeducational intervention designed to enhance behavioral health, recovery, and risk mitigation, with a specialized focus on the veteran population. Developed by Capitol Contracts LLC, this curriculum addresses critical needs within federal agencies, including the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA), by providing a structured, replicable, and evidence-informed program.
+It is being used as the consolidation destination for older WRH curriculum, lecture, portal, presentation, and education-site fragments. The goal is to keep the full system organized in one clear instructional structure instead of scattered across duplicate repositories.
 
-### **2.0 Scope of Work**
+See:
 
-The Contractor shall provide access to and facilitation support for the 75-Session WRH Master Curriculum, designed as a non-clinical psychoeducational intervention. The scope includes the delivery of a structured program focused on System Logic Translation, which reframes trauma responses as predictable engineering problems rather than character flaws. This approach aims to foster resilience, improve adaptive coping mechanisms, and mitigate risk factors among participants, particularly veterans.
+- **[Curriculum Consolidation Map](./CURRICULUM-CONSOLIDATION.md)** — what gets merged here, what stays separate, and where older materials belong.
 
-### **3.0 Performance Requirements**
+## Core Purpose
 
-#### **3.1 Program Overview**
+WRH translates trauma, addiction, freeze responses, shame cycles, executive-function disruption, avoidance, collapse, and survival behavior into plain-language system logic.
 
-The **75-Session Master Curriculum** is a proprietary, non-clinical psychoeducational intervention designed by **Capitol Contracts LLC**. It is a structured, replicable program for behavioral health, recovery, and risk mitigation, with a heavy emphasis on veterans. 
+The central teaching frame is:
 
-This curriculum frames trauma recovery as **System Logic Translation**—treating trauma responses as predictable engineering problems (mechanical loops, wiring patterns, and interruptible biological programs) rather than character flaws or emotional vulnerabilities.
+> People cannot interrupt a pattern they have never been taught to see.
 
-#### **3.2 Core Components and Deliverables**
+WRH does not ask participants to relive, disclose, or process trauma in a therapy-style format. It teaches observable patterns, mechanism language, interruption points, and safer replacement tools.
 
-The Contractor shall deliver a unified program integrating the following core components into a sequential 75-session flow:
+## Program Architecture
 
+The master curriculum is organized as a 75-session sequence:
 
+1. **Part I: The System Logic Map (Sessions 1–26)**  
+   Foundational survival laws, pattern recognition, nervous-system adaptation, and plain-language mechanism framing.
 
-1.  **Part I: The System Logic Map (Sessions 1–26)**: Provides foundational understanding of physiological adaptations of the nervous system, based on the *26 Laws of Survival*. (Deliverable: Comprehensive understanding of System Logic Map principles).
-2.  **Part II: The Core Operational Journey (Sessions 27–56)**: Implements the *30-Session Pilot Program*, focusing on mechanical loops, wiring patterns, and biological programs. (Deliverable: Application of core operational strategies for behavioral regulation).
-3.  **Part III: Advanced System Specialization (Sessions 57–75)**: Offers the *19-Session Advanced Series*, concentrating on advanced system specialization and institutional failure analysis. (Deliverable: Specialized knowledge and analytical skills for complex system dynamics).
-4.  **Part IV: Facilitator Standardization Toolkit**: Equips facilitators with professional tools for standardized delivery, ensuring program fidelity and scalability. (Deliverable: Standardized facilitator resources and protocols).
+2. **Part II: The Core Operational Journey (Sessions 27–56)**  
+   Core pilot sequence focused on mechanical loops, wiring patterns, biological programs, regulation tools, and behavioral interruption.
 
-### **3.3 Tiered Service Offerings and Pricing Structure**
+3. **Part III: Advanced System Specialization (Sessions 57–75)**  
+   Advanced pattern analysis, institutional misreadings, relapse/collapse logic, accountability, and long-term support structures.
 
-Capitol Contracts LLC offers the WRH Master Curriculum through a tiered service model, designed to meet diverse agency requirements and budget allocations. This structure facilitates modular procurement and scalability for federal and institutional buyers (e.g., VA, DoD, DOL, SAMHSA).
+4. **Part IV: Facilitator Standardization Toolkit**  
+   Delivery standards, facilitator scripts, glossary, staff tools, participant materials, and implementation support.
+
+## Repository Structure
+
+```text
+Part-I/      Sessions 1-26: Laws of Survival / System Logic Map
+Part-II/     Sessions 27-56: Core Operational Journey / Pilot Program
+Part-III/    Sessions 57-75: Advanced System Specialization
+Part-IV/     Facilitator Toolkit, Staff Tools, Participant Materials, Glossary, Commercial Materials
+docs/        Scope boundaries, implementation notes, architecture, quality/fidelity documentation
+public-site/ Optional site assets supporting the curriculum
+archive-imports/ Temporary holding area for reviewed legacy material
+```
+
+## Performance Work Statement Summary
+
+Capitol Contracts LLC offers access to and facilitation support for the WRH Master Curriculum as a structured, replicable, non-clinical psychoeducational program.
+
+The curriculum is designed for behavioral health education, recovery-support settings, reentry environments, veteran-support programs, peer-support contexts, and institutional review settings where survival behaviors are often misread as defiance, weakness, noncompliance, or character failure.
+
+### Core Components
+
+- **System Logic Translation:** reframes survival responses as predictable patterns rather than character defects.
+- **Mechanism Breakdowns:** teaches participants how loops form, repeat, escalate, and can be interrupted.
+- **Facilitator Standardization:** supports consistent non-clinical delivery across settings.
+- **Plain-Language Education:** avoids unnecessary clinical jargon while preserving serious content.
+- **No-Disclosure Design:** participants can learn the pattern without exposing personal history.
+
+## Tiered Service Offering Draft
 
 | Service Tier | Sessions | Focus Area | Estimated Price Per Cohort (8–12 Participants) |
-| :----------- | :------- | :--------- | :--------------------------------------------- |
-| **Foundation** | 26       | System Logic Map & Laws of Survival | $18,500                                        |
-| **Core**     | 56       | Core Operational Journey & Pilot Program | $32,000                                        |
-| **Master**   | 75       | Full Program & Facilitator Standardization Toolkit | **$48,000**                                    |
+|---|---:|---|---:|
+| **Foundation** | 26 | System Logic Map & Laws of Survival | $18,500 |
+| **Core** | 56 | Core Operational Journey & Pilot Program | $32,000 |
+| **Master** | 75 | Full Program & Facilitator Standardization Toolkit | $48,000 |
 
-*Note: Pricing is an estimate and subject to negotiation based on specific contract requirements, cohort size, and duration. All pricing is firm-fixed-price for the specified scope of work.*
+*Pricing is a draft estimate and may vary by contract requirements, cohort size, duration, delivery model, and scope.*
 
-### **4.0 Applicable Documents**
+## Public Scope Boundary
 
-1.  **Statement of Objectives (SOO)**: Outlines the overarching goals and desired outcomes for the WRH Master Curriculum implementation.
-2.  **Quality Assurance Surveillance Plan (QASP)**: Details the Government's approach to monitoring the Contractor's performance.
-3.  **Data Rights and Intellectual Property (IP) Clause**: Governs the use and protection of proprietary materials.
-4.  **Facilitator Standardization Toolkit**: Provides detailed scripts and protocols for program delivery.
+WRH materials are **not therapy**, **not medical advice**, **not legal advice**, and **not a replacement for licensed clinical care**.
 
-### **5.0 Government Furnished Property/Services (GFP/GFS)**
+The curriculum is designed for non-clinical education, language-building, pattern recognition, facilitator support, and implementation documentation.
 
-No Government Furnished Property (GFP) or Government Furnished Services (GFS) are anticipated for the execution of this PWS. The Contractor shall be responsible for providing all necessary resources, facilities, and personnel to deliver the WRH Master Curriculum.
+## About Capitol Contracts LLC
 
-### **6.0 Design Principles and Technical Approach**
+Capitol Contracts LLC develops structured, non-clinical psychoeducational materials and training frameworks for public education, peer-support settings, recovery environments, veteran-support programs, institutional review, and implementation partners.
 
-The WRH Master Curriculum is underpinned by robust design principles that ensure its efficacy, scalability, and compliance with federal program requirements:
+Federal contracting identifiers:
 
-*   **6.1 Engineering Framing**: The curriculum employs an engineering-based framework, transitioning from a "vulnerability-first" paradigm to a neutral, technical diagnostic approach. This principle ensures objective analysis of behavioral patterns and promotes a solution-oriented mindset.
-*   **6.2 Mechanism Breakdowns**: Each session is meticulously structured to apply system logic, enabling participants to observe behavioral mechanisms, translate underlying loops, and gain control over their responses. This systematic approach facilitates measurable behavioral modification.
-*   **6.3 Standardized Facilitator Scripts**: To ensure program fidelity, scalability, and minimize re-traumatization risk, the curriculum includes comprehensive, standardized scripts for non-clinical facilitators. This ensures consistent delivery and adherence to established protocols across all implementations.
-*   **6.4 Intellectual Property (IP) Integrity**: All 75 sessions are maintained in their full, original detail, without summarization, to preserve the integrity of the proprietary intellectual property. This ensures that the program's foundational principles and methodologies remain intact and uncompromised.
-
-### **Repository Structure**
-The curriculum is organized into parts, with each session as a distinct markdown file containing both the **Lesson Content** and the **Facilitator Script**.
-
-- `Part-I/`: Sessions 1-26 (Laws of Survival)
-- `Part-II/`: Sessions 27-56 (Core Operational Journey)
-- `Part-III/`: Sessions 57-75 (Advanced Specialization)
-- `Part-IV/`: Facilitator Toolkit, Glossary, and Commercial Materials
-
-### **7.0 About Capitol Contracts LLC**
-
-Capitol Contracts LLC is dedicated to providing high-quality professional training and psychoeducational support services. Our commitment to excellence and our specialized focus on veteran populations align with federal initiatives to enhance the well-being of service members and their families. Our federal contracting identifiers are as follows:
-
-*   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
-*   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
-
-Capitol Contracts LLC is prepared to meet the stringent requirements of federal contracts, offering a proven track record of delivering impactful and compliant solutions.
+- **Unique Entity Identifier (UEI):** HH77KN5AV5X7
+- **Commercial and Government Entity (CAGE) Code:** 9ZFJ6
 
 ---
-*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+
+*Capitol Contracts LLC | What Really Happened Master Curriculum | Structured Non-Clinical Trauma Education*
