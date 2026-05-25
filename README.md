@@ -18,6 +18,15 @@ See:
 
 - **[Curriculum Consolidation Map](./CURRICULUM-CONSOLIDATION.md)** — what gets merged here, what stays separate, and where older materials belong.
 
+## Ownership, Control, and Certification Boundary
+
+This curriculum is associated with Capitol Contracts LLC, but company role and certification language must remain accurate.
+
+- **William Dane Lingar** is the veteran majority owner and executive control authority for Capitol Contracts LLC.
+- **Daniel Bret Lingar is not a veteran** and should not be described as a veteran owner, SDVOSB owner, service-disabled veteran, CEO, President, or final-control authority.
+- Daniel Bret Lingar may be described in non-veteran support roles such as Director of Operations, Technical Lead, Curriculum Development Support, production support, or implementation support.
+- Capitol Contracts LLC has **not yet applied for SDVOSB certification** and should not be described as SDVOSB-certified, verified SDVOSB, approved SDVOSB, or certified veteran-owned unless certification is actually granted.
+
 ## Core Purpose
 
 WRH translates trauma, addiction, freeze responses, shame cycles, executive-function disruption, avoidance, collapse, and survival behavior into plain-language system logic.
@@ -94,6 +103,7 @@ Federal contracting identifiers:
 
 - **Unique Entity Identifier (UEI):** HH77KN5AV5X7
 - **Commercial and Government Entity (CAGE) Code:** 9ZFJ6
+- **SDVOSB Status:** Not applied / not certified
 
 ---
 
