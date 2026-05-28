@@ -8,6 +8,20 @@
 > **NOT THERAPY. NO DISCLOSURE. NON-CLINICAL EDUCATION.**
 > WRH is a structured psychoeducational curriculum focused on pattern recognition, system logic, nervous-system adaptation, and practical language-building. It does not require or encourage participants to disclose personal trauma history.
 
+## Plain-English Summary
+
+**What Really Happened (WRH)** is a 75-session non-clinical psychoeducational curriculum developed by Capitol Contracts LLC. It teaches trauma responses, addiction patterns, freeze responses, shame cycles, executive-function disruption, avoidance, collapse, and survival behavior as predictable mechanisms rather than character flaws.
+
+WRH is designed for recovery-support settings, veteran-support programs, reentry environments, peer-support contexts, public education partners, and institutional review settings where survival behaviors are often misread as defiance, weakness, noncompliance, or moral failure.
+
+The curriculum does **not** ask participants to relive, disclose, or process trauma in a therapy-style format. It teaches observable patterns, mechanism language, interruption points, facilitator scripts, and safer replacement tools.
+
+**Start here if you are a first-time visitor:**
+
+- **Repository Showcase:** https://mave9055.github.io/Mave9055/repo-showcase.html
+- **Public Landing Page:** https://mave9055.github.io/Mave9055/
+- **Capitol Contracts Repository:** https://github.com/Mave9055/capitol-contracts
+
 ## Source-of-Truth Repository
 
 This repository is the master home for the **What Really Happened (WRH) 75-Session Master Curriculum**.
@@ -103,7 +117,14 @@ Federal contracting identifiers:
 
 - **Unique Entity Identifier (UEI):** HH77KN5AV5X7
 - **Commercial and Government Entity (CAGE) Code:** 9ZFJ6
+- **Primary NAICS:** 611710 — Educational Support Services
 - **SDVOSB Status:** Not applied / not certified
+
+## Next Step
+
+First-time visitors should review the **Repository Showcase** before opening individual files: https://mave9055.github.io/Mave9055/repo-showcase.html
+
+Business and procurement-facing context is maintained here: https://github.com/Mave9055/capitol-contracts
 
 ---
 
