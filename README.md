@@ -16,6 +16,8 @@ WRH is designed for recovery-support settings, veteran-support programs, reentry
 
 The curriculum does **not** ask participants to relive, disclose, or process trauma in a therapy-style format. It teaches observable patterns, mechanism language, interruption points, facilitator scripts, and safer replacement tools.
 
+**Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
+
 **Start here if you are a first-time visitor:**
 
 - **Repository Showcase:** https://mave9055.github.io/Mave9055/repo-showcase.html
@@ -125,6 +127,8 @@ Federal contracting identifiers:
 First-time visitors should review the **Repository Showcase** before opening individual files: https://mave9055.github.io/Mave9055/repo-showcase.html
 
 Business and procurement-facing context is maintained here: https://github.com/Mave9055/capitol-contracts
+
+For inquiries, pilot conversations, capability materials, or implementation discussions: **[capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)**
 
 ---
 
