@@ -18,6 +18,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 10 | Physiological Stress Response and Bodily Signaling | The Body Moves Before the Mind Knows Why | [session-10.md](./sessions/session-10.md) |
 | 11 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | [session-11.md](./sessions/session-11.md) |
 | 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | [session-12.md](./sessions/session-12.md) |
+| 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | [session-13.md](./sessions/session-13.md) |
 
 ## Completed Participant Handouts
 
@@ -41,8 +42,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 12 |
-| 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
+| 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Next after Session 13 |
 
 ## Numbering Note
 
@@ -56,6 +56,7 @@ New sequence:
 - 11 — Institutional misreading / systems misread the body
 - 12 — Internal conflict / survival systems fighting inside one person
 - 13 — Dissociation / protective disengagement
+- 14 — Misclassification of freeze as noncompliance
 
 ## Standard Session Structure
 
