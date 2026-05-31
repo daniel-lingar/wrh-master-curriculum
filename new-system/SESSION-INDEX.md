@@ -13,6 +13,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 05 | Occupational Structure as Behavioral Stabilization System | Work Became the Place You Could Function | [session-05.md](./sessions/session-05.md) |
 | 06 | Developmental Attachment Disruption Effects | Attachment Broke Before You Had Words | [session-06.md](./sessions/session-06.md) |
 | 07 | Compliance Based Survival Response Systems Fawn Response | You Learned to Survive by Becoming Useful | [session-07.md](./sessions/session-07.md) |
+| 08 | Hypervigilance as Threat Monitoring System | Your Brain Never Stopped Scanning for Danger | [session-08.md](./sessions/session-08.md) |
 
 ## Completed Participant Handouts
 
@@ -36,8 +37,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 08 | Hypervigilance as Threat Monitoring System | Your Brain Never Stopped Scanning for Danger | Next after Session 07 |
-| 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | Pending |
+| 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | Next after Session 08 |
 | 10 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Pending |
 | 11 | Institutional Interaction and Retraumatization Risk | The System Can Become the Trauma | Pending |
 | 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Pending |
