@@ -4,30 +4,32 @@
 
 ## Facilitator Notes — NOT READ ALOUD
 
-**Purpose:** Teach participants that hypervigilance is a threat-monitoring system, not paranoia, weakness, drama, or attention-seeking. This session explains how the nervous system learns to scan faces, tones, exits, silence, movement, and emotional shifts when danger used to arrive without warning.
+**Purpose:** Teach participants that hypervigilance is a threat-monitoring system, not paranoia, weakness, drama, sensitivity, or attention-seeking. This session explains how the nervous system learns to scan faces, exits, silence, tone, movement, timing, body sensations, authority, and emotional shifts when danger, loss, punishment, or instability used to arrive without enough warning.
 
-**Risk Rating:** Moderate. This session can activate participants who are constantly exhausted, easily startled, sensitive to tone, watchful in rooms, unable to relax, or ashamed of being “too alert.” Keep the frame steady: hypervigilance is an adaptation, but it has a cost.
+**Risk Rating:** Moderate to High-Yellow. This session can activate participants who are constantly exhausted, easily startled, sensitive to tone, watchful in rooms, unable to relax, suspicious of calm, or ashamed of being “too alert.” It may also strongly land with veterans, first responders, correctional staff, people raised around violence, people with court/legal exposure, and people who have lived through repeated sudden loss.
 
 **Key Anchors to Maintain:**
 
-- Hypervigilance is not the same thing as being paranoid.
-- Scanning once helped the person survive.
-- The cost is exhaustion, mistrust, irritability, sleep disruption, and difficulty receiving safety.
+- Hypervigilance is not the same thing as paranoia.
+- Hypervigilance is the nervous system running threat assessment after the original danger has passed.
+- Scanning may have once helped the person survive.
+- The cost is exhaustion, mistrust, irritability, sleep disruption, body tension, relationship strain, and difficulty receiving safety.
+- Do not romanticize hypervigilance as a superpower. It may create skill, but it also drains the body.
 - No participant has to name the danger that trained their radar.
-- The goal is not to shut the radar off by force. The goal is to give it accurate information.
+- The goal is not to shut the radar off by force. The goal is to update the radar with present-time information.
 
 **Materials:** Whiteboard or slide for the Threat-Monitoring Loop. Optional participant handout: The Scan Check.
 
-**Delivery Tone:** Calm, precise, validating. Avoid making hypervigilance sound like a superpower. It may create insight, but it also burns the body down.
+**Delivery Tone:** Calm, exact, disciplined, serious. This session should sound practical enough for a veteran, officer, first responder, judge, supervisor, peer worker, or survivor to understand without needing to “believe in trauma language.”
 
 ---
 
 ## Session Purpose — NOT READ ALOUD
 
-Teach participants that hypervigilance is a nervous-system adaptation where the body keeps scanning for danger even when the current room is not dangerous. This session shifts the question from “Why am I so paranoid or sensitive?” to “What did my body learn to monitor, and is that radar still accurate right now?”
+Teach participants that hypervigilance is a nervous-system adaptation where the body keeps running threat assessment even when the current room is not dangerous. This session shifts the question from “Why am I paranoid or too sensitive?” to “What did my system learn to monitor, and is that threat assessment still accurate right now?”
 
 **Participant Takeaway:**  
-My brain learned to scan because danger once came without warning. That scanning helped me survive, but it is exhausting me now. I can begin giving my radar new information one safe moment at a time.
+My brain learned to scan because danger once came without enough warning. That scanning helped me survive. But a threat-monitoring system that never stands down will eventually exhaust the whole body. I can learn to check the signal before obeying the alarm.
 
 ---
 
@@ -39,17 +41,21 @@ Today we are talking about hypervigilance — the nervous system’s habit of sc
 
 This session is education. It is not therapy. It is not a diagnosis. It is not medical advice. It is not telling you that real danger is not real.
 
-Sometimes danger is real. Sometimes the room is unsafe. Sometimes the body is correct to pay attention.
+Sometimes danger is real.
 
-WRH is not asking you to ignore danger.
+Sometimes the room is unsafe.
+
+Sometimes the body is right to pay attention.
+
+WRH is not asking anyone to ignore real danger.
 
 We are learning how to tell the difference between actual danger in the present and an old radar system running a drill.
 
-You do not have to disclose what trained your radar. You do not have to talk about your home, your trauma, your job, your relationship, your military service, your childhood, or anything else.
+You do not have to disclose what trained your radar. You do not have to talk about your home, your military service, your job, your relationship, your court history, your childhood, your grief, or anything else.
 
 You can learn the pattern without telling your story.
 
-If you feel activated, you can step out, get water, breathe, pace, or signal for support.
+If you feel activated, you can step out, get water, breathe, pace, look at the door, or signal for support.
 
 Yellow light means slow down.
 
@@ -83,7 +89,7 @@ The plain-language title is:
 
 Your brain never stopped scanning for danger.
 
-Let’s say that carefully.
+Let’s say this clearly.
 
 Hypervigilance is not simply being nervous.
 
@@ -91,9 +97,15 @@ It is not just overthinking.
 
 It is not just being dramatic.
 
-Hypervigilance is what happens when the nervous system learns that danger can arrive without enough warning.
+It is not weakness.
 
-So the body starts collecting warning signs.
+It is not imaginary.
+
+Hypervigilance is a threat-monitoring system.
+
+It is the body continuing to run surveillance after it learned that danger can arrive without enough warning.
+
+The system starts collecting signals.
 
 Tone of voice.
 
@@ -106,8 +118,6 @@ Silence.
 A door closing.
 
 A text not answered.
-
-A person sighing.
 
 A room getting quiet.
 
@@ -125,19 +135,25 @@ A partner changing tone.
 
 A child going quiet.
 
+A body sensation in the chest or stomach.
+
+A date on the calendar.
+
+A sound that reminds the body of another time.
+
 The body learns to scan because scanning once helped.
 
-If you could detect danger early enough, maybe you could freeze, fawn, leave, hide, perform, apologize, or prepare.
+If you could detect danger early enough, maybe you could freeze, fawn, leave, hide, prepare, apologize, fight, or control the damage.
 
 That is the logic.
 
 But here is the cost:
 
-A radar that never turns off burns out the whole system.
+A radar that never powers down eventually burns out the whole system.
 
-You may be exhausted before lunch and not know why.
+You may be exhausted before noon and not know why.
 
-You may feel irritated, jumpy, suspicious, tense, or unable to rest.
+You may feel irritated, jumpy, tense, suspicious, or unable to rest.
 
 You may think you are lazy because you are tired all the time.
 
@@ -145,17 +161,23 @@ But maybe you are not lazy.
 
 Maybe your brain has been running security detail your whole life.
 
+Maybe your body has been on watch for years.
+
+Maybe the problem is not that you are weak.
+
+Maybe the problem is that your threat-monitoring system never got the order to stand down.
+
 That is what we are learning today.
 
 Not how to shame the radar.
 
-How to understand it.”
+How to understand it, update it, and stop letting it run your whole life.”
 
 ---
 
 ## Grounding / Regulation Moment — READ ALOUD
 
-“Before we go deeper, let’s give the radar a little information.
+“Before we go deeper, let’s give the radar accurate information.
 
 Keep your eyes open if that feels safer.
 
@@ -205,7 +227,7 @@ We are giving it data.”
 
 “Let’s define hypervigilance in plain language.
 
-Hypervigilance is the nervous system’s constant scanning for threat.
+Hypervigilance is the nervous system’s constant or repeated scanning for threat.
 
 It is the body saying:
 
@@ -221,7 +243,7 @@ I need to know what that tone means.
 
 I need to know if silence means danger.
 
-I need to know if I am about to be blamed, rejected, hit, abandoned, arrested, humiliated, or trapped.
+I need to know if I am about to be blamed, rejected, hit, abandoned, arrested, humiliated, trapped, or surprised.
 
 That scanning can become automatic.
 
@@ -241,11 +263,17 @@ They notice who has power.
 
 They notice who is unpredictable.
 
-They notice the shift in tone before anyone else does.
+They notice a tone shift before anyone else does.
+
+They notice the one person in the room who feels wrong.
+
+They notice the change in breathing, posture, volume, or silence.
 
 People may call that intuition.
 
 Sometimes it is accurate.
+
+Sometimes it is a trained survival skill.
 
 But it is not free.
 
@@ -253,7 +281,9 @@ Every scan costs energy.
 
 Every threat calculation uses the body.
 
-Every moment of bracing tells the nervous system: stay ready.
+Every moment of bracing tells the nervous system:
+
+Stay ready.
 
 Over time, the person may live in a body that never stands down.
 
@@ -269,6 +299,8 @@ Concentration.
 
 Patience.
 
+Pain.
+
 Relationships.
 
 Work.
@@ -279,15 +311,21 @@ Parenting.
 
 Faith.
 
+Decision-making.
+
 Everything.
 
-Because a body that is always monitoring danger has less energy left for ordinary life.”
+Because a body that is always monitoring danger has less energy left for ordinary life.
+
+WRH does not call that weakness.
+
+WRH calls it a system cost.”
 
 ---
 
 ## Core Teaching Section Two — READ ALOUD
 
-“Let’s name four ways hypervigilance shows up.
+“Let’s name five ways hypervigilance shows up.
 
 **First: room scanning.**
 
@@ -297,15 +335,31 @@ You enter a room and immediately map it. Exits. corners. windows. people. threat
 
 You monitor people’s moods. A sigh. A pause. A shorter text. A face change. A tone shift. You feel responsible for catching emotional danger before it becomes conflict. This connects to fawning. If you can read the room early, maybe you can keep peace.
 
-**Third: future scanning.**
+**Third: authority scanning.**
+
+You track the people who can punish, reject, fire, arrest, shame, or control you. A supervisor. A judge. A police officer. A counselor. A parent. A partner. A landlord. A doctor. The body studies authority because authority once had consequences.
+
+**Fourth: future scanning.**
 
 The body keeps asking, ‘What could go wrong?’ You rehearse disasters. You plan arguments. You imagine loss, rejection, failure, arrest, relapse, death, abandonment, or humiliation. People may call it negative thinking. But the body calls it preparation.
 
-**Fourth: body scanning.**
+**Fifth: body scanning.**
 
-You monitor your own symptoms. Heart rate. breath. stomach. dizziness. pain. fatigue. You may worry something is wrong, because your body has been trained to treat sensation as warning.
+You monitor your own symptoms. Heart rate. breath. chest. stomach. dizziness. pain. fatigue. A sensation appears, and the body asks, ‘Is something wrong?’ Sometimes grief, fear, shame, or panic enters the body before the mind can name it.
 
-Here is what matters:
+That matters.
+
+A person may feel pressure in their chest or stomach and not know it is sadness.
+
+A person may feel their body react before they have emotional language for what is happening.
+
+That does not make them stupid.
+
+It means the body reported first.
+
+The mind translated later.
+
+Here is what WRH wants you to understand:
 
 Hypervigilance can be intelligent and inaccurate at the same time.
 
@@ -355,11 +409,25 @@ Silence matters.
 
 The room matters.
 
-Then he grew up inside family systems where death, chaos, addiction, conflict, and instability kept returning.
+Later, loss kept arriving.
 
-His brain started treating tragedy as normal weather.
+Death did not come once and then leave.
 
-When you have lost twenty-seven people you love, the body does not easily believe the world is safe.
+It repeated.
+
+Friends.
+
+Family.
+
+Cousins.
+
+Brother.
+
+Mother.
+
+Names stacked on names.
+
+When enough people disappear, the body can start treating loss like weather.
 
 The radar says:
 
@@ -367,13 +435,15 @@ Watch the phone.
 
 Watch the road.
 
-Watch the silence.
-
 Watch the hospital.
+
+Watch the silence.
 
 Watch the police.
 
 Watch the family.
+
+Watch the next call.
 
 Watch everything.
 
@@ -388,6 +458,8 @@ He could see what needed to be done.
 He could anticipate problems.
 
 He could move fast.
+
+He could sense tension before other people named it.
 
 But it also kept him exhausted.
 
@@ -435,11 +507,11 @@ The work is to update it.”
 
 **Step 1 — Unpredictable Danger**
 
-The person experiences danger, neglect, abandonment, violence, instability, humiliation, conflict, or loss that arrives without enough warning.
+The person experiences danger, neglect, abandonment, violence, instability, humiliation, conflict, authority threat, sudden loss, or repeated disruption that arrives without enough warning.
 
 **Step 2 — Warning Signs Become Important**
 
-The nervous system learns to track small signals: tone, silence, movement, facial expression, exits, mood shifts, body sensations, and patterns.
+The nervous system learns to track small signals: tone, silence, movement, facial expression, exits, mood shifts, authority cues, body sensations, dates, sounds, patterns, and timing.
 
 **Step 3 — Radar Stays On**
 
@@ -447,19 +519,19 @@ The body keeps scanning even when the immediate danger has passed. The person be
 
 **Step 4 — Short-Term Protection**
 
-The scanning helps the person avoid conflict, prepare for danger, manage others, escape early, or prevent explosions. The body learns: scanning works.
+The scanning helps the person avoid conflict, prepare for danger, manage others, escape early, prevent explosions, read rooms, or reduce surprise. The body learns: scanning works.
 
 **Step 5 — Long-Term Exhaustion**
 
-The radar burns energy. The person becomes tired, irritable, anxious, suspicious, distracted, sleep-deprived, or unable to relax.
+The radar burns energy. The person becomes tired, irritable, anxious, suspicious, distracted, sleep-deprived, tense, or unable to relax.
 
 **Step 6 — Misreading**
 
-Others call the person paranoid, dramatic, negative, controlling, jumpy, difficult, or too sensitive. The person may start believing those labels.
+Others call the person paranoid, dramatic, negative, controlling, jumpy, difficult, too sensitive, suspicious, or impossible to please.
 
 **Step 7 — Shame and More Threat**
 
-Shame tells the body it is unsafe to be itself. That increases threat. The radar gets louder.
+The person believes the label. Shame tells the body it is unsafe to be itself. That increases threat. The radar gets louder.
 
 **Step 8 — Interruption Point**
 
@@ -507,9 +579,13 @@ Texts?
 
 Police?
 
+Authority?
+
 Anger?
 
 Rejection?
+
+Loss?
 
 Your own body sensations?
 
@@ -532,6 +608,8 @@ Being surprised?
 Being humiliated?
 
 Being powerless?
+
+Being too late?
 
 No right answer.
 
@@ -561,7 +639,7 @@ You are only learning what it watches.”
 
 It is called the Scan Check.
 
-Use it when you notice tension, exhaustion, suspicion, bracing, or a need to monitor everything.
+Use it when you notice tension, exhaustion, suspicion, bracing, irritability, or a need to monitor everything.
 
 It has three questions.
 
@@ -580,6 +658,8 @@ A text?
 A door?
 
 A mood shift?
+
+An authority figure?
 
 A body sensation?
 
@@ -603,7 +683,7 @@ This room is not that room.
 
 Question three:
 
-Can I give my radar a ten-second break?
+Can I give my radar a ten-second stand-down?
 
 Not forever.
 
@@ -636,6 +716,8 @@ That scan may have kept you alive.
 It may have helped you read rooms.
 
 It may have helped you avoid explosions.
+
+It may have helped you prepare for authority, conflict, grief, loss, or abandonment.
 
 It may have helped you protect other people.
 
@@ -672,6 +754,8 @@ One safe room.
 One neutral object.
 
 One longer exhale.
+
+One honest check.
 
 One moment where you check the signal before obeying the alarm.
 
@@ -760,10 +844,11 @@ See you next session.”
 - Participants may feel embarrassed by scanning behaviors. Normalize without romanticizing them.
 - Do not call hypervigilance a superpower. It may create skill, but the cost is real.
 - If a participant says, “But my radar is usually right,” validate that danger may have taught accuracy. Then return to the tool: “The goal is not to ignore the radar. The goal is to check whether this moment matches the alarm.”
-- In justice, veteran, first responder, recovery, or domestic violence contexts, hypervigilance may be especially active. Move slowly.
+- In justice, veteran, first responder, recovery, workplace, domestic violence, or high-loss contexts, hypervigilance may be especially active. Move slowly.
 - Avoid telling participants to “just relax.” That phrase can feel dismissive and unsafe.
+- Keep the language practical: threat monitoring, radar, signal, scan, stand-down, present-time information.
 - Session 09 moves into freeze because a nervous system that scans long enough may eventually lock up when threat feels unavoidable.
-- WRH is education, not treatment. Encourage participants to reach out to counselors, peer support, case managers, recovery staff, advocates, or crisis resources if this session brings up heavy distress.
+- WRH is education, not treatment, medical advice, legal advice, or crisis care. Encourage participants to reach out to counselors, peer support, case managers, recovery staff, advocates, or crisis resources if this session brings up heavy distress.
 
 ---
 
