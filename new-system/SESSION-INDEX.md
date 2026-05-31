@@ -17,6 +17,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | [session-09.md](./sessions/session-09.md) |
 | 10 | Physiological Stress Response and Bodily Signaling | The Body Moves Before the Mind Knows Why | [session-10.md](./sessions/session-10.md) |
 | 11 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | [session-11.md](./sessions/session-11.md) |
+| 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | [session-12.md](./sessions/session-12.md) |
 
 ## Completed Participant Handouts
 
@@ -40,8 +41,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Next after Session 11 |
-| 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Pending |
+| 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 12 |
 | 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
 
 ## Numbering Note
