@@ -16,6 +16,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 08 | Hypervigilance as Threat Monitoring System | Your Nervous System Never Stopped Scanning for Danger | [session-08.md](./sessions/session-08.md) |
 | 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | [session-09.md](./sessions/session-09.md) |
 | 10 | Physiological Stress Response and Bodily Signaling | The Body Moves Before the Mind Knows Why | [session-10.md](./sessions/session-10.md) |
+| 11 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | [session-11.md](./sessions/session-11.md) |
 
 ## Completed Participant Handouts
 
@@ -39,22 +40,22 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 11 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 10 |
-| 12 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | Pending |
-| 13 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Pending |
+| 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Next after Session 11 |
+| 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Pending |
 | 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
 
 ## Numbering Note
 
-The uploaded body-signaling session was added as Session 10 because it creates a stronger teaching bridge between Session 09 freeze and Session 11 dissociation.
+The uploaded body-signaling session was added as Session 10 because it creates a stronger teaching bridge between Session 09 freeze and institutional misreading.
 
 New sequence:
 
 - 08 — Hypervigilance / threat monitoring
 - 09 — Freeze / functional inhibition
 - 10 — Body signaling / physiology before meaning
-- 11 — Dissociation / protective disengagement
-- 12 — Institutional misreading / systems misread the body
+- 11 — Institutional misreading / systems misread the body
+- 12 — Internal conflict / survival systems fighting inside one person
+- 13 — Dissociation / protective disengagement
 
 ## Standard Session Structure
 
