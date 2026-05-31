@@ -14,6 +14,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 06 | Developmental Attachment Disruption Effects | Attachment Broke Before You Had Words | [session-06.md](./sessions/session-06.md) |
 | 07 | Compliance Based Survival Response Systems Fawn Response | You Learned to Survive by Becoming Useful | [session-07.md](./sessions/session-07.md) |
 | 08 | Hypervigilance as Threat Monitoring System | Your Brain Never Stopped Scanning for Danger | [session-08.md](./sessions/session-08.md) |
+| 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | [session-09.md](./sessions/session-09.md) |
 
 ## Completed Participant Handouts
 
@@ -37,8 +38,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | Next after Session 08 |
-| 10 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Pending |
+| 10 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 09 |
 | 11 | Institutional Interaction and Retraumatization Risk | The System Can Become the Trauma | Pending |
 | 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Pending |
 | 13 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
