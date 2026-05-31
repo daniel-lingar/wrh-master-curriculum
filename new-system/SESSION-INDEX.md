@@ -11,6 +11,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 03 | Adaptive Attachment to Unsafe Environments | Unsafe Started Feeling Like Home | [session-03.md](./sessions/session-03.md) |
 | 04 | Complicated Grief and Cognitive Persistence | Grief Does Not Leave Just Because Time Passed | [session-04.md](./sessions/session-04.md) |
 | 05 | Occupational Structure as Behavioral Stabilization System | Work Became the Place You Could Function | [session-05.md](./sessions/session-05.md) |
+| 06 | Developmental Attachment Disruption Effects | Attachment Broke Before You Had Words | [session-06.md](./sessions/session-06.md) |
 
 ## Completed Participant Handouts
 
@@ -34,8 +35,7 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 06 | Developmental Attachment Disruption Effects | Attachment Broke Before You Had Words | Next after Session 05 |
-| 07 | Compliance Based Survival Response Systems Fawn Response | You Learned to Survive by Becoming Useful | Pending |
+| 07 | Compliance Based Survival Response Systems Fawn Response | You Learned to Survive by Becoming Useful | Next after Session 06 |
 | 08 | Hypervigilance as Threat Monitoring System | Your Brain Never Stopped Scanning for Danger | Pending |
 | 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | Pending |
 | 10 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Pending |
