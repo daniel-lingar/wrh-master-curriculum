@@ -13,8 +13,9 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 05 | Occupational Structure as Behavioral Stabilization System | Work Became the Place You Could Function | [session-05.md](./sessions/session-05.md) |
 | 06 | Developmental Attachment Disruption Effects | Attachment Broke Before You Had Words | [session-06.md](./sessions/session-06.md) |
 | 07 | Compliance Based Survival Response Systems Fawn Response | You Learned to Survive by Becoming Useful | [session-07.md](./sessions/session-07.md) |
-| 08 | Hypervigilance as Threat Monitoring System | Your Brain Never Stopped Scanning for Danger | [session-08.md](./sessions/session-08.md) |
+| 08 | Hypervigilance as Threat Monitoring System | Your Nervous System Never Stopped Scanning for Danger | [session-08.md](./sessions/session-08.md) |
 | 09 | Functional Inhibition Response Mechanism Freeze Response | Freeze Is Not Refusal | [session-09.md](./sessions/session-09.md) |
+| 10 | Physiological Stress Response and Bodily Signaling | The Body Moves Before the Mind Knows Why | [session-10.md](./sessions/session-10.md) |
 
 ## Completed Participant Handouts
 
@@ -38,10 +39,22 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 10 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 09 |
-| 11 | Institutional Interaction and Retraumatization Risk | The System Can Become the Trauma | Pending |
-| 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Pending |
-| 13 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
+| 11 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | Next after Session 10 |
+| 12 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | Pending |
+| 13 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | Pending |
+| 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Pending |
+
+## Numbering Note
+
+The uploaded body-signaling session was added as Session 10 because it creates a stronger teaching bridge between Session 09 freeze and Session 11 dissociation.
+
+New sequence:
+
+- 08 — Hypervigilance / threat monitoring
+- 09 — Freeze / functional inhibition
+- 10 — Body signaling / physiology before meaning
+- 11 — Dissociation / protective disengagement
+- 12 — Institutional misreading / systems misread the body
 
 ## Standard Session Structure
 
