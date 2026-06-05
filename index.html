@@ -1,466 +1,409 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WRH Master Curriculum | Capitol Contracts LLC</title>
-  <meta name="description" content="A structured, non-clinical trauma-education curriculum for institutional review, peer-support settings, recovery-support programs, reentry environments, and veteran-support partners.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>WRH Master Curriculum | What Really Happened™</title>
+
+  <meta
+    name="description"
+    content="What Really Happened™ Master Curriculum — a black-and-gold trauma-literacy gateway for non-clinical survival-mode education, facilitator delivery, and organizational review."
+  />
+
+  <meta name="author" content="Daniel Bret Lingar / Capitol Contracts LLC" />
+  <meta name="theme-color" content="#050505" />
+
+  <link rel="canonical" href="https://daniel-lingar.github.io/wrh-master-curriculum/" />
+
+  <meta property="og:title" content="WRH Master Curriculum | What Really Happened™" />
+  <meta
+    property="og:description"
+    content="A non-clinical trauma-literacy and survival-mode education gateway built for GitHub Pages."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://daniel-lingar.github.io/wrh-master-curriculum/" />
+
   <style>
     :root {
-      --bg: #0b0f14;
-      --panel: #121923;
-      --panel-2: #172230;
-      --ink: #f5f1e8;
-      --muted: #c8c0b2;
-      --line: rgba(212, 175, 55, 0.32);
+      --black: #050505;
+      --black-2: #0b0b0b;
+      --charcoal: #111111;
+      --charcoal-2: #1a1a1a;
       --gold: #d4af37;
-      --gold-soft: #f0d77a;
-      --danger: #ffdf8a;
-      --white: #ffffff;
-      --shadow: 0 24px 70px rgba(0,0,0,.35);
-      --radius: 22px;
-      --max: 1160px;
+      --gold-bright: #f4d76b;
+      --gold-soft: rgba(212, 175, 55, 0.14);
+      --gold-border: rgba(212, 175, 55, 0.42);
+      --white: #f6f0df;
+      --muted: #bdb6a7;
+      --panel: rgba(12, 12, 12, 0.86);
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.58);
+      --max-width: 1180px;
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
+      min-height: 100vh;
+      color: var(--white);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      color: var(--ink);
+      line-height: 1.6;
       background:
-        radial-gradient(circle at 20% 0%, rgba(212, 175, 55, .16), transparent 30%),
-        radial-gradient(circle at 90% 10%, rgba(255, 255, 255, .07), transparent 25%),
-        linear-gradient(180deg, #090d12 0%, #0b0f14 38%, #111820 100%);
-      line-height: 1.55;
+        radial-gradient(circle at 15% 10%, rgba(212, 175, 55, 0.18), transparent 30rem),
+        radial-gradient(circle at 82% 18%, rgba(244, 215, 107, 0.09), transparent 28rem),
+        linear-gradient(135deg, #000000 0%, #060606 42%, #141006 100%);
     }
 
-    a { color: var(--gold-soft); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a { color: inherit; text-decoration: none; }
 
-    .wrap {
-      width: min(var(--max), calc(100% - 40px));
-      margin: 0 auto;
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: -50px;
+      z-index: 999;
+      padding: 10px 14px;
+      border: 1px solid var(--gold);
+      border-radius: 999px;
+      background: #000;
+      color: var(--gold-bright);
+      transition: top 0.2s ease;
     }
 
-    .topbar {
+    .skip-link:focus { top: 16px; }
+
+    header {
       position: sticky;
       top: 0;
-      z-index: 20;
+      z-index: 100;
+      border-bottom: 1px solid var(--gold-border);
+      background: rgba(0, 0, 0, 0.88);
       backdrop-filter: blur(16px);
-      background: rgba(8, 12, 17, .82);
-      border-bottom: 1px solid var(--line);
     }
 
-    .nav {
-      min-height: 72px;
+    .nav-wrap {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 14px 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 22px;
+      gap: 18px;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-weight: 800;
-      letter-spacing: .04em;
-      text-transform: uppercase;
-      color: var(--white);
-    }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 230px; }
 
-    .mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 50%;
+    .logo {
+      width: 44px;
+      height: 44px;
       display: grid;
       place-items: center;
-      color: #0b0f14;
-      background: linear-gradient(135deg, var(--gold), var(--gold-soft));
-      font-weight: 900;
-      box-shadow: 0 0 0 6px rgba(212, 175, 55, .08);
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--gold-bright);
+      font-weight: 950;
+      letter-spacing: -0.09em;
+      background: linear-gradient(145deg, rgba(212, 175, 55, 0.25), rgba(0, 0, 0, 0.1)), #070707;
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
     }
 
-    .navlinks {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      flex-wrap: wrap;
-      font-size: .92rem;
-      color: var(--muted);
+    .brand-text strong {
+      display: block;
+      color: var(--gold-bright);
+      font-size: 0.96rem;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
     }
 
-    .navlinks a { color: var(--muted); }
+    .brand-text span { display: block; margin-top: -2px; color: var(--muted); font-size: 0.78rem; }
 
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      min-height: 44px;
-      padding: 0 18px;
+    nav { display: flex; align-items: center; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+
+    nav a {
+      padding: 8px 11px;
+      border: 1px solid transparent;
       border-radius: 999px;
-      border: 1px solid var(--line);
-      background: rgba(212, 175, 55, .10);
-      color: var(--gold-soft);
-      font-weight: 800;
-      text-decoration: none;
-      box-shadow: 0 12px 32px rgba(0,0,0,.20);
+      color: var(--muted);
+      font-size: 0.88rem;
+      transition: 0.2s ease;
     }
 
-    .button:hover { background: rgba(212, 175, 55, .16); text-decoration: none; }
-    .button.primary { background: linear-gradient(135deg, var(--gold), var(--gold-soft)); color: #111; border-color: transparent; }
+    nav a:hover, nav a:focus {
+      color: var(--gold-bright);
+      border-color: var(--gold-border);
+      background: var(--gold-soft);
+      outline: none;
+    }
 
-    .hero { padding: 88px 0 48px; }
+    main { overflow: hidden; }
 
-    .hero-grid {
+    .hero {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 92px 0 58px;
       display: grid;
-      grid-template-columns: 1.2fr .8fr;
+      grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
       gap: 34px;
-      align-items: stretch;
+      align-items: center;
     }
 
     .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      padding: 8px 12px;
-      border: 1px solid var(--line);
+      gap: 9px;
+      padding: 8px 13px;
+      border: 1px solid var(--gold-border);
       border-radius: 999px;
-      color: var(--gold-soft);
-      background: rgba(212, 175, 55, .08);
+      background: rgba(212, 175, 55, 0.09);
+      color: var(--gold-bright);
+      font-size: 0.8rem;
       font-weight: 800;
-      letter-spacing: .08em;
+      letter-spacing: 0.11em;
       text-transform: uppercase;
-      font-size: .76rem;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 18px var(--gold);
     }
 
     h1 {
       margin: 22px 0 18px;
-      font-size: clamp(2.6rem, 6vw, 5.8rem);
-      line-height: .92;
-      letter-spacing: -.06em;
-      max-width: 900px;
+      font-size: clamp(2.8rem, 7.2vw, 6.8rem);
+      line-height: 0.9;
+      letter-spacing: -0.078em;
+      color: var(--white);
     }
 
-    h2 {
-      margin: 0 0 14px;
-      font-size: clamp(1.7rem, 3vw, 2.55rem);
-      line-height: 1.05;
-      letter-spacing: -.04em;
-    }
-
-    h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--white); }
-    p { margin: 0; color: var(--muted); }
+    h1 span { display: block; color: var(--gold-bright); text-shadow: 0 0 36px rgba(212, 175, 55, 0.27); }
 
     .lead {
       max-width: 760px;
-      font-size: clamp(1.05rem, 2vw, 1.3rem);
-      color: #e4ded2;
+      margin: 0;
+      color: #ded6c4;
+      font-size: clamp(1.06rem, 2vw, 1.3rem);
+      line-height: 1.78;
     }
 
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 
-    .card {
-      background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 12px 17px;
+      border: 1px solid var(--gold-border);
+      border-radius: 999px;
+      font-weight: 850;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary { background: linear-gradient(135deg, var(--gold), var(--gold-bright)); color: #0b0700; box-shadow: 0 12px 36px rgba(212, 175, 55, 0.2); }
+    .btn-secondary { background: rgba(0, 0, 0, 0.34); color: var(--gold-bright); }
+    .btn:hover, .btn:focus { transform: translateY(-2px); box-shadow: 0 18px 44px rgba(212, 175, 55, 0.24); outline: none; }
+
+    .hero-card {
+      padding: 24px;
+      border: 1px solid var(--gold-border);
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(212, 175, 55, 0.13), rgba(0, 0, 0, 0.12)), var(--panel);
       box-shadow: var(--shadow);
     }
 
-    .side-card {
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: 410px;
+    .mini-title { margin: 6px 0 0; font-size: 2rem; line-height: 1.05; letter-spacing: -0.05em; color: var(--white); }
+    .status-list { display: grid; gap: 13px; margin-top: 20px; }
+    .status-item { padding: 16px; border: 1px solid rgba(212, 175, 55, 0.24); border-radius: 18px; background: rgba(0, 0, 0, 0.32); }
+    .status-item strong { display: block; margin-bottom: 4px; color: var(--gold-bright); font-size: 1.02rem; }
+    .status-item span { color: var(--muted); font-size: 0.92rem; word-break: break-word; }
+
+    section { width: min(var(--max-width), calc(100% - 32px)); margin: 0 auto; padding: 58px 0; }
+    .section-head { max-width: 830px; margin-bottom: 26px; }
+    .kicker { margin-bottom: 8px; color: var(--gold-bright); font-size: 0.8rem; font-weight: 900; letter-spacing: 0.11em; text-transform: uppercase; }
+
+    h2 { margin: 0; font-size: clamp(2rem, 4.4vw, 3.8rem); line-height: 1; letter-spacing: -0.057em; color: var(--white); }
+    .section-head p { margin: 16px 0 0; color: var(--muted); font-size: 1.05rem; }
+
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .card { min-height: 100%; padding: 22px; border: 1px solid rgba(212, 175, 55, 0.27); border-radius: 24px; background: linear-gradient(180deg, rgba(212, 175, 55, 0.08), transparent 44%), rgba(13, 13, 13, 0.82); box-shadow: 0 18px 54px rgba(0, 0, 0, 0.24); }
+    .card h3 { margin: 0 0 10px; color: var(--gold-bright); font-size: 1.22rem; line-height: 1.2; }
+    .card p { margin: 0; color: #d8d0be; }
+    .card a { display: inline-flex; margin-top: 16px; color: var(--gold-bright); font-weight: 850; border-bottom: 1px solid rgba(212, 175, 55, 0.45); }
+
+    .wide-panel { padding: 28px; border: 1px solid var(--gold-border); border-radius: 28px; background: linear-gradient(135deg, rgba(212, 175, 55, 0.13), rgba(0, 0, 0, 0.18)), rgba(10, 10, 10, 0.88); box-shadow: var(--shadow); }
+    .two-col { display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 24px; align-items: start; }
+    .panel-copy { color: #dcd3c0; margin: 16px 0 0; }
+    .list { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none; }
+    .list li { padding: 13px 15px; border: 1px solid rgba(212, 175, 55, 0.23); border-radius: 16px; background: rgba(0, 0, 0, 0.26); color: #ded7c7; }
+    .list li strong { color: var(--gold-bright); }
+
+    .link-table { display: grid; gap: 12px; margin-top: 20px; }
+    .link-row { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 15px; border: 1px solid rgba(212, 175, 55, 0.24); border-radius: 18px; background: rgba(0, 0, 0, 0.29); }
+    .link-row span { color: var(--muted); font-size: 0.92rem; }
+    .link-row a { color: var(--gold-bright); font-weight: 850; word-break: break-word; }
+
+    .notice { margin-top: 22px; padding: 18px; border: 1px solid rgba(244, 215, 107, 0.38); border-radius: 18px; background: rgba(212, 175, 55, 0.1); color: #f7e8b6; }
+
+    footer { margin-top: 50px; border-top: 1px solid var(--gold-border); background: #000000; }
+    .footer-inner { width: min(var(--max-width), calc(100% - 32px)); margin: 0 auto; padding: 30px 0; display: grid; gap: 10px; color: var(--muted); font-size: 0.92rem; }
+    .footer-inner strong { color: var(--gold-bright); }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; }
+    .footer-links a { color: var(--gold-bright); border-bottom: 1px solid rgba(212, 175, 55, 0.42); }
+
+    @media (max-width: 920px) {
+      .nav-wrap { flex-direction: column; align-items: flex-start; }
+      nav { justify-content: flex-start; }
+      .hero, .two-col { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
     }
 
-    .warning {
-      border-left: 4px solid var(--gold);
-      padding: 18px;
-      border-radius: 16px;
-      background: rgba(212, 175, 55, .10);
-      color: var(--danger);
-      font-weight: 800;
-    }
-
-    .warning span { display: block; color: var(--muted); font-weight: 500; margin-top: 8px; }
-
-    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
-    .stat { padding: 18px; border-radius: 18px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.08); }
-    .stat b { display: block; color: var(--gold-soft); font-size: 1.8rem; line-height: 1; margin-bottom: 8px; }
-
-    .section { padding: 38px 0; }
-    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-
-    .tile {
-      padding: 22px;
-      min-height: 210px;
-      transition: transform .18s ease, border-color .18s ease, background .18s ease;
-    }
-
-    .tile:hover {
-      transform: translateY(-3px);
-      border-color: rgba(240, 215, 122, .68);
-      background: linear-gradient(180deg, rgba(212,175,55,.10), rgba(255,255,255,.025));
-      text-decoration: none;
-    }
-
-    .kicker {
-      color: var(--gold-soft);
-      font-weight: 900;
-      font-size: .8rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      margin-bottom: 14px;
-    }
-
-    .list { display: grid; gap: 12px; margin-top: 18px; }
-
-    .row {
-      display: grid;
-      grid-template-columns: 180px 1fr;
-      gap: 18px;
-      padding: 18px;
-      border-radius: 18px;
-      background: rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.08);
-    }
-
-    .row strong { color: var(--white); }
-    .contractor { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-    .panel { padding: 24px; }
-
-    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-
-    .chip {
-      border: 1px solid var(--line);
-      color: var(--gold-soft);
-      padding: 8px 11px;
-      border-radius: 999px;
-      background: rgba(212,175,55,.07);
-      font-size: .9rem;
-      font-weight: 700;
-    }
-
-    footer {
-      padding: 38px 0 52px;
-      border-top: 1px solid var(--line);
-      margin-top: 42px;
-      color: var(--muted);
-    }
-
-    .footer-grid { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-
-    @media (max-width: 900px) {
-      .hero-grid, .contractor, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-      .stats { grid-template-columns: 1fr; }
-      .row { grid-template-columns: 1fr; }
-      .nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
-      .hero { padding-top: 52px; }
+    @media (max-width: 560px) {
+      .hero { padding-top: 56px; }
+      .hero-card, .wide-panel, .card { border-radius: 20px; }
+      .link-row { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="WRH Master Curriculum home">
-        <span class="mark">W</span>
-        <span>WRH Master Curriculum</span>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="https://daniel-lingar.github.io/wrh-master-curriculum/" aria-label="WRH Master Curriculum home">
+        <div class="logo" aria-hidden="true">WRH</div>
+        <div class="brand-text">
+          <strong>What Really Happened™</strong>
+          <span>Master Curriculum Gateway</span>
+        </div>
       </a>
-      <nav class="navlinks" aria-label="Primary navigation">
-        <a href="#architecture">Architecture</a>
-        <a href="#documentation">Documentation</a>
-        <a href="#contractor">Contractor</a>
-        <a href="#resources">Resources</a>
-        <a class="button" href="https://capitolcontractsllc.com">Contact</a>
+
+      <nav aria-label="Primary navigation">
+        <a href="https://daniel-lingar.github.io/wrh-master-curriculum/#overview">Overview</a>
+        <a href="https://daniel-lingar.github.io/wrh-master-curriculum/#curriculum">Curriculum</a>
+        <a href="https://daniel-lingar.github.io/wrh-master-curriculum/#implementation">Implementation</a>
+        <a href="https://daniel-lingar.github.io/wrh-master-curriculum/#links">Links</a>
+        <a href="https://github.com/daniel-lingar/wrh-master-curriculum" target="_blank" rel="noopener noreferrer">Repository</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="wrap hero-grid">
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <div class="eyebrow">Active GitHub Pages Build</div>
+        <h1 id="hero-title">WRH Master <span>Curriculum</span></h1>
+        <p class="lead">
+          A black-and-gold gateway for the What Really Happened™ trauma-literacy curriculum:
+          a non-clinical, plain-language education system for survival mode, shame, freeze,
+          addiction, grief, boundaries, and recovery support.
+        </p>
+        <div class="button-row">
+          <a class="btn btn-primary" href="https://daniel-lingar.github.io/wrh-master-curriculum/#curriculum">Enter Curriculum</a>
+          <a class="btn btn-secondary" href="https://github.com/daniel-lingar/wrh-master-curriculum" target="_blank" rel="noopener noreferrer">View GitHub Repo</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Deployment status">
+        <div class="kicker">Deployment Target</div>
+        <div class="mini-title">Clean Pages Path</div>
+        <div class="status-list">
+          <div class="status-item"><strong>Repository</strong><span>github.com/daniel-lingar/wrh-master-curriculum</span></div>
+          <div class="status-item"><strong>Live Base</strong><span>daniel-lingar.github.io/wrh-master-curriculum/</span></div>
+          <div class="status-item"><strong>Link Rule</strong><span>No Mave9055 links. No mixed usernames. No broken Pages base path.</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="overview" aria-labelledby="overview-title">
+      <div class="section-head">
+        <div class="kicker">Purpose</div>
+        <h2 id="overview-title">Built to explain survival mode without clinical fog.</h2>
+        <p>
+          WRH translates trauma language into direct, teachable structure. It is designed for
+          education, peer support, justice-involved settings, veteran-facing organizations,
+          recovery support, and high-barrier communities.
+        </p>
+      </div>
+      <div class="grid">
+        <article class="card"><h3>Plain Language</h3><p>The curriculum avoids jargon and explains nervous-system survival responses in words people can use while dysregulated.</p></article>
+        <article class="card"><h3>Non-Clinical Delivery</h3><p>WRH is educational. It is not therapy, diagnosis, treatment, crisis counseling, or medical advice.</p></article>
+        <article class="card"><h3>Facilitator-Ready</h3><p>The structure is intended for consistent delivery, repeatable sessions, handouts, implementation support, and organizational review.</p></article>
+      </div>
+    </section>
+
+    <section id="curriculum" aria-labelledby="curriculum-title">
+      <div class="section-head">
+        <div class="kicker">Curriculum Gateway</div>
+        <h2 id="curriculum-title">Core WRH architecture</h2>
+        <p>This is the main front door for the WRH Master Curriculum repository. All navigation uses the active <strong>daniel-lingar</strong> GitHub Pages project path.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><h3>Master Curriculum</h3><p>The full WRH curriculum framework, session structure, teaching logic, and implementation-facing material.</p><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#overview">Open overview</a></article>
+        <article class="card"><h3>26 Laws of Survival</h3><p>The survival-mode law framework: shame, freeze, fawn, hypervigilance, nervous-system hijack, boundaries, and repair.</p><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#implementation">Open implementation</a></article>
+        <article class="card"><h3>Facilitator Tools</h3><p>Delivery notes, participant-facing structure, implementation boundaries, and non-clinical guardrails.</p><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#links">Open links</a></article>
+      </div>
+    </section>
+
+    <section id="implementation" aria-labelledby="implementation-title">
+      <div class="wide-panel two-col">
         <div>
-          <div class="eyebrow">Official Curriculum of Capitol Contracts LLC</div>
-          <h1>Structured trauma education without forced disclosure.</h1>
-          <p class="lead">
-            What Really Happened™ is a standardized, non-clinical psychoeducational curriculum built for
-            institutional review, peer-support delivery, recovery-support settings, reentry environments,
-            veteran-support programs, and public education partners.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#architecture">Review Curriculum Architecture</a>
-            <a class="button" href="https://github.com/daniel-lingar/wrh-master-curriculum">View Repository</a>
-          </div>
-
-          <div class="stats" aria-label="Curriculum overview">
-            <div class="stat"><b>75</b><p>session master architecture</p></div>
-            <div class="stat"><b>4</b><p>organized implementation parts</p></div>
-            <div class="stat"><b>No</b><p>therapy, diagnosis, or disclosure requirement</p></div>
-          </div>
+          <div class="kicker">Implementation</div>
+          <h2 id="implementation-title">Clean enough to deploy. Safe enough to review.</h2>
+          <p class="panel-copy">This gateway is intentionally simple: one landing page, one active GitHub Pages base, one repository path, and no dependency on old usernames or broken deployment URLs.</p>
         </div>
-
-        <aside class="card side-card" aria-label="Safety boundary">
-          <div>
-            <div class="kicker">Scope Boundary</div>
-            <div class="warning">
-              NOT THERAPY. NO DISCLOSURE.
-              <span>
-                WRH is a non-clinical education framework focused on pattern recognition, system logic,
-                nervous-system adaptation, and practical language-building. It does not require or encourage
-                participants to disclose personal trauma history.
-              </span>
-            </div>
-          </div>
-
-          <div class="chips" aria-label="Delivery principles">
-            <span class="chip">Non-clinical</span>
-            <span class="chip">Peer-deliverable</span>
-            <span class="chip">Standardized</span>
-            <span class="chip">Safety-bounded</span>
-            <span class="chip">Plain-language</span>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="architecture" class="section">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">Curriculum Architecture</div>
-            <h2>Four-part structure for review, delivery, and fidelity.</h2>
-          </div>
-        </div>
-
-        <div class="grid-4">
-          <a class="card tile" href="./Part-I/">
-            <div class="kicker">Part I</div>
-            <h3>The System Logic Map</h3>
-            <p>Sessions 1–26. Foundational survival laws, pattern recognition, nervous-system adaptation, and plain-language mechanism framing.</p>
-          </a>
-
-          <a class="card tile" href="./Part-II/">
-            <div class="kicker">Part II</div>
-            <h3>The Core Operational Journey</h3>
-            <p>Sessions 27–56. Core pilot sequence for mechanical loops, wiring patterns, biological programs, regulation tools, and behavioral interruption.</p>
-          </a>
-
-          <a class="card tile" href="./Part-III/">
-            <div class="kicker">Part III</div>
-            <h3>Advanced System Specialization</h3>
-            <p>Sessions 57–75. Advanced pattern analysis, institutional misreadings, relapse/collapse logic, accountability, and long-term support structures.</p>
-          </a>
-
-          <a class="card tile" href="./Part-IV/">
-            <div class="kicker">Part IV</div>
-            <h3>Facilitator Standardization Toolkit</h3>
-            <p>Delivery standards, facilitator scripts, glossary, staff tools, participant materials, fidelity tools, and implementation support.</p>
-          </a>
+        <div>
+          <ul class="list">
+            <li><strong>GitHub username:</strong> daniel-lingar</li>
+            <li><strong>Repository:</strong> wrh-master-curriculum</li>
+            <li><strong>Branch:</strong> master</li>
+            <li><strong>Pages folder:</strong> / root</li>
+            <li><strong>Homepage file:</strong> index.html</li>
+            <li><strong>Config file:</strong> _config.yml</li>
+            <li><strong>Base URL:</strong> /wrh-master-curriculum/</li>
+          </ul>
         </div>
       </div>
+      <div class="notice">This material is educational and non-clinical. It is not therapy, diagnosis, medical advice, crisis intervention, or a replacement for professional care.</div>
     </section>
 
-    <section id="documentation" class="section">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">Procurement & Safety Documentation</div>
-            <h2>Built for partner review before implementation.</h2>
-            <p>Formal documentation is available upon request where appropriate.</p>
-          </div>
-        </div>
-
-        <div class="list">
-          <div class="row">
-            <strong>Executive Summary: Session 12 Safety Overlay</strong>
-            <p>For suicide prevention coordinators, program leaders, and contracting officers. Covers safety overlays, warm-handoff protocols, participant-boundary language, and non-clinical scope limits.</p>
-          </div>
-          <div class="row">
-            <strong>Program-Level Safety Summary</strong>
-            <p>For agency leadership, clinical directors, and community program administrators. Covers the 75-session architecture, facilitator role boundaries, escalation guidance, and implementation safeguards.</p>
-          </div>
-          <div class="row">
-            <strong>S12 & Pilot Metric Tracker</strong>
-            <p>For program managers and facilitators. Provides a de-identified tracking structure for attendance, engagement, completion, participant feedback, and implementation observations.</p>
-          </div>
-        </div>
+    <section id="links" aria-labelledby="links-title">
+      <div class="section-head">
+        <div class="kicker">Verified Path Structure</div>
+        <h2 id="links-title">Use these active links.</h2>
+        <p>These links use the active <strong>daniel-lingar</strong> username and the correct <strong>/wrh-master-curriculum/</strong> GitHub Pages project directory.</p>
       </div>
-    </section>
-
-    <section id="contractor" class="section">
-      <div class="wrap contractor">
-        <div class="card panel">
-          <div class="kicker">Prime Contractor</div>
-          <h2>Capitol Contracts LLC</h2>
-          <p>
-            Non-clinical psychoeducational training, curriculum development, and implementation-support provider.
-          </p>
-          <div class="chips">
-            <span class="chip">UEI: HH77KN5AV5X7</span>
-            <span class="chip">CAGE: 9ZFJ6</span>
-            <span class="chip">NAICS: 611710</span>
-            <span class="chip">NAICS: 611430</span>
-            <span class="chip">NAICS: 541611</span>
-            <span class="chip">NAICS: 624190</span>
-          </div>
-        </div>
-
-        <div class="card panel">
-          <div class="kicker">Purpose</div>
-          <h2>Language before disclosure.</h2>
-          <p>
-            WRH teaches observable patterns, mechanism language, interruption points, and safer replacement tools.
-            The goal is not to turn classrooms into therapy rooms. The goal is to give people a language for survival
-            patterns before those patterns are misread as defiance, weakness, noncompliance, or moral failure.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://capitolcontractsllc.com">Contact Capitol Contracts</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="resources" class="section">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">Internal Resources</div>
-            <h2>Review documents and public-facing reference files.</h2>
-          </div>
-        </div>
-
-        <div class="grid-3">
-          <a class="card tile" href="./SUMMARY.md"><h3>Summary</h3><p>High-level curriculum and repository summary.</p></a>
-          <a class="card tile" href="./About_Context.md"><h3>About / Context</h3><p>Origin, purpose, and scope context.</p></a>
-          <a class="card tile" href="./Resources.md"><h3>Resources</h3><p>Supporting links and resource references.</p></a>
-          <a class="card tile" href="./Capability_Statement.md"><h3>Capability Statement</h3><p>Procurement-facing capability language.</p></a>
-          <a class="card tile" href="./Privacy_Policy.md"><h3>Privacy Policy</h3><p>Privacy and data-handling statement.</p></a>
-          <a class="card tile" href="./Terms_of_Use.md"><h3>Terms of Use</h3><p>Public use and access terms.</p></a>
-        </div>
+      <div class="link-table">
+        <div class="link-row"><span>Main Repository</span><a href="https://github.com/daniel-lingar/wrh-master-curriculum" target="_blank" rel="noopener noreferrer">https://github.com/daniel-lingar/wrh-master-curriculum</a></div>
+        <div class="link-row"><span>Live Pages Base</span><a href="https://daniel-lingar.github.io/wrh-master-curriculum/">https://daniel-lingar.github.io/wrh-master-curriculum/</a></div>
+        <div class="link-row"><span>Overview Anchor</span><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#overview">https://daniel-lingar.github.io/wrh-master-curriculum/#overview</a></div>
+        <div class="link-row"><span>Curriculum Anchor</span><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#curriculum">https://daniel-lingar.github.io/wrh-master-curriculum/#curriculum</a></div>
+        <div class="link-row"><span>Implementation Anchor</span><a href="https://daniel-lingar.github.io/wrh-master-curriculum/#implementation">https://daniel-lingar.github.io/wrh-master-curriculum/#implementation</a></div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="wrap footer-grid">
-      <div>
-        <strong>© 2026 Capitol Contracts LLC</strong><br>
-        Structured Non-Clinical Trauma Education for Public, Community, and Institutional Settings
+    <div class="footer-inner">
+      <div><strong>What Really Happened™ Master Curriculum</strong></div>
+      <div>Built for: <strong>https://daniel-lingar.github.io/wrh-master-curriculum/</strong></div>
+      <div class="footer-links">
+        <a href="https://daniel-lingar.github.io/wrh-master-curriculum/">Home</a>
+        <a href="https://github.com/daniel-lingar/wrh-master-curriculum" target="_blank" rel="noopener noreferrer">Repository</a>
+        <a href="mailto:lingarb420@gmail.com">Contact</a>
       </div>
-      <div class="navlinks">
-        <a href="./accessibility.html">Accessibility</a>
-        <a href="https://github.com/daniel-lingar/wrh-master-curriculum">GitHub Repository</a>
-      </div>
+      <div>© <span id="year"></span> Daniel Bret Lingar / Capitol Contracts LLC. All rights reserved unless otherwise stated.</div>
     </div>
   </footer>
+
+  <script>
+    const yearElement = document.getElementById("year");
+    if (yearElement) yearElement.textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
