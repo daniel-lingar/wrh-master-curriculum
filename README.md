@@ -20,9 +20,10 @@ The curriculum does **not** ask participants to relive, disclose, or process tra
 
 **Start here if you are a first-time visitor:**
 
-- **Repository Showcase:** https://mave9055.github.io/Mave9055/repo-showcase.html
-- **Public Landing Page:** https://mave9055.github.io/Mave9055/
-- **Capitol Contracts Repository:** https://github.com/Mave9055/capitol-contracts
+- **WRH Master Curriculum Live Gateway:** https://daniel-lingar.github.io/wrh-master-curriculum/
+- **WRH Master Curriculum Repository:** https://github.com/daniel-lingar/wrh-master-curriculum
+- **Capitol Contracts Repository:** https://github.com/daniel-lingar/capitol-contracts
+- **Capitol Contracts Website:** https://daniel-lingar.github.io/capitol-contracts/
 
 ## Source-of-Truth Repository
 
@@ -124,9 +125,9 @@ Federal contracting identifiers:
 
 ## Next Step
 
-First-time visitors should review the **Repository Showcase** before opening individual files: https://mave9055.github.io/Mave9055/repo-showcase.html
+First-time visitors should start with the live WRH Master Curriculum gateway: https://daniel-lingar.github.io/wrh-master-curriculum/
 
-Business and procurement-facing context is maintained here: https://github.com/Mave9055/capitol-contracts
+Business and procurement-facing context is maintained here: https://github.com/daniel-lingar/capitol-contracts
 
 For inquiries, pilot conversations, capability materials, or implementation discussions: **[capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)**
 
