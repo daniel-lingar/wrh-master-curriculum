@@ -4,7 +4,7 @@ These repositories were reviewed at the README level during the first WRH consol
 
 ## Reviewed Repos
 
-### `Mave9055/trauma-recovery-curriculum`
+### `daniel-lingar/trauma-recovery-curriculum`
 
 Observed content:
 
@@ -17,7 +17,7 @@ Initial decision:
 - likely archive-ready
 - check top-level files before final archive/delete decision
 
-### `Mave9055/betalectures`
+### `daniel-lingar/betalectures`
 
 Observed content:
 
