@@ -6,7 +6,7 @@ Reviewed during WRH GitHub consolidation.
 
 ## Repositories Reviewed
 
-### `Mave9055/CPTSD-Straight-Facts`
+### `daniel-lingar/CPTSD-Straight-Facts`
 
 README findings:
 
@@ -24,7 +24,7 @@ Initial decision:
 - likely archive-ready
 - no harvestable curriculum content identified in this pass
 
-### `Mave9055/lesson-collection-site`
+### `daniel-lingar/lesson-collection-site`
 
 README findings:
 
