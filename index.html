@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WRH Master Curriculum | Capitol Contracts LLC</title>
+  <meta name="description" content="A structured, non-clinical trauma-education curriculum for institutional review, peer-support settings, recovery-support programs, reentry environments, and veteran-support partners.">
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #121923;
+      --panel-2: #172230;
+      --ink: #f5f1e8;
+      --muted: #c8c0b2;
+      --line: rgba(212, 175, 55, 0.32);
+      --gold: #d4af37;
+      --gold-soft: #f0d77a;
+      --danger: #ffdf8a;
+      --white: #ffffff;
+      --shadow: 0 24px 70px rgba(0,0,0,.35);
+      --radius: 22px;
+      --max: 1160px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(212, 175, 55, .16), transparent 30%),
+        radial-gradient(circle at 90% 10%, rgba(255, 255, 255, .07), transparent 25%),
+        linear-gradient(180deg, #090d12 0%, #0b0f14 38%, #111820 100%);
+      line-height: 1.55;
+    }
+
+    a { color: var(--gold-soft); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(8, 12, 17, .82);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
+    .mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #0b0f14;
+      background: linear-gradient(135deg, var(--gold), var(--gold-soft));
+      font-weight: 900;
+      box-shadow: 0 0 0 6px rgba(212, 175, 55, .08);
+    }
+
+    .navlinks {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: .92rem;
+      color: var(--muted);
+    }
+
+    .navlinks a { color: var(--muted); }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(212, 175, 55, .10);
+      color: var(--gold-soft);
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 12px 32px rgba(0,0,0,.20);
+    }
+
+    .button:hover { background: rgba(212, 175, 55, .16); text-decoration: none; }
+    .button.primary { background: linear-gradient(135deg, var(--gold), var(--gold-soft)); color: #111; border-color: transparent; }
+
+    .hero { padding: 88px 0 48px; }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 34px;
+      align-items: stretch;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--gold-soft);
+      background: rgba(212, 175, 55, .08);
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: .76rem;
+    }
+
+    h1 {
+      margin: 22px 0 18px;
+      font-size: clamp(2.6rem, 6vw, 5.8rem);
+      line-height: .92;
+      letter-spacing: -.06em;
+      max-width: 900px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(1.7rem, 3vw, 2.55rem);
+      line-height: 1.05;
+      letter-spacing: -.04em;
+    }
+
+    h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--white); }
+    p { margin: 0; color: var(--muted); }
+
+    .lead {
+      max-width: 760px;
+      font-size: clamp(1.05rem, 2vw, 1.3rem);
+      color: #e4ded2;
+    }
+
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .side-card {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 410px;
+    }
+
+    .warning {
+      border-left: 4px solid var(--gold);
+      padding: 18px;
+      border-radius: 16px;
+      background: rgba(212, 175, 55, .10);
+      color: var(--danger);
+      font-weight: 800;
+    }
+
+    .warning span { display: block; color: var(--muted); font-weight: 500; margin-top: 8px; }
+
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
+    .stat { padding: 18px; border-radius: 18px; background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.08); }
+    .stat b { display: block; color: var(--gold-soft); font-size: 1.8rem; line-height: 1; margin-bottom: 8px; }
+
+    .section { padding: 38px 0; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+    .tile {
+      padding: 22px;
+      min-height: 210px;
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+
+    .tile:hover {
+      transform: translateY(-3px);
+      border-color: rgba(240, 215, 122, .68);
+      background: linear-gradient(180deg, rgba(212,175,55,.10), rgba(255,255,255,.025));
+      text-decoration: none;
+    }
+
+    .kicker {
+      color: var(--gold-soft);
+      font-weight: 900;
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .list { display: grid; gap: 12px; margin-top: 18px; }
+
+    .row {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .row strong { color: var(--white); }
+    .contractor { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .panel { padding: 24px; }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+
+    .chip {
+      border: 1px solid var(--line);
+      color: var(--gold-soft);
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: rgba(212,175,55,.07);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    footer {
+      padding: 38px 0 52px;
+      border-top: 1px solid var(--line);
+      margin-top: 42px;
+      color: var(--muted);
+    }
+
+    .footer-grid { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+
+    @media (max-width: 900px) {
+      .hero-grid, .contractor, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: 1fr; }
+      .row { grid-template-columns: 1fr; }
+      .nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      .hero { padding-top: 52px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="WRH Master Curriculum home">
+        <span class="mark">W</span>
+        <span>WRH Master Curriculum</span>
+      </a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="#architecture">Architecture</a>
+        <a href="#documentation">Documentation</a>
+        <a href="#contractor">Contractor</a>
+        <a href="#resources">Resources</a>
+        <a class="button" href="https://capitolcontractsllc.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Official Curriculum of Capitol Contracts LLC</div>
+          <h1>Structured trauma education without forced disclosure.</h1>
+          <p class="lead">
+            What Really Happened™ is a standardized, non-clinical psychoeducational curriculum built for
+            institutional review, peer-support delivery, recovery-support settings, reentry environments,
+            veteran-support programs, and public education partners.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#architecture">Review Curriculum Architecture</a>
+            <a class="button" href="https://github.com/daniel-lingar/wrh-master-curriculum">View Repository</a>
+          </div>
+
+          <div class="stats" aria-label="Curriculum overview">
+            <div class="stat"><b>75</b><p>session master architecture</p></div>
+            <div class="stat"><b>4</b><p>organized implementation parts</p></div>
+            <div class="stat"><b>No</b><p>therapy, diagnosis, or disclosure requirement</p></div>
+          </div>
+        </div>
+
+        <aside class="card side-card" aria-label="Safety boundary">
+          <div>
+            <div class="kicker">Scope Boundary</div>
+            <div class="warning">
+              NOT THERAPY. NO DISCLOSURE.
+              <span>
+                WRH is a non-clinical education framework focused on pattern recognition, system logic,
+                nervous-system adaptation, and practical language-building. It does not require or encourage
+                participants to disclose personal trauma history.
+              </span>
+            </div>
+          </div>
+
+          <div class="chips" aria-label="Delivery principles">
+            <span class="chip">Non-clinical</span>
+            <span class="chip">Peer-deliverable</span>
+            <span class="chip">Standardized</span>
+            <span class="chip">Safety-bounded</span>
+            <span class="chip">Plain-language</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="architecture" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Curriculum Architecture</div>
+            <h2>Four-part structure for review, delivery, and fidelity.</h2>
+          </div>
+        </div>
+
+        <div class="grid-4">
+          <a class="card tile" href="./Part-I/">
+            <div class="kicker">Part I</div>
+            <h3>The System Logic Map</h3>
+            <p>Sessions 1–26. Foundational survival laws, pattern recognition, nervous-system adaptation, and plain-language mechanism framing.</p>
+          </a>
+
+          <a class="card tile" href="./Part-II/">
+            <div class="kicker">Part II</div>
+            <h3>The Core Operational Journey</h3>
+            <p>Sessions 27–56. Core pilot sequence for mechanical loops, wiring patterns, biological programs, regulation tools, and behavioral interruption.</p>
+          </a>
+
+          <a class="card tile" href="./Part-III/">
+            <div class="kicker">Part III</div>
+            <h3>Advanced System Specialization</h3>
+            <p>Sessions 57–75. Advanced pattern analysis, institutional misreadings, relapse/collapse logic, accountability, and long-term support structures.</p>
+          </a>
+
+          <a class="card tile" href="./Part-IV/">
+            <div class="kicker">Part IV</div>
+            <h3>Facilitator Standardization Toolkit</h3>
+            <p>Delivery standards, facilitator scripts, glossary, staff tools, participant materials, fidelity tools, and implementation support.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="documentation" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Procurement & Safety Documentation</div>
+            <h2>Built for partner review before implementation.</h2>
+            <p>Formal documentation is available upon request where appropriate.</p>
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="row">
+            <strong>Executive Summary: Session 12 Safety Overlay</strong>
+            <p>For suicide prevention coordinators, program leaders, and contracting officers. Covers safety overlays, warm-handoff protocols, participant-boundary language, and non-clinical scope limits.</p>
+          </div>
+          <div class="row">
+            <strong>Program-Level Safety Summary</strong>
+            <p>For agency leadership, clinical directors, and community program administrators. Covers the 75-session architecture, facilitator role boundaries, escalation guidance, and implementation safeguards.</p>
+          </div>
+          <div class="row">
+            <strong>S12 & Pilot Metric Tracker</strong>
+            <p>For program managers and facilitators. Provides a de-identified tracking structure for attendance, engagement, completion, participant feedback, and implementation observations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contractor" class="section">
+      <div class="wrap contractor">
+        <div class="card panel">
+          <div class="kicker">Prime Contractor</div>
+          <h2>Capitol Contracts LLC</h2>
+          <p>
+            Non-clinical psychoeducational training, curriculum development, and implementation-support provider.
+          </p>
+          <div class="chips">
+            <span class="chip">UEI: HH77KN5AV5X7</span>
+            <span class="chip">CAGE: 9ZFJ6</span>
+            <span class="chip">NAICS: 611710</span>
+            <span class="chip">NAICS: 611430</span>
+            <span class="chip">NAICS: 541611</span>
+            <span class="chip">NAICS: 624190</span>
+          </div>
+        </div>
+
+        <div class="card panel">
+          <div class="kicker">Purpose</div>
+          <h2>Language before disclosure.</h2>
+          <p>
+            WRH teaches observable patterns, mechanism language, interruption points, and safer replacement tools.
+            The goal is not to turn classrooms into therapy rooms. The goal is to give people a language for survival
+            patterns before those patterns are misread as defiance, weakness, noncompliance, or moral failure.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://capitolcontractsllc.com">Contact Capitol Contracts</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Internal Resources</div>
+            <h2>Review documents and public-facing reference files.</h2>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <a class="card tile" href="./SUMMARY.md"><h3>Summary</h3><p>High-level curriculum and repository summary.</p></a>
+          <a class="card tile" href="./About_Context.md"><h3>About / Context</h3><p>Origin, purpose, and scope context.</p></a>
+          <a class="card tile" href="./Resources.md"><h3>Resources</h3><p>Supporting links and resource references.</p></a>
+          <a class="card tile" href="./Capability_Statement.md"><h3>Capability Statement</h3><p>Procurement-facing capability language.</p></a>
+          <a class="card tile" href="./Privacy_Policy.md"><h3>Privacy Policy</h3><p>Privacy and data-handling statement.</p></a>
+          <a class="card tile" href="./Terms_of_Use.md"><h3>Terms of Use</h3><p>Public use and access terms.</p></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <strong>© 2026 Capitol Contracts LLC</strong><br>
+        Structured Non-Clinical Trauma Education for Public, Community, and Institutional Settings
+      </div>
+      <div class="navlinks">
+        <a href="./accessibility.html">Accessibility</a>
+        <a href="https://github.com/daniel-lingar/wrh-master-curriculum">GitHub Repository</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
