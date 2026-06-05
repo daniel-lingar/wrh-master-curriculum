@@ -1,6 +1,6 @@
 # Legacy Import Inventory: What Really Happened Manual
 
-Source repository: `Mave9055/What-Really-Happened-Manual`
+Source repository: `daniel-lingar/What-Really-Happened-Manual`
 
 Status: **reviewed for consolidation**
 
