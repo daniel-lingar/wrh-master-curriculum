@@ -1,6 +1,6 @@
 # Legacy Portal Design Notes
 
-Source: harvested from `Mave9055/cptsd-education-portal` README during WRH consolidation.
+Source: harvested from `daniel-lingar/cptsd-education-portal` README during WRH consolidation.
 
 Purpose: preserve useful design and accessibility ideas from the earlier public education portal without importing an entire duplicate web application.
 
