@@ -1,6 +1,6 @@
 # Legacy Import Inventory: CPTSD Education Portal
 
-Source repository: `Mave9055/cptsd-education-portal`
+Source repository: `daniel-lingar/cptsd-education-portal`
 
 Status: **reviewed for consolidation**
 
