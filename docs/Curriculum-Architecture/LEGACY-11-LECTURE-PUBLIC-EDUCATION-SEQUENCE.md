@@ -1,6 +1,6 @@
 # Legacy 11-Lecture Public Education Sequence
 
-Source: harvested from `Mave9055/cptsd-education-portal` README during WRH consolidation.
+Source: harvested from `daniel-lingar/cptsd-education-portal` README during WRH consolidation.
 
 Purpose: preserve the useful public-education lecture map from the earlier CPTSD education portal so it can inform WRH public talks, short-form education, outreach pages, and lecture-based adaptations.
 
