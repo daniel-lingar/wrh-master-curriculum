@@ -1,4 +1,41 @@
-title: WRH Master Curriculum
-description: Structured Non-Clinical Trauma Education for Public, Community, and Institutional Settings
-plugins:
-  - jekyll-relative-links
+title: "WRH Master Curriculum"
+description: "What Really Happened™ Master Curriculum — non-clinical trauma-literacy and survival-mode education gateway."
+author: "Daniel Bret Lingar / Capitol Contracts LLC"
+
+url: "https://daniel-lingar.github.io"
+baseurl: "/wrh-master-curriculum"
+
+repository: "daniel-lingar/wrh-master-curriculum"
+
+lang: "en"
+timezone: "America/Chicago"
+
+theme: null
+plugins: []
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+include:
+  - index.html
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
