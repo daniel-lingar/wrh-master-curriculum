@@ -1,6 +1,6 @@
 # Import Inventory: WRH Master Platform
 
-Source repository: `Mave9055/wrh-master-platform`
+Source repository: `daniel-lingar/wrh-master-platform`
 
 Review date: 2026-05-25
 
@@ -30,7 +30,7 @@ This repo is not a thin shell. It contains business, procurement, capability, ro
 
 Recommended destination:
 
-- `Mave9055/capitol-contracts`
+- `daniel-lingar/capitol-contracts`
 
 ### Curriculum / WRH Material
 
@@ -42,8 +42,8 @@ Recommended destination:
 
 Recommended destination:
 
-- `Mave9055/wrh-master-curriculum` for curriculum framing only
-- `Mave9055/WRH-Pilot-Deployment-Package` for pilot implementation references
+- `daniel-lingar/wrh-master-curriculum` for curriculum framing only
+- `daniel-lingar/WRH-Pilot-Deployment-Package` for pilot implementation references
 
 ## Split Decision
 
