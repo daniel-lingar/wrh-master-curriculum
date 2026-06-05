@@ -1,7 +1,7 @@
 # **CAPABILITY STATEMENT**
 ## **Capitol Contracts LLC**
 
-[**HOME**](./index.md) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
+[**HOME**](https://daniel-lingar.github.io/wrh-master-curriculum/) | [**REPOSITORY**](https://github.com/daniel-lingar/wrh-master-curriculum) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
 
 ---
 
@@ -56,9 +56,11 @@ Business Address: 925 S Crawford St, Clarksville, AR 72830
 
 Email: capitolcontracts@outlook.com
 
-Website: https://mave9055.github.io/capitol-contracts/
+Website: https://daniel-lingar.github.io/capitol-contracts/
 
-WRH Curriculum Portal: https://mave9055.github.io/wrh-master-curriculum/
+WRH Curriculum Portal: https://daniel-lingar.github.io/wrh-master-curriculum/
+
+WRH Curriculum Repository: https://github.com/daniel-lingar/wrh-master-curriculum
 
 ---
 
