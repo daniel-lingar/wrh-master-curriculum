@@ -1,12 +1,12 @@
 # **Privacy Policy**
 ## **Capitol Contracts LLC**
 
-[**HOME**](./index.md) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
+[**HOME**](https://daniel-lingar.github.io/wrh-master-curriculum/) | [**REPOSITORY**](https://github.com/daniel-lingar/wrh-master-curriculum) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
 
 ---
 
 ### **Introduction**
-Capitol Contracts LLC ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website `https://mave9055.github.io/wrh-master-curriculum/`.
+Capitol Contracts LLC ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website `https://daniel-lingar.github.io/wrh-master-curriculum/`.
 
 ### **Information Collection**
 We do not collect any personally identifiable information (PII) from visitors to this website unless voluntarily provided through direct contact. As this is a static site hosted on GitHub Pages, GitHub may collect certain log data as part of its hosting services.
@@ -24,7 +24,7 @@ Our website may contain links to third-party sites. We are not responsible for t
 We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date.
 
 ### **Contact Us**
-If you have any questions about this Privacy Policy, please contact us at info@capitolcontracts.com.
+If you have any questions about this Privacy Policy, please contact us at capitolcontracts@outlook.com.
 
 ---
-*Last Updated: April 17, 2026*
+*Last Updated: June 5, 2026*
