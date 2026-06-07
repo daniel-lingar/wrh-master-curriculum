@@ -1,5 +1,15 @@
 # WRH Identity
 
-What Really Happened™ is a structured behavioral and trauma-literacy model for understanding survival patterns and directional change.
+*Dark Mode Executive Edition*
 
-See root file: ../../WRH_MASTER_DOCUMENT.md
+**What Really Happened™ (WRH)** is a structured behavioral and trauma-literacy model designed to help individuals and systems understand how survival patterns form and how directional change occurs.
+
+WRH shifts the unit of intervention from **behavior** to **trajectory**.
+
+It provides:
+
+- a shared language
+- a mechanical model
+- a repeatable process
+- a system-level understanding of patterns
+- a directional framework for change
