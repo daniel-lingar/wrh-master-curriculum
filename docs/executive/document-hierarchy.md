@@ -2,14 +2,19 @@
 
 ## Dark Mode Executive Edition
 
-The WRH Document Hierarchy defines how the entire WRH ecosystem is organized.
+The WRH Document Hierarchy defines how the WRH ecosystem is organized. It gives every document a clear purpose, audience, location, and role.
 
-It ensures that every document has a clear purpose, audience, location, and role inside the system.
-
-This hierarchy is the navigation system for WRH.
+This file is the navigation system for WRH.
 
 ---
 
 ## Level 1 — Master Document
 
-The Level 1 document is the system
+- WRH Master Document
+
+The front door and system map for the entire WRH ecosystem.
+
+## Level 2 — Core Theory
+
+- Survival Map
+- Trajectory
