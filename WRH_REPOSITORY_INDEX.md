@@ -11,13 +11,15 @@ Start here when reviewing the system, onboarding a partner, orienting staff, or 
 ## Start Here
 
 - [WRH Master Document](WRH_MASTER_DOCUMENT.md)
+- [Executive Layer README](docs/executive/README.md)
 
-The Master Document is the front door and system map for WRH.
+The Master Document is the front door and system map for WRH. The Executive Layer README is the hub for the executive architecture.
 
 ---
 
 ## Executive Layer
 
+- [Executive Layer README](docs/executive/README.md)
 - [Identity](docs/executive/identity.md)
 - [Survival Map](docs/executive/survival-map.md)
 - [Trajectory Engine](docs/executive/trajectory-engine.md)
