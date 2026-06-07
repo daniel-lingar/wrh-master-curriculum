@@ -1,20 +1,12 @@
 # Executive Navigation Map
 
-## Dark Mode Executive Edition
-
-This file cross-links the WRH executive layer so readers can move through the system in order.
-
----
-
-## Primary Entry Points
+## Entry Points
 
 - [Repository Index](../../WRH_REPOSITORY_INDEX.md)
 - [WRH Master Document](../../WRH_MASTER_DOCUMENT.md)
-- [Executive Layer README](README.md)
+- [Executive README](README.md)
 
----
-
-## Recommended Reading Order
+## Executive Reading Order
 
 1. [Identity](identity.md)
 2. [Survival Map](survival-map.md)
@@ -22,4 +14,11 @@ This file cross-links the WRH executive layer so readers can move through the sy
 4. [Program System](program-system.md)
 5. [Buyer System](buyer-system.md)
 6. [Federal System](federal-system.md)
-7. [Deployment System
+7. [Deployment System](deployment-system.md)
+8. [Sales System](sales-system.md)
+9. [Brand System](brand-system.md)
+10. [Document Hierarchy](document-hierarchy.md)
+
+## Purpose
+
+Use
