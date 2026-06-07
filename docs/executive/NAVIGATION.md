@@ -18,7 +18,3 @@
 8. [Sales System](sales-system.md)
 9. [Brand System](brand-system.md)
 10. [Document Hierarchy](document-hierarchy.md)
-
-## Purpose
-
-Use
