@@ -4,19 +4,12 @@
 
 The WRH Document Hierarchy defines how the entire WRH ecosystem is organized.
 
-It ensures that:
-
-- every document has a clear purpose
-- every document has a clear audience
-- every document has a clear location
-- every document fits into the system
-- nothing is duplicated
-- nothing is ambiguous
-- nothing is orphaned
+It ensures that every document has a clear purpose, audience, location, and role inside the system.
 
 This hierarchy is the navigation system for WRH.
 
 ---
 
-# Level 1 — Master Document
+## Level 1 — Master Document
 
+The Level 1 document is the system
