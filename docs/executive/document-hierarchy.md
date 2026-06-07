@@ -1,12 +1,22 @@
-# WRH Document Hierarchy
+# Document Hierarchy
 
-Levels:
+## Dark Mode Executive Edition
 
-1. Master Document
-2. Core Theory
-3. Program Delivery
-4. Implementation
-5. Commercial Systems
-6. Federal Systems
+The WRH Document Hierarchy defines how the entire WRH ecosystem is organized.
 
-This file defines the navigation logic for the WRH ecosystem.
+It ensures that:
+
+- every document has a clear purpose
+- every document has a clear audience
+- every document has a clear location
+- every document fits into the system
+- nothing is duplicated
+- nothing is ambiguous
+- nothing is orphaned
+
+This hierarchy is the navigation system for WRH.
+
+---
+
+# Level 1 — Master Document
+
