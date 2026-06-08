@@ -6,7 +6,7 @@ What Really Happened™ (WRH) is a structured behavioral and trauma-literacy mod
 
 WRH shifts the unit of intervention from behavior to trajectory.
 
-It provides:
+WRH provides:
 
 - a shared language
 - a mechanical model
@@ -14,4 +14,16 @@ It provides:
 - a system-level understanding of patterns
 - a directional framework for change
 
-WRH is not a clinical treatment, coping-skills curriculum, workbook, motivational program, or crisis-response protocol.
+## What WRH Is Not
+
+WRH is not:
+
+- a clinical treatment
+- a coping-skills curriculum
+- a workbook
+- a motivational program
+- a crisis-response protocol
+
+These tools may exist in the ecosystem, but they are not the identity of WRH.
+
+## System Architecture
