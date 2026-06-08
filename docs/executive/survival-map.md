@@ -1,14 +1,17 @@
 # Survival Map
 
-## Dark Mode Executive Edition
+The Survival Map is WRH's five-part trauma-literacy model.
 
-The Survival Map is WRH’s five-part trauma-literacy model.
+It explains where patterns came from before asking anyone to change them.
 
-It explains where the pattern came from before asking anyone to change the pattern.
+Components:
 
-WRH begins with context, not blame.
+- The Water
+- The Alarm
+- Survival Moves
+- The Rescue Boat
+- The Way Back
 
-## Five Components
+Purpose: help staff and participants understand survival patterns without blame, disclosure, or clinical processing.
 
-1. The Water — the conditions that shaped the nervous system.
-2. The Alarm — the danger signal that activates survival responses
+Summary: The Survival Map shows where the pattern came from so the Trajectory Engine can show how direction changes.
