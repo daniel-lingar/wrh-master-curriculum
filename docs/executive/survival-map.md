@@ -6,11 +6,13 @@ It explains where patterns came from before asking anyone to change them.
 
 Components:
 
-- The Water
+- The Flood
 - The Alarm
 - Survival Moves
 - The Rescue Boat
 - The Way Back
+
+The Flood names the overwhelming conditions that shaped the nervous system. Sometimes the Flood comes as one overwhelming wave. Sometimes it is years of rising waters that never fully recede.
 
 Purpose: help staff and participants understand survival patterns without blame, disclosure, or clinical processing.
 
