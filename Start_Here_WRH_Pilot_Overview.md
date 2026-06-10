@@ -6,4 +6,6 @@ For: justice-involved, reentry, veteran-support, recovery-support, and high-barr
 
 Not: therapy, diagnosis, treatment, crisis counseling, or medical advice.
 
-Pilot: a bounded package to review, deliver, and evaluate before broader
+Pilot use: review, delivery, evaluation.
+
+Next: read the Capability Statement and
