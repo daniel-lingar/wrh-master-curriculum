@@ -14,7 +14,3 @@ What Really Happened™ (WRH) is the master navigation document for the WRH ecos
 
 - [Survival Map](docs/executive/survival-map.md)
 - [Trajectory Engine](docs/executive/trajectory-engine.md)
-
-## Summary
-
-WRH gives individuals the map
