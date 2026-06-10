@@ -17,3 +17,5 @@ The Flood names the overwhelming conditions that shaped the nervous system. Some
 Purpose: help staff and participants understand survival patterns without blame, disclosure, or clinical processing.
 
 Summary: The Survival Map shows where the pattern came from so the Trajectory Engine can show how direction changes.
+
+Back to: [Executive Navigation Map](NAVIGATION.md)
