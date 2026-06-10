@@ -7,5 +7,3 @@ For: justice-involved, reentry, veteran-support, recovery-support, and high-barr
 Not: therapy, diagnosis, treatment, crisis counseling, or medical advice.
 
 Pilot use: review, delivery, evaluation.
-
-Next: read the Capability Statement and
