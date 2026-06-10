@@ -1,11 +1,13 @@
 # WRH Identity
 
-WRH — What Really Happened™ — is a non-clinical trauma-literacy and directional-change framework.
+WRH is a non-clinical trauma-literacy and directional-change framework.
 
-WRH shifts the unit of intervention from behavior to trajectory.
+It shifts the unit of intervention from behavior to trajectory.
 
-Most systems respond to what behavior looks like after it appears. WRH teaches what the behavior is made of and where it began.
+It is not therapy, diagnosis, medical care, or crisis response.
 
-WRH is not therapy, diagnosis, medical care, or crisis response. It does not require disclosure, confession, or emotional processing.
+Core engines: Survival Map and Trajectory Engine.
 
-## Core Engines
+Summary: WRH gives people a map for patterns and gives systems a model for directional change.
+
+Back to: [Executive Navigation Map](NAVIGATION.md)
