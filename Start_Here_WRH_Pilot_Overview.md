@@ -2,8 +2,8 @@
 
 WRH is structured non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
 
-WRH is for justice-involved, reentry, veteran-support, recovery-support, and high-barrier community settings.
+For: justice-involved, reentry, veteran-support, recovery-support, and high-barrier settings.
 
-WRH is not therapy, diagnosis, treatment, crisis counseling, or medical advice.
+Not: therapy, diagnosis, treatment, crisis counseling, or medical advice.
 
-A first pilot gives an agency a bounded package to review, deliver,
+Pilot: a bounded package to review, deliver, and evaluate before broader
