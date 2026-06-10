@@ -12,4 +12,4 @@ This pilot package gives administrators, program directors, reentry leaders, vet
 
 A WRH pilot is designed to answer one practical question:
 
-**Can WRH be delivered clearly, safely, and usefully in
+**Can WRH be delivered clearly, safely
