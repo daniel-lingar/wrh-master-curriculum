@@ -1,6 +1,7 @@
 # WRH Pilot Package
 
-**WRH is structured non-clinical survival-mode education with safety boundaries and measurable pilot delivery.**
+WRH is structured non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
 
-## What an Agency Receives
-A first WRH pilot includes: Pilot Overview, Capability Statement, Pilot Scope of Work, Sample Session 5 Package, facilitator guide excerpt, participant handout sample, worksheet sample, safety boundary sheet, pre/post feedback forms, facilitator
+A first pilot includes overview, capability statement, scope, Session 5 sample, facilitator and participant materials, safety sheet, feedback forms, timeline, pricing, and final summary.
+
+Purpose: test clear, safe, useful delivery before broader implementation.
