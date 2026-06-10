@@ -2,13 +2,5 @@
 
 **WRH is structured non-clinical survival-mode education with safety boundaries and measurable pilot delivery.**
 
-## Pilot Purpose
-
-A WRH pilot tests whether WRH can be delivered clearly, safely, and usefully in a specific setting before broader implementation.
-
 ## What an Agency Receives
-
-- WRH Pilot Overview
-- Capability Statement
-- Pilot Scope of Work
-- Sample Session
+A first WRH pilot includes: Pilot Overview, Capability Statement, Pilot Scope of Work, Sample Session 5 Package, facilitator guide excerpt, participant handout sample, worksheet sample, safety boundary sheet, pre/post feedback forms, facilitator
