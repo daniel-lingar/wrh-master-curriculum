@@ -1,14 +1,9 @@
 # WRH Identity
 
-WRH is a structured behavioral and trauma-literacy model for understanding survival patterns and directional change.
+WRH — What Really Happened™ — is a structured behavioral and trauma-literacy model for understanding survival patterns and directional change.
 
 WRH shifts the unit of intervention from behavior to trajectory.
 
-WRH is non-clinical. It is not therapy, diagnosis, medical care, or crisis response.
+Most systems respond to what behavior looks like after it appears. WRH teaches what the behavior is made of and where it began.
 
-Core engines:
-
-- Survival Map
-- Trajectory Engine
-
-Summary: WRH gives systems a shared language for understanding patterns and supporting directional change.
+WRH is non-clinical. It is not therapy, diagnosis, medical care, or crisis response. It does not require disclosure, confession, or emotional
