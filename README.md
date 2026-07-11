@@ -2,135 +2,77 @@
   <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
 </p>
 
-# What Really Happened (WRH) — 75-Session Master Curriculum
+# What Really Happened (WRH) — Master Curriculum
 
 > [!IMPORTANT]
 > **NOT THERAPY. NO DISCLOSURE. NON-CLINICAL EDUCATION.**
 > WRH is a structured psychoeducational curriculum focused on pattern recognition, system logic, nervous-system adaptation, and practical language-building. It does not require or encourage participants to disclose personal trauma history.
 
-## Plain-English Summary
+## Live Website
+The curriculum is available as a live, interactive website:  
+**[https://daniel-lingar.github.io/wrh-master-curriculum/](https://daniel-lingar.github.io/wrh-master-curriculum/)**
 
-**What Really Happened (WRH)** is a 75-session non-clinical psychoeducational curriculum developed by Capitol Contracts LLC. It teaches trauma responses, addiction patterns, freeze responses, shame cycles, executive-function disruption, avoidance, collapse, and survival behavior as predictable mechanisms rather than character flaws.
+## Project Overview
+What Really Happened™ (WRH) is a comprehensive non-clinical psychoeducational curriculum developed by Capitol Contracts LLC. It translates trauma responses, addiction patterns, freeze responses, shame cycles, and survival behavior into predictable mechanisms rather than character flaws.
 
-WRH is designed for recovery-support settings, veteran-support programs, reentry environments, peer-support contexts, public education partners, and institutional review settings where survival behaviors are often misread as defiance, weakness, noncompliance, or moral failure.
+WRH is designed for:
+- Recovery-support settings
+- Veteran-support programs
+- Reentry environments
+- Diversion programs
+- Peer-support contexts
+- Institutional review settings
 
-The curriculum does **not** ask participants to relive, disclose, or process trauma in a therapy-style format. It teaches observable patterns, mechanism language, interruption points, facilitator scripts, and safer replacement tools.
+## Core Principles
+- **Not Therapy:** Educational, not therapeutic treatment.
+- **Not Diagnosis:** No clinical diagnosis of mental health conditions.
+- **Safety Boundaries:** Clear protocols and crisis management frameworks.
+- **Measurable Outcomes:** Data-driven pilot programs and continuous improvement.
 
-**Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
+## Website Directory Structure
+The repository has been reorganized into a professional website structure:
 
-**Start here if you are a first-time visitor:**
-
-- **WRH Master Curriculum Live Gateway:** https://daniel-lingar.github.io/wrh-master-curriculum/
-- **WRH Master Curriculum Repository:** https://github.com/daniel-lingar/wrh-master-curriculum
-- **Capitol Contracts Repository:** https://github.com/daniel-lingar/capitol-contracts
-- **Capitol Contracts Website:** https://daniel-lingar.github.io/capitol-contracts/
-
-## Source-of-Truth Repository
-
-This repository is the master home for the **What Really Happened (WRH) 75-Session Master Curriculum**.
-
-It is being used as the consolidation destination for older WRH curriculum, lecture, portal, presentation, and education-site fragments. The goal is to keep the full system organized in one clear instructional structure instead of scattered across duplicate repositories.
-
-See:
-
-- **[Curriculum Consolidation Map](./CURRICULUM-CONSOLIDATION.md)** — what gets merged here, what stays separate, and where older materials belong.
-
-## Ownership, Control, and Certification Boundary
-
-This curriculum is associated with Capitol Contracts LLC, but company role and certification language must remain accurate.
-
-- **William Dane Lingar** is the veteran majority owner and executive control authority for Capitol Contracts LLC.
-- **Daniel Bret Lingar is not a veteran** and should not be described as a veteran owner, SDVOSB owner, service-disabled veteran, CEO, President, or final-control authority.
-- Daniel Bret Lingar may be described in non-veteran support roles such as Director of Operations, Technical Lead, Curriculum Development Support, production support, or implementation support.
-- Capitol Contracts LLC has **not yet applied for SDVOSB certification** and should not be described as SDVOSB-certified, verified SDVOSB, approved SDVOSB, or certified veteran-owned unless certification is actually granted.
-
-## Core Purpose
-
-WRH translates trauma, addiction, freeze responses, shame cycles, executive-function disruption, avoidance, collapse, and survival behavior into plain-language system logic.
-
-The central teaching frame is:
-
-> People cannot interrupt a pattern they have never been taught to see.
-
-WRH does not ask participants to relive, disclose, or process trauma in a therapy-style format. It teaches observable patterns, mechanism language, interruption points, and safer replacement tools.
+- `index.html`: Hero landing page and main navigation.
+- `curriculum/`: Dedicated section for modular curriculum access.
+  - `index.html`: Curriculum overview and table of contents.
+  - `part-1.html`: Survival Wiring & Trauma Literacy.
+  - `part-2.html`: Institutional Systems & Reentry.
+  - `part-3.html`: Resilience & Autonomy.
+  - `part-4.html`: Facilitation & Crisis Management.
+- `about.html`: Organization information and mission.
+- `start-here.html`: Comprehensive onboarding guide.
+- `capability-statement.html`: Capitol Contracts LLC capabilities.
+- `pilot-package.html`: Pilot program details and pricing.
+- `resources.html`: Learning resources and crisis support links.
+- `contact.html`: Contact form and organization details.
+- `assets/`:
+  - `css/`: Main stylesheet (responsive design).
+  - `js/`: Interactivity (navigation, form validation).
+  - `images/`: Logos, hero banners, icons, diagrams.
+- `docs/`: Supporting documentation and key frameworks.
+- `Part-I/` through `Part-IV/`: Original session content in Markdown format.
 
 ## Program Architecture
+The master curriculum is organized into four comprehensive parts:
 
-The master curriculum is organized as a 75-session sequence:
-
-1. **Part I: The System Logic Map (Sessions 1–26)**  
-   Foundational survival laws, pattern recognition, nervous-system adaptation, and plain-language mechanism framing.
-
-2. **Part II: The Core Operational Journey (Sessions 27–56)**  
-   Core pilot sequence focused on mechanical loops, wiring patterns, biological programs, regulation tools, and behavioral interruption.
-
-3. **Part III: Advanced System Specialization (Sessions 57–75)**  
-   Advanced pattern analysis, institutional misreadings, relapse/collapse logic, accountability, and long-term support structures.
-
-4. **Part IV: Facilitator Standardization Toolkit**  
-   Delivery standards, facilitator scripts, glossary, staff tools, participant materials, and implementation support.
-
-## Repository Structure
-
-```text
-Part-I/      Sessions 1-26: Laws of Survival / System Logic Map
-Part-II/     Sessions 27-56: Core Operational Journey / Pilot Program
-Part-III/    Sessions 57-75: Advanced System Specialization
-Part-IV/     Facilitator Toolkit, Staff Tools, Participant Materials, Glossary, Commercial Materials
-docs/        Scope boundaries, implementation notes, architecture, quality/fidelity documentation
-public-site/ Optional site assets supporting the curriculum
-archive-imports/ Temporary holding area for reviewed legacy material
-```
-
-## Performance Work Statement Summary
-
-Capitol Contracts LLC offers access to and facilitation support for the WRH Master Curriculum as a structured, replicable, non-clinical psychoeducational program.
-
-The curriculum is designed for behavioral health education, recovery-support settings, reentry environments, veteran-support programs, peer-support contexts, and institutional review settings where survival behaviors are often misread as defiance, weakness, noncompliance, or character failure.
-
-### Core Components
-
-- **System Logic Translation:** reframes survival responses as predictable patterns rather than character defects.
-- **Mechanism Breakdowns:** teaches participants how loops form, repeat, escalate, and can be interrupted.
-- **Facilitator Standardization:** supports consistent non-clinical delivery across settings.
-- **Plain-Language Education:** avoids unnecessary clinical jargon while preserving serious content.
-- **No-Disclosure Design:** participants can learn the pattern without exposing personal history.
-
-## Tiered Service Offering Draft
-
-| Service Tier | Sessions | Focus Area | Estimated Price Per Cohort (8–12 Participants) |
-|---|---:|---|---:|
-| **Foundation** | 26 | System Logic Map & Laws of Survival | $18,500 |
-| **Core** | 56 | Core Operational Journey & Pilot Program | $32,000 |
-| **Master** | 75 | Full Program & Facilitator Standardization Toolkit | $48,000 |
-
-*Pricing is a draft estimate and may vary by contract requirements, cohort size, duration, delivery model, and scope.*
-
-## Public Scope Boundary
-
-WRH materials are **not therapy**, **not medical advice**, **not legal advice**, and **not a replacement for licensed clinical care**.
-
-The curriculum is designed for non-clinical education, language-building, pattern recognition, facilitator support, and implementation documentation.
+1. **Part I: Survival Wiring & Trauma Literacy**  
+   Foundational survival laws, pattern recognition, and nervous-system adaptation.
+2. **Part II: Institutional Systems & Reentry**  
+   Core operational journey focused on navigating complex systems and reentry.
+3. **Part III: Resilience & Autonomy**  
+   Advanced pattern analysis, building agency, and integrated behavioral-institutional models.
+4. **Part IV: Facilitation & Crisis Management**  
+   Delivery standards, facilitator scripts, safety protocols, and implementation support.
 
 ## About Capitol Contracts LLC
+Capitol Contracts LLC develops structured, non-clinical psychoeducational materials and training frameworks for implementation partners.
 
-Capitol Contracts LLC develops structured, non-clinical psychoeducational materials and training frameworks for public education, peer-support settings, recovery environments, veteran-support programs, institutional review, and implementation partners.
-
-Federal contracting identifiers:
-
+**Federal Contracting Identifiers:**
 - **Unique Entity Identifier (UEI):** HH77KN5AV5X7
 - **Commercial and Government Entity (CAGE) Code:** 9ZFJ6
 - **Primary NAICS:** 611710 — Educational Support Services
-- **SDVOSB Status:** Not applied / not certified
 
-## Next Step
-
-First-time visitors should start with the live WRH Master Curriculum gateway: https://daniel-lingar.github.io/wrh-master-curriculum/
-
-Business and procurement-facing context is maintained here: https://github.com/daniel-lingar/capitol-contracts
-
-For inquiries, pilot conversations, capability materials, or implementation discussions: **[capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)**
+**Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
 
 ---
-
-*Capitol Contracts LLC | What Really Happened Master Curriculum | Structured Non-Clinical Trauma Education*
+*&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.*
