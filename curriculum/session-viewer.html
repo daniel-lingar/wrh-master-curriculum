@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session | WRH Master Curriculum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0a0a0a',
+                        zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
+                        amber: { 500: '#f59e0b', 600: '#d97706' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .sticky-nav { backdrop-filter: blur(12px); background-color: rgba(9, 9, 11, 0.8); }
+        
+        /* Markdown Styling */
+        .markdown-content {
+            line-height: 1.8;
+        }
+        .markdown-content h1 {
+            @apply text-4xl font-bold text-white mb-6 mt-8;
+        }
+        .markdown-content h2 {
+            @apply text-2xl font-bold text-white mb-4 mt-6 border-b border-zinc-800 pb-3;
+        }
+        .markdown-content h3 {
+            @apply text-xl font-bold text-white mb-3 mt-4;
+        }
+        .markdown-content h4 {
+            @apply text-lg font-semibold text-zinc-200 mb-2 mt-3;
+        }
+        .markdown-content p {
+            @apply text-zinc-300 mb-4;
+        }
+        .markdown-content a {
+            @apply text-amber-500 hover:text-amber-400 underline;
+        }
+        .markdown-content ul, .markdown-content ol {
+            @apply mb-4 ml-6;
+        }
+        .markdown-content li {
+            @apply text-zinc-300 mb-2;
+        }
+        .markdown-content code {
+            @apply bg-zinc-900 text-amber-400 px-2 py-1 rounded font-mono text-sm;
+        }
+        .markdown-content pre {
+            @apply bg-zinc-900 border border-zinc-800 rounded-lg p-4 mb-4 overflow-x-auto;
+        }
+        .markdown-content pre code {
+            @apply bg-transparent text-zinc-300 px-0 py-0;
+        }
+        .markdown-content blockquote {
+            @apply border-l-4 border-amber-500 pl-4 py-2 italic text-zinc-400 mb-4;
+        }
+        .markdown-content table {
+            @apply w-full border-collapse mb-4;
+        }
+        .markdown-content th {
+            @apply bg-zinc-900 text-white px-4 py-2 text-left border border-zinc-800;
+        }
+        .markdown-content td {
+            @apply text-zinc-300 px-4 py-2 border border-zinc-800;
+        }
+        .markdown-content strong {
+            @apply font-bold text-white;
+        }
+        .markdown-content em {
+            @apply italic text-zinc-200;
+        }
+        .markdown-content hr {
+            @apply border-zinc-800 my-6;
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-300 selection:bg-amber-500/30 selection:text-amber-500">
+
+    <!-- Navigation -->
+    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <a href="../index.html" class="text-xl font-bold text-white tracking-tight">
+                        WRH <span class="text-amber-500">Master</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="../index.html" class="text-sm font-medium hover:text-white transition-colors">Home</a>
+                    <a href="index.html" class="text-sm font-medium text-white hover:text-amber-500 transition-colors">Curriculum</a>
+                    <a href="../start-here.html" class="text-sm font-medium hover:text-white transition-colors">Start Here</a>
+                    <a href="../pilot-package.html" class="text-sm font-medium hover:text-white transition-colors">Pilot Package</a>
+                    <a href="../contact.html" class="text-sm font-medium hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-8">
+                <button id="back-button" class="text-sm font-bold text-amber-500 hover:text-amber-400 mb-4 inline-block">&larr; Back</button>
+            </div>
+
+            <div id="content" class="markdown-content bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
+                <div class="flex items-center justify-center h-32">
+                    <p class="text-zinc-400">Loading session...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-zinc-950 border-t border-zinc-900 py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-zinc-500 text-sm">
+                Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.<br/>
+                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Get the markdown file path from URL parameter
+        const params = new URLSearchParams(window.location.search);
+        const filePath = params.get('file');
+
+        if (!filePath) {
+            document.getElementById('content').innerHTML = '<p class="text-red-400">Error: No session file specified.</p>';
+        } else {
+            // Fetch and render the markdown file
+            fetch(filePath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to load: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    // Configure marked options
+                    marked.setOptions({
+                        breaks: true,
+                        gfm: true,
+                    });
+
+                    // Convert markdown to HTML
+                    const html = marked.parse(markdown);
+
+                    // Sanitize HTML to prevent XSS
+                    const sanitized = DOMPurify.sanitize(html);
+
+                    // Insert into page
+                    document.getElementById('content').innerHTML = sanitized;
+                })
+                .catch(error => {
+                    document.getElementById('content').innerHTML = `<p class="text-red-400">Error loading session: ${error.message}</p>`;
+                });
+        }
+
+        // Back button functionality
+        document.getElementById('back-button').addEventListener('click', function() {
+            history.back();
+        });
+    </script>
+</body>
+</html>
