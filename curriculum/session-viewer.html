@@ -751,6 +751,7 @@
                         <div class="error-state">
                             <h3>Error Loading Session</h3>
                             <p>${error.message}</p>
+                            <p class="mt-2 text-xs opacity-50">Attempted path: ${window.location.hostname.endsWith('github.io') ? `/${window.location.pathname.split('/')[1]}/` : '/'}${file}</p>
                             <p style="margin-top: 1rem; font-size: 0.9rem;">Please check your connection and try again, or return to the curriculum.</p>
                         </div>
                     `;
