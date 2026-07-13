@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pilot Package | WRH Master Curriculum</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             darkMode: 'class',
@@ -13,130 +16,386 @@
                     colors: {
                         dark: '#0a0a0a',
                         zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
-                        amber: { 500: '#f59e0b', 600: '#d97706' }
+                        amber: { 500: '#f59e0b', 600: '#d97706', 400: '#fbbf24' }
+                    },
+                    fontFamily: {
+                        'display': ['Space Grotesk', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif']
                     }
                 }
             }
         }
     </script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .sticky-nav { backdrop-filter: blur(12px); background-color: rgba(9, 9, 11, 0.8); }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .sticky-nav {
+            backdrop-filter: blur(20px);
+            background: rgba(9, 9, 11, 0.7);
+            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 100;
+        }
+
+        main {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 1.25rem;
+            margin-top: 2.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid rgba(245, 158, 11, 0.3);
+            position: relative;
+        }
+
+        h2::before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: linear-gradient(90deg, #f59e0b, #fbbf24);
+            animation: slideIn 0.6s ease-out forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #fbbf24;
+            margin-bottom: 1rem;
+            margin-top: 1.75rem;
+        }
+
+        p {
+            color: #d1d5db;
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+            line-height: 1.85;
+        }
+
+        a {
+            color: #fbbf24;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid rgba(251, 191, 36, 0.3);
+        }
+
+        a:hover {
+            color: #f59e0b;
+            border-bottom-color: #f59e0b;
+            transform: translateX(2px);
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+            margin-left: 1.5rem;
+        }
+
+        li {
+            color: #d1d5db;
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            position: relative;
+        }
+
+        li::before {
+            content: '•';
+            color: #fbbf24;
+            position: absolute;
+            left: -1.5rem;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: #fbbf24;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: #f59e0b;
+            transform: translateX(-4px);
+        }
+
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            cursor: pointer;
+            font-size: 1.05rem;
+            background: linear-gradient(135deg, #f59e0b, #fbbf24);
+            color: #09090b;
+            box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
+        }
+
+        .download-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 48px rgba(245, 158, 11, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(9, 9, 11, 0.9);
+            border-top: 1px solid rgba(245, 158, 11, 0.1);
+            padding: 4rem 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: #fbbf24;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #9ca3af;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            border-bottom: none;
+        }
+
+        footer a:hover {
+            color: #fbbf24;
+        }
+
+        footer ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        footer li {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        footer li::before {
+            content: none;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(245, 158, 11, 0.1);
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(9, 9, 11, 0.5);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #f59e0b, #fbbf24);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(180deg, #fbbf24, #f59e0b);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
-<body class="bg-zinc-950 text-zinc-300 selection:bg-amber-500/30 selection:text-amber-500">
+<body>
 
     <!-- Navigation -->
     <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center">
-                    <a href="index.html" class="text-xl font-bold text-white tracking-tight">
-                        WRH <span class="text-amber-500">Master</span>
+                    <a href="index.html" class="text-xl font-bold text-white tracking-tight font-display">
+                        WRH <span class="text-amber-400">Master</span>
                     </a>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium hover:text-white transition-colors">Home</a>
-                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-white transition-colors">Curriculum</a>
-                    <a href="start-here.html" class="text-sm font-medium hover:text-white transition-colors">Start Here</a>
-                    <a href="pilot-package.html" class="text-sm font-medium text-white hover:text-amber-500 transition-colors">Pilot Package</a>
-                    <a href="contact.html" class="text-sm font-medium hover:text-white transition-colors">Contact</a>
+                    <a href="index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
+                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Curriculum</a>
+                    <a href="start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
+                    <a href="pilot-package.html" class="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors">Pilot Package</a>
+                    <a href="contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
                 </div>
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-zinc-400 hover:text-white">
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-zinc-900 border-b border-zinc-800">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="index.html" class="block px-3 py-2 text-base font-medium text-zinc-400 hover:text-white">Home</a>
-                <a href="curriculum/index.html" class="block px-3 py-2 text-base font-medium text-zinc-400 hover:text-white">Curriculum</a>
-                <a href="start-here.html" class="block px-3 py-2 text-base font-medium text-zinc-400 hover:text-white">Start Here</a>
-                <a href="pilot-package.html" class="block px-3 py-2 text-base font-medium text-white">Pilot Package</a>
-                <a href="contact.html" class="block px-3 py-2 text-base font-medium text-zinc-400 hover:text-white">Contact</a>
             </div>
         </div>
     </nav>
 
+    <!-- Main Content -->
     <main class="py-20">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12">
-                <h1 class="text-4xl font-extrabold text-white mb-6">Pilot Package</h1>
-                <p class="text-xl text-zinc-400">Implementation framework for organizations delivering the WRH Master Curriculum.</p>
+            <div class="mb-8">
+                <a href="index.html" class="back-button">&larr; Return to Portal</a>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div class="p-8 bg-zinc-900 border border-zinc-800 rounded-2xl">
-                    <h2 class="text-xl font-bold text-white mb-4">Core Components</h2>
-                    <ul class="space-y-4 text-sm">
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>75-Session Master Curriculum</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Facilitator Training & Certification</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Safety & Crisis Protocols</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Outcome Metrics & Tracking</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="p-8 bg-zinc-900 border border-zinc-800 rounded-2xl">
-                    <h2 class="text-xl font-bold text-white mb-4">Target Settings</h2>
-                    <ul class="space-y-4 text-sm">
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Reentry & Diversion Centers</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Recovery Support Organizations</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>Veteran Support Programs</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <svg class="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            <span>High-Barrier Education Rooms</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <h1>Pilot Package</h1>
+            <p class="text-xl text-zinc-400 mb-8">Information on pilot program implementation, metrics, and partnership opportunities for the WRH Master Curriculum.</p>
 
-            <div class="p-8 bg-zinc-900 border border-zinc-800 rounded-2xl text-center">
-                <h2 class="text-2xl font-bold text-white mb-6">Request a Pilot Proposal</h2>
-                <p class="text-zinc-400 mb-8">Contact us to receive a detailed capability statement and pilot program proposal for your organization.</p>
-                <a href="contact.html" class="px-8 py-3 bg-amber-500 hover:bg-amber-600 text-zinc-950 font-bold rounded-lg transition-all inline-block">
-                    Contact Us
+            <section class="mb-12">
+                <h2>Overview</h2>
+                <p>The WRH Master Curriculum offers pilot packages for organizations interested in implementing our unique psychoeducational program. These packages are designed to facilitate seamless integration, provide comprehensive support, and enable data-driven evaluation of program effectiveness.</p>
+            </section>
+
+            <section class="mb-12">
+                <h2>What's Included</h2>
+                <p>Each pilot package is tailored to the needs of your organization but typically includes:</p>
+                <ul>
+                    <li>Full access to the WRH Master Curriculum content.</li>
+                    <li>Facilitator training and certification.</li>
+                    <li>Implementation guides and best practices.</li>
+                    <li>Access to our metrics tracking and reporting tools.</li>
+                    <li>Dedicated support from the Capitol Contracts LLC team.</li>
+                    <li>Customizable program materials and branding options.</li>
+                </ul>
+            </section>
+
+            <section class="mb-12">
+                <h2>Metrics & Evaluation</h2>
+                <p>Our pilot programs emphasize measurable outcomes. We work with your organization to define key performance indicators (KPIs) and provide tools to track participant engagement, understanding, and perceived impact. This data helps demonstrate the value of the WRH Master Curriculum and informs continuous program improvement.</p>
+            </section>
+
+            <section class="mb-12">
+                <h2>Partnership Opportunities</h2>
+                <p>We are actively seeking partnerships with organizations committed to fostering resilience and supporting individuals in high-barrier environments. If you believe the WRH Master Curriculum aligns with your mission, we encourage you to reach out to discuss collaboration.</p>
+            </section>
+
+            <section>
+                <h2>Download Information Packet</h2>
+                <p>For a detailed overview of our pilot packages, pricing, and partnership terms, please download our information packet:</p>
+                <a href="#" class="download-button">
+                    Download Pilot Package (PDF)
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H5a2 2 0 01-2-2V5a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2z"></path>
+                    </svg>
                 </a>
-            </div>
+            </section>
         </div>
     </main>
 
-    <footer class="bg-zinc-950 border-t border-zinc-900 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-zinc-500">
-            <p>&copy; 2024 Capitol Contracts LLC. All rights reserved.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="text-2xl font-bold text-white tracking-tight mb-6 block font-display">
+                        WRH <span class="text-amber-400">Master</span>
+                    </a>
+                    <p class="text-zinc-400 max-w-sm mb-6">
+                        Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
+                    </p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="curriculum/index.html">Curriculum</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Learning Resources</a></li>
+                        <li><a href="capability-statement.html">Capability Statement</a></li>
+                        <li><a href="pilot-package.html">Pilot Package</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
+                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-        const btn = document.getElementById('mobile-menu-button');
-        const menu = document.getElementById('mobile-menu');
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-    </script>
 </body>
 </html>
