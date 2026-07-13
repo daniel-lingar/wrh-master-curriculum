@@ -655,7 +655,7 @@
     <script>
         // Get the markdown file path from URL parameter
         const params = new URLSearchParams(window.location.search);
-        const filePath = params.get('file');
+        const file = params.get('file');
 
         // Progress tracking
         const progressBar = document.querySelector('.progress-bar');
@@ -698,20 +698,28 @@
             }
         });
 
-        if (!filePath) {
+        if (!file || !/^[a-zA-Z0-9/_-]+\.md$/.test(file)) {
             contentDiv.innerHTML = `
                 <div class="error-state">
-                    <h3>Error: No Session Found</h3>
-                    <p>No session file was specified. Please return to the curriculum and select a session to view.</p>
+                    <h3>Error: Invalid Session File</h3>
+                    <p>No valid session file was specified. Please return to the curriculum and select a session to view.</p>
                 </div>
             `;
             contentDiv.setAttribute('aria-busy', false);
         } else {
+            // Determine the base path for GitHub Pages
+            const base = window.location.hostname.endsWith('github.io')
+                ? `/${window.location.pathname.split('/')[1]}/`
+                : '/';
+
+            // Build the absolute path to the markdown file
+            const markdownPath = `${base}${file}`;
+
             // Fetch and render the markdown file
-            fetch(filePath)
+            fetch(markdownPath)
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error(`Failed to load session: HTTP ${response.status}`);
+                        throw new Error(`Could not load session: HTTP ${response.status}. Path: ${markdownPath}`);
                     }
                     return response.text();
                 })
