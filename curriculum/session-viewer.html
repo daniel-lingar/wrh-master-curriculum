@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WRH Master Curriculum Session Viewer - Interactive learning sessions with accessibility support">
     <title>Session | WRH Master Curriculum</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -69,6 +70,18 @@
             background: rgba(9, 9, 11, 0.7);
             border-bottom: 1px solid rgba(245, 158, 11, 0.1);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Accessibility: Focus Visible Styles */
+        *:focus-visible {
+            outline: 3px solid #fbbf24;
+            outline-offset: 2px;
+        }
+
+        button:focus-visible,
+        a:focus-visible {
+            outline: 3px solid #fbbf24;
+            outline-offset: 2px;
         }
 
         /* Markdown Styling - Premium */
@@ -150,7 +163,7 @@
 
         .markdown-content a {
             color: #fbbf24;
-            text-decoration: none;
+            text-decoration: underline;
             font-weight: 500;
             position: relative;
             transition: all 0.3s ease;
@@ -161,6 +174,11 @@
             color: #f59e0b;
             border-bottom-color: #f59e0b;
             transform: translateX(2px);
+        }
+
+        .markdown-content a:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
         }
 
         .markdown-content ul, .markdown-content ol {
@@ -265,6 +283,45 @@
         .content-wrapper {
             position: relative;
             z-index: 1;
+        }
+
+        /* Loading State */
+        .loading-state {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .skeleton {
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.05), rgba(245, 158, 11, 0.1));
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+            border-radius: 0.5rem;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        /* Error State */
+        .error-state {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            color: #fca5a5;
+            margin-bottom: 2rem;
+        }
+
+        .error-state h3 {
+            color: #fca5a5;
+            margin-bottom: 0.5rem;
+        }
+
+        .error-state p {
+            color: #fca5a5;
+            font-size: 0.95rem;
         }
 
         /* Reading Progress Bar */
@@ -460,12 +517,18 @@
             font-weight: 500;
             transition: all 0.3s ease;
             margin-bottom: 2rem;
+            cursor: pointer;
         }
 
         .back-button:hover {
             background: rgba(245, 158, 11, 0.2);
             border-color: #f59e0b;
             transform: translateX(-4px);
+        }
+
+        .back-button:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
         }
 
         /* Session Header */
@@ -491,25 +554,42 @@
             z-index: 1;
         }
 
-        /* Loading animation */
-        .skeleton {
-            background: linear-gradient(90deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.2), rgba(245, 158, 11, 0.1));
-            background-size: 200% 100%;
-            animation: loading 1.5s infinite;
+        /* Accessibility: Skip to main content link */
+        .skip-to-main {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #fbbf24;
+            color: #09090b;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+            font-weight: 600;
         }
 
-        @keyframes loading {
-            0% { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
+        .skip-to-main:focus {
+            top: 0;
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
     <!-- Progress Bar -->
-    <div class="progress-bar"></div>
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Reading progress"></div>
 
     <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
+    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800" role="navigation" aria-label="Main navigation">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center">
@@ -529,40 +609,45 @@
     </nav>
 
     <!-- Table of Contents Sidebar -->
-    <aside class="toc-sidebar" id="tocSidebar">
+    <aside class="toc-sidebar" id="tocSidebar" role="complementary" aria-label="Table of contents">
         <div class="toc-title">On This Page</div>
         <ul class="toc-list" id="tocList"></ul>
     </aside>
 
     <!-- Main Content -->
-    <main class="py-20 content-wrapper">
+    <main class="py-20 content-wrapper" id="main-content">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mb-8">
-                <button id="back-button" class="back-button">&larr; Back to Curriculum</button>
+                <button id="back-button" class="back-button" aria-label="Go back to curriculum">&larr; Back to Curriculum</button>
             </div>
 
             <div class="session-header fade-in-up">
-                <div id="content" class="markdown-content">
-                    <div class="skeleton" style="height: 200px; border-radius: 0.5rem;"></div>
+                <div id="content" class="markdown-content" role="main" aria-live="polite" aria-busy="true">
+                    <div class="loading-state">
+                        <div class="skeleton" style="height: 60px; border-radius: 0.5rem;"></div>
+                        <div class="skeleton" style="height: 200px; border-radius: 0.5rem;"></div>
+                        <div class="skeleton" style="height: 150px; border-radius: 0.5rem;"></div>
+                    </div>
+                    <p style="color: #9ca3af; text-align: center; margin-top: 2rem;">Loading session…</p>
                 </div>
             </div>
         </div>
     </main>
 
     <!-- Scroll to Top Button -->
-    <button class="scroll-indicator" id="scrollToTop" title="Back to top">
+    <button class="scroll-indicator" id="scrollToTop" title="Back to top" aria-label="Scroll to top">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
         </svg>
     </button>
 
     <!-- Mobile TOC Toggle -->
-    <button class="mobile-toc-toggle" id="tocToggle" title="Toggle table of contents">
+    <button class="mobile-toc-toggle" id="tocToggle" title="Toggle table of contents" aria-label="Toggle table of contents" aria-expanded="false" aria-controls="tocSidebar">
         ☰
     </button>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
         UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
     </footer>
@@ -575,11 +660,13 @@
         // Progress tracking
         const progressBar = document.querySelector('.progress-bar');
         const scrollToTopBtn = document.getElementById('scrollToTop');
+        const contentDiv = document.getElementById('content');
 
         window.addEventListener('scroll', function() {
             const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = (window.scrollY / windowHeight) * 100;
             progressBar.style.width = scrolled + '%';
+            progressBar.setAttribute('aria-valuenow', Math.round(scrolled));
 
             // Show/hide scroll to top button
             if (window.scrollY > 300) {
@@ -599,24 +686,32 @@
         const tocToggle = document.getElementById('tocToggle');
 
         tocToggle.addEventListener('click', () => {
-            tocSidebar.classList.toggle('active');
+            const isExpanded = tocSidebar.classList.toggle('active');
+            tocToggle.setAttribute('aria-expanded', isExpanded);
         });
 
         // Close TOC when clicking outside
         document.addEventListener('click', (e) => {
             if (!tocSidebar.contains(e.target) && !tocToggle.contains(e.target)) {
                 tocSidebar.classList.remove('active');
+                tocToggle.setAttribute('aria-expanded', false);
             }
         });
 
         if (!filePath) {
-            document.getElementById('content').innerHTML = '<p class="text-red-400">Error: No session file specified.</p>';
+            contentDiv.innerHTML = `
+                <div class="error-state">
+                    <h3>Error: No Session Found</h3>
+                    <p>No session file was specified. Please return to the curriculum and select a session to view.</p>
+                </div>
+            `;
+            contentDiv.setAttribute('aria-busy', false);
         } else {
             // Fetch and render the markdown file
             fetch(filePath)
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error(`Failed to load: ${response.status}`);
+                        throw new Error(`Failed to load session: HTTP ${response.status}`);
                     }
                     return response.text();
                 })
@@ -634,7 +729,8 @@
                     const sanitized = DOMPurify.sanitize(html);
 
                     // Insert into page
-                    document.getElementById('content').innerHTML = sanitized;
+                    contentDiv.innerHTML = sanitized;
+                    contentDiv.setAttribute('aria-busy', false);
 
                     // Generate Table of Contents
                     generateTableOfContents();
@@ -643,7 +739,14 @@
                     updateActiveTocItem();
                 })
                 .catch(error => {
-                    document.getElementById('content').innerHTML = `<p class="text-red-400">Error loading session: ${error.message}</p>`;
+                    contentDiv.innerHTML = `
+                        <div class="error-state">
+                            <h3>Error Loading Session</h3>
+                            <p>${error.message}</p>
+                            <p style="margin-top: 1rem; font-size: 0.9rem;">Please check your connection and try again, or return to the curriculum.</p>
+                        </div>
+                    `;
+                    contentDiv.setAttribute('aria-busy', false);
                 });
         }
 
@@ -653,6 +756,11 @@
             const headings = content.querySelectorAll('h2, h3');
             const tocList = document.getElementById('tocList');
             tocList.innerHTML = '';
+
+            if (headings.length === 0) {
+                tocList.innerHTML = '<li style="color: #9ca3af; font-size: 0.9rem;">No sections found</li>';
+                return;
+            }
 
             headings.forEach((heading, index) => {
                 const id = `heading-${index}`;

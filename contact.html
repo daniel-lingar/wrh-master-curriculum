@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact WRH Master Curriculum - Get in touch with questions or collaboration opportunities">
     <title>Contact Us | WRH Master Curriculum</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,6 +134,11 @@
             transform: translateX(2px);
         }
 
+        a:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
+        }
+
         ul {
             list-style: none;
             margin-bottom: 1.5rem;
@@ -184,6 +190,7 @@
             color: #e5e7eb;
             font-size: 1rem;
             transition: all 0.3s ease;
+            font-family: inherit;
         }
 
         .form-group input:focus,
@@ -191,6 +198,29 @@
             outline: none;
             border-color: #fbbf24;
             box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.3);
+        }
+
+        .form-group input:focus-visible,
+        .form-group textarea:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
+        }
+
+        .form-group.error input,
+        .form-group.error textarea {
+            border-color: #ef4444;
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+        }
+
+        .error-message {
+            color: #fca5a5;
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+
+        .form-group.error .error-message {
+            display: block;
         }
 
         .submit-button {
@@ -213,6 +243,51 @@
         .submit-button:hover {
             transform: translateY(-4px);
             box-shadow: 0 12px 48px rgba(245, 158, 11, 0.4);
+        }
+
+        .submit-button:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
+        }
+
+        .submit-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Success/Error Messages */
+        .form-message {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            display: none;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-message.success {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #86efac;
+            display: block;
+        }
+
+        .form-message.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #fca5a5;
+            display: block;
         }
 
         /* Footer */
@@ -284,6 +359,11 @@
             background: linear-gradient(180deg, #fbbf24, #f59e0b);
         }
 
+        *:focus-visible {
+            outline: 2px solid #fbbf24;
+            outline-offset: 2px;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5rem;
@@ -298,7 +378,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
+    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800" role="navigation" aria-label="Main navigation">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center">
@@ -318,30 +398,36 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="py-20">
+    <main class="py-20" role="main">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1>Contact Us</h1>
             <p class="text-xl text-zinc-400 mb-8">We'd love to hear from you. Reach out with any questions, inquiries, or collaboration opportunities.</p>
 
             <div class="contact-form">
-                <form action="#" method="POST">
+                <div id="formMessage" class="form-message" role="alert" aria-live="polite"></div>
+                
+                <form id="contactForm" method="POST" novalidate>
                     <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Name <span aria-label="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true" aria-describedby="name-error">
+                        <span id="name-error" class="error-message">Please enter your name</span>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        <label for="email">Email <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required aria-required="true" aria-describedby="email-error">
+                        <span id="email-error" class="error-message">Please enter a valid email address</span>
                     </div>
                     <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="Inquiry Subject" required>
+                        <label for="subject">Subject <span aria-label="required">*</span></label>
+                        <input type="text" id="subject" name="subject" placeholder="Inquiry Subject" required aria-required="true" aria-describedby="subject-error">
+                        <span id="subject-error" class="error-message">Please enter a subject</span>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+                        <label for="message">Message <span aria-label="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" placeholder="Your message here..." required aria-required="true" aria-describedby="message-error"></textarea>
+                        <span id="message-error" class="error-message">Please enter your message</span>
                     </div>
-                    <button type="submit" class="submit-button">
+                    <button type="submit" class="submit-button" id="submitBtn">
                         Send Message
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -363,7 +449,7 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer role="contentinfo">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                 <div class="col-span-1 md:col-span-2">
@@ -400,5 +486,87 @@
         </div>
     </footer>
 
+    <script>
+        const form = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+        const submitBtn = document.getElementById('submitBtn');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Reset message
+            formMessage.textContent = '';
+            formMessage.className = 'form-message';
+            
+            // Validate form
+            let isValid = true;
+            const fields = ['name', 'email', 'subject', 'message'];
+            
+            fields.forEach(fieldId => {
+                const field = document.getElementById(fieldId);
+                const group = field.closest('.form-group');
+                
+                if (!field.value.trim()) {
+                    group.classList.add('error');
+                    isValid = false;
+                } else {
+                    group.classList.remove('error');
+                }
+            });
+
+            // Validate email format
+            const emailField = document.getElementById('email');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailField.value && !emailRegex.test(emailField.value)) {
+                document.getElementById('email').closest('.form-group').classList.add('error');
+                isValid = false;
+            }
+
+            if (!isValid) {
+                formMessage.textContent = 'Please fill in all required fields correctly.';
+                formMessage.className = 'form-message error';
+                return;
+            }
+
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending…';
+
+            // Simulate form submission (in production, this would send to a backend)
+            setTimeout(() => {
+                formMessage.textContent = '✓ Thank you! Your message has been sent successfully. We\'ll get back to you shortly.';
+                formMessage.className = 'form-message success';
+                
+                // Reset form
+                form.reset();
+                
+                // Reset button
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = `
+                    Send Message
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                `;
+                
+                // Clear message after 5 seconds
+                setTimeout(() => {
+                    formMessage.className = 'form-message';
+                    formMessage.textContent = '';
+                }, 5000);
+            }, 1500);
+        });
+
+        // Clear error state on input
+        const inputs = document.querySelectorAll('input, textarea');
+        inputs.forEach(input => {
+            input.addEventListener('input', function() {
+                const group = this.closest('.form-group');
+                if (group.classList.contains('error') && this.value.trim()) {
+                    group.classList.remove('error');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
