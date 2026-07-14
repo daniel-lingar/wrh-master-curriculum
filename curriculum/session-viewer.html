@@ -497,223 +497,142 @@
                 justify-content: center;
             }
         }
-
-        .mobile-toc-toggle:hover {
-            transform: scale(1.1);
-            box-shadow: 0 12px 40px rgba(245, 158, 11, 0.4);
-        }
-
-        /* Back Button */
-        .back-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px solid rgba(245, 158, 11, 0.3);
-            color: #fbbf24;
-            text-decoration: none;
-            border-radius: 0.5rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            margin-bottom: 2rem;
-            cursor: pointer;
-        }
-
-        .back-button:hover {
-            background: rgba(245, 158, 11, 0.2);
-            border-color: #f59e0b;
-            transform: translateX(-4px);
-        }
-
-        .back-button:focus-visible {
-            outline: 2px solid #fbbf24;
-            outline-offset: 2px;
-        }
-
-        /* Session Header */
-        .session-header {
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(59, 130, 246, 0.05));
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            border-radius: 1rem;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            backdrop-filter: blur(10px);
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(9, 9, 11, 0.8);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 2rem;
-            text-align: center;
-            color: #6b7280;
-            font-size: 0.875rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Accessibility: Skip to main content link */
-        .skip-to-main {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: #fbbf24;
-            color: #09090b;
-            padding: 8px;
-            text-decoration: none;
-            z-index: 100;
-            font-weight: 600;
-        }
-
-        .skip-to-main:focus {
-            top: 0;
-        }
-
-        /* Reduced motion support */
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-            }
-        }
     </style>
 </head>
-<body>
-    <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+<body class="bg-dark text-zinc-300">
 
-    <!-- Progress Bar -->
-    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Reading progress"></div>
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
 
     <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800" role="navigation" aria-label="Main navigation">
+    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
+                <div class="flex items-center space-x-4">
+                    <button id="back-button" class="p-2 hover:bg-zinc-800 rounded-lg transition-colors group" aria-label="Go back">
+                        <svg class="w-5 h-5 text-amber-500 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                    </button>
                     <a href="../index.html" class="text-xl font-bold text-white tracking-tight font-display">
                         WRH <span class="text-amber-400">Master</span>
                     </a>
                 </div>
                 <div class="hidden md:flex space-x-8">
-                    <a href="../index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
-                    <a href="index.html" class="text-sm font-medium text-white hover:text-amber-400 transition-colors">Curriculum</a>
+                    <a href="index.html" class="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors">Curriculum Index</a>
                     <a href="../start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
                     <a href="../pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                    <a href="../contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!-- Table of Contents Sidebar -->
-    <aside class="toc-sidebar" id="tocSidebar" role="complementary" aria-label="Table of contents">
-        <div class="toc-title">On This Page</div>
-        <ul class="toc-list" id="tocList"></ul>
+    <!-- Sidebar TOC -->
+    <aside class="toc-sidebar" id="tocSidebar">
+        <div class="toc-title">On this page</div>
+        <ul class="toc-list" id="tocList">
+            <!-- Populated by JS -->
+        </ul>
     </aside>
 
-    <!-- Main Content -->
-    <main class="py-20 content-wrapper" id="main-content">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-8">
-                <button id="back-button" class="back-button" aria-label="Go back to curriculum">&larr; Back to Curriculum</button>
-            </div>
+    <!-- Mobile TOC Toggle -->
+    <button class="mobile-toc-toggle" id="mobileTocToggle" aria-label="Toggle Table of Contents">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </button>
 
-            <div class="session-header fade-in-up">
-                <div id="content" class="markdown-content" role="main" aria-live="polite" aria-busy="true">
+    <!-- Main Content Area -->
+    <main class="py-12 md:py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="content-wrapper">
+                <div id="content" class="markdown-content fade-in-up" aria-busy="true">
+                    <!-- Skeleton Loading State -->
                     <div class="loading-state">
-                        <div class="skeleton" style="height: 60px; border-radius: 0.5rem;"></div>
-                        <div class="skeleton" style="height: 200px; border-radius: 0.5rem;"></div>
-                        <div class="skeleton" style="height: 150px; border-radius: 0.5rem;"></div>
+                        <div class="skeleton h-12 w-3/4 mb-8"></div>
+                        <div class="skeleton h-4 w-full mb-4"></div>
+                        <div class="skeleton h-4 w-full mb-4"></div>
+                        <div class="skeleton h-4 w-5/6 mb-8"></div>
+                        <div class="skeleton h-8 w-1/2 mb-6"></div>
+                        <div class="skeleton h-4 w-full mb-4"></div>
+                        <div class="skeleton h-4 w-full mb-4"></div>
+                        <div class="skeleton h-4 w-4/5 mb-4"></div>
                     </div>
-                    <p style="color: #9ca3af; text-align: center; margin-top: 2rem;">Loading session…</p>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Scroll to Top Button -->
-    <button class="scroll-indicator" id="scrollToTop" title="Back to top" aria-label="Scroll to top">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <!-- Scroll to Top -->
+    <div class="scroll-indicator" id="scrollTop">
+        <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
         </svg>
-    </button>
-
-    <!-- Mobile TOC Toggle -->
-    <button class="mobile-toc-toggle" id="tocToggle" title="Toggle table of contents" aria-label="Toggle table of contents" aria-expanded="false" aria-controls="tocSidebar">
-        ☰
-    </button>
+    </div>
 
     <!-- Footer -->
-    <footer role="contentinfo">
-        <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
-        UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
+    <footer class="bg-zinc-950 border-t border-zinc-900 py-12 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-zinc-500 text-sm mb-4">
+                &copy; 2024 Capitol Contracts LLC. All rights reserved.
+            </p>
+            <div class="flex justify-center space-x-6 text-xs text-zinc-600 uppercase tracking-widest">
+                <span>UEI: HH77KN5AV5X7</span>
+                <span>CAGE: 9ZFJ6</span>
+            </div>
+        </div>
     </footer>
 
     <script>
-        // Get the markdown file path from URL parameter
-        const params = new URLSearchParams(window.location.search);
-        const file = params.get('file');
+        // Progress Bar & Scroll Top
+        const progressBar = document.getElementById('progressBar');
+        const scrollTop = document.getElementById('scrollTop');
+        
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + "%";
 
-        // Progress tracking
-        const progressBar = document.querySelector('.progress-bar');
-        const scrollToTopBtn = document.getElementById('scrollToTop');
-        const contentDiv = document.getElementById('content');
-
-        window.addEventListener('scroll', function() {
-            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = (window.scrollY / windowHeight) * 100;
-            progressBar.style.width = scrolled + '%';
-            progressBar.setAttribute('aria-valuenow', Math.round(scrolled));
-
-            // Show/hide scroll to top button
-            if (window.scrollY > 300) {
-                scrollToTopBtn.classList.add('visible');
+            if (winScroll > 500) {
+                scrollTop.classList.add('visible');
             } else {
-                scrollToTopBtn.classList.remove('visible');
+                scrollTop.classList.remove('visible');
             }
         });
 
-        // Scroll to top
-        scrollToTopBtn.addEventListener('click', () => {
+        scrollTop.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Mobile TOC toggle
+        // Mobile TOC Toggle
+        const mobileTocToggle = document.getElementById('mobileTocToggle');
         const tocSidebar = document.getElementById('tocSidebar');
-        const tocToggle = document.getElementById('tocToggle');
-
-        tocToggle.addEventListener('click', () => {
-            const isExpanded = tocSidebar.classList.toggle('active');
-            tocToggle.setAttribute('aria-expanded', isExpanded);
+        
+        mobileTocToggle.addEventListener('click', () => {
+            tocSidebar.classList.toggle('active');
         });
 
-        // Close TOC when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!tocSidebar.contains(e.target) && !tocToggle.contains(e.target)) {
-                tocSidebar.classList.remove('active');
-                tocToggle.setAttribute('aria-expanded', false);
-            }
-        });
+        // Load Session Content
+        const contentDiv = document.getElementById('content');
+        const urlParams = new URLSearchParams(window.location.search);
+        const file = urlParams.get('file');
 
-        if (!file || !/^[a-zA-Z0-9/_-]+\.md$/.test(file)) {
+        // GitHub Pages project-site base path: /rescue-boat/
+        const SITE_BASE = "/rescue-boat/";
+
+        if (!file || !/^(Part-I|Part-II|Part-III|Part-IV)\/[A-Za-z0-9_-]+\.md$/.test(file)) {
             contentDiv.innerHTML = `
                 <div class="error-state">
                     <h3>Error: Invalid Session File</h3>
                     <p>No valid session file was specified. Please return to the curriculum and select a session to view.</p>
+                    <p class="mt-4"><a href="index.html" class="text-amber-500 underline">Return to Curriculum Index</a></p>
                 </div>
             `;
             contentDiv.setAttribute('aria-busy', false);
         } else {
-            // Determine the base path for GitHub Pages
-            const base = window.location.hostname.endsWith('github.io')
-                ? `/${window.location.pathname.split('/')[1]}/`
-                : '/';
-
             // Build the absolute path to the markdown file
-            const markdownPath = `${base}${file}`;
+            const markdownPath = SITE_BASE + file;
 
             // Fetch and render the markdown file
             fetch(markdownPath)
@@ -751,8 +670,9 @@
                         <div class="error-state">
                             <h3>Error Loading Session</h3>
                             <p>${error.message}</p>
-                            <p class="mt-2 text-xs opacity-50">Attempted path: ${window.location.hostname.endsWith('github.io') ? `/${window.location.pathname.split('/')[1]}/` : '/'}${file}</p>
+                            <p class="mt-2 text-xs opacity-50">Attempted path: ${markdownPath}</p>
                             <p style="margin-top: 1rem; font-size: 0.9rem;">Please check your connection and try again, or return to the curriculum.</p>
+                            <p class="mt-4"><a href="index.html" class="text-amber-500 underline">Return to Curriculum Index</a></p>
                         </div>
                     `;
                     contentDiv.setAttribute('aria-busy', false);
