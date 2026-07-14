@@ -5,7 +5,7 @@
 ---
 
 ## **Overview**
-The **Universal Crisis Package** is a comprehensive, program-wide framework designed to standardize safety protocols, risk mitigation strategies, and response mechanisms across all 75 sessions of the "What Really Happened" (WRH) Master Curriculum. This package ensures consistent application of hardened overlays, clear communication pathways, and robust liability boundaries, particularly in high-acuity environments.
+The **Universal Crisis Package** is a comprehensive, program-wide framework designed to standardize safety protocols, risk mitigation strategies, and response mechanisms across all 76 sessions of the "What Really Happened" (WRH) Master Curriculum. This package ensures consistent application of hardened overlays, clear communication pathways, and robust liability boundaries, particularly in high-acuity environments.
 
 ---
 
@@ -14,7 +14,7 @@ The **Universal Crisis Package** is a comprehensive, program-wide framework desi
 ### **1.1 Regulation Grounding Protocol (RGP)**
 The RGP is a mandatory, standardized set of physiological exercises designed to rapidly re-regulate the nervous system. It serves as the foundational safety mechanism for initiating and concluding every session, and as an immediate intervention during moments of participant dysregulation.
 
-*   **Application**: Mandatory at session start, session end, and during any 
+*   **Application**: Mandatory at session start, session end, and during any
 moment of participant distress.
 *   **Key Elements**: 4-in/6-out breathing, feet flat on floor, hand on chest/belly, environmental awareness (yellow/red light).
 *   **Reference**: [Standardized Safety Language Template](./Safety_Language_Template.md)
@@ -23,7 +23,7 @@ moment of participant distress.
 The SPI Handoff Protocol defines the precise steps for transitioning a participant experiencing acute distress or suicidal ideation from the non-clinical WRH environment to qualified clinical personnel. This is a "warm handoff" to ensure continuity of care and minimize risk.
 
 *   **Trigger**: Facilitator identifies acute distress, direct or indirect suicidal ideation, or inability to self-regulate using RGP.
-*   **Procedure**: 
+*   **Procedure**:
     1.  Immediate, calm engagement using non-clinical safety language.
     2.  Activation of designated clinical support staff.
     3.  Facilitator provides brief, de-identified context to clinical staff.

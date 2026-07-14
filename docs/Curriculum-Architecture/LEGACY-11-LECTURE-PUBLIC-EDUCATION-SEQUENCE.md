@@ -6,7 +6,7 @@ Purpose: preserve the useful public-education lecture map from the earlier CPTSD
 
 ## Use Boundary
 
-This sequence is not the master 75-session curriculum.
+This sequence is not the master 76-session curriculum.
 
 It is a legacy public-education lecture structure that may be useful for:
 
@@ -20,37 +20,37 @@ It is a legacy public-education lecture structure that may be useful for:
 
 ## Legacy Lecture Sequence
 
-1. **The Truth Behind the Silence**  
+1. **The Truth Behind the Silence**
    Attachment trauma and the blueprint of survival.
 
-2. **The Masks We Wear**  
+2. **The Masks We Wear**
    Fawning, perfectionism, overfunctioning, and the competence trap.
 
-3. **When Love Hurts**  
+3. **When Love Hurts**
    Trauma bonds, love bombing, and emotional repetition.
 
-4. **The War on Reality**  
+4. **The War on Reality**
    Gaslighting, blame shifting, and reality distortion.
 
-5. **Relapse Isn't a Betrayal**  
+5. **Relapse Isn't a Betrayal**
    Understanding addiction as a trauma-shaped survival response.
 
-6. **What Healing Actually Looks Like**  
+6. **What Healing Actually Looks Like**
    Moving from survival patterns toward safer regulation, boundaries, and support.
 
-7. **The Breaking Point**  
+7. **The Breaking Point**
    Grief, guilt, loss, and collapse points.
 
-8. **Rewriting the Legacy**  
+8. **Rewriting the Legacy**
    Family patterns, fathers, inheritance, and generational repetition.
 
-9. **Shame vs. Responsibility**  
+9. **Shame vs. Responsibility**
    Separating accountability from identity-level self-condemnation.
 
-10. **The Lectures They Never Gave Us**  
+10. **The Lectures They Never Gave Us**
    Trauma literacy, education gaps, and the language people were never taught.
 
-11. **Decoding the Damage, Rewriting the Truth**  
+11. **Decoding the Damage, Rewriting the Truth**
    Science-based recovery framing and narrative repair.
 
 ## Recommended WRH Destinations

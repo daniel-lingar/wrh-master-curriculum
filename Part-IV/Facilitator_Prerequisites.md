@@ -5,7 +5,7 @@
 ---
 
 ## **Overview**
-To ensure the high-fidelity delivery of the **"What Really Happened" (WRH) Master Curriculum**, facilitators must meet specific prerequisite standards. These requirements scale across all 75 sessions and are divided into three professional tiers.
+To ensure the high-fidelity delivery of the **"What Really Happened" (WRH) Master Curriculum**, facilitators must meet specific prerequisite standards. These requirements scale across all 76 sessions and are divided into three professional tiers.
 
 ---
 

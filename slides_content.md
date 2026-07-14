@@ -1,4 +1,4 @@
-# "What Really Happened" (WRH) 75-Session Master Curriculum
+# "What Really Happened" (WRH) 76-session Master Curriculum
 
 [**HOME**](./index.md) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
 
@@ -70,8 +70,8 @@
 
 ---
 
-# The Master Manual of Self is the final integration of the 75-session flow
-- The curriculum concludes by consolidating all 75 sessions into a personalized technical manual.
+# The Master Manual of Self is the final integration of the 76-session flow
+- The curriculum concludes by consolidating all 76 Sessions into a personalized technical manual.
 - **System-Integrated:** You are no longer "healed" or "broken"; you are an operator who knows their machine.
 - The goal is to move from being "driven by the code" to being the **Architect of the Future**.
 - **The Sovereignty Statement:** "I am the driver. I have the manual. I am the sovereign of my own life."
@@ -82,7 +82,7 @@
 # A standardized, non-clinical solution for institutional scale
 - Designed for federal and institutional buyers (VA, DoD, SAMHSA) with a focus on procurement requirements.
 - **Facilitator Standardization:** Full scripts allow non-clinical facilitators to deliver high-impact training with low risk.
-- **Three-Tier Structure:** Flexible options from Foundation (26 sessions) to the full Master (75 sessions) package.
+- **Three-Tier Structure:** Flexible options from Foundation (26 sessions) to the full Master (76 Sessions) package.
 - Proprietary IP of **Capitol Contracts LLC**, framing recovery as a professional training and risk mitigation strategy.
 - **Key Insight:** We provide the technical manual for the most complex machine on earth—the human nervous system.
 ---

@@ -5,7 +5,7 @@
 ---
 
 ## **Purpose**
-This template provides the **Hardened Safety Language** required for all 75 sessions of the WRH Master Curriculum. This language is non-negotiable and must be used to maintain federal compliance and participant safety.
+This template provides the **Hardened Safety Language** required for all 76 sessions of the WRH Master Curriculum. This language is non-negotiable and must be used to maintain federal compliance and participant safety.
 
 ---
 

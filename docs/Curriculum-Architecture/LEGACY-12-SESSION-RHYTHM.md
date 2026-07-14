@@ -6,7 +6,7 @@ Purpose: preserve the useful short-form session rhythm so it can inform future i
 
 ## Use Boundary
 
-This rhythm is a legacy short-form structure. It does not replace the 75-session master curriculum.
+This rhythm is a legacy short-form structure. It does not replace the 76-session master curriculum.
 
 It may be useful for:
 

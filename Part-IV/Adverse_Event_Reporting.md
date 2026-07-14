@@ -5,7 +5,7 @@
 ---
 
 ## **Overview**
-This document establishes the standardized procedures for reporting, tracking, and analyzing adverse events across all 75 sessions of the WRH Master Curriculum. The framework ensures participant safety, institutional accountability, federal compliance, and continuous program improvement through systematic data collection and analysis.
+This document establishes the standardized procedures for reporting, tracking, and analyzing adverse events across all 76 sessions of the WRH Master Curriculum. The framework ensures participant safety, institutional accountability, federal compliance, and continuous program improvement through systematic data collection and analysis.
 
 ---
 
@@ -82,8 +82,8 @@ Adverse event data is compiled and exported weekly (every Monday) into a de-iden
 The following fields are included in the weekly CSV export:
 
 ```
-Incident_ID, Date, Time, Session_Number, Delivery_Tier, S_ACT, S_REG, S_INT, S_OUT, 
-Event_Level, Triggering_Factor_Category, Emergency_Services_Contacted, Follow_Up_Completed, 
+Incident_ID, Date, Time, Session_Number, Delivery_Tier, S_ACT, S_REG, S_INT, S_OUT,
+Event_Level, Triggering_Factor_Category, Emergency_Services_Contacted, Follow_Up_Completed,
 Follow_Up_Status, Facilitator_Tier, Location_Code
 ```
 

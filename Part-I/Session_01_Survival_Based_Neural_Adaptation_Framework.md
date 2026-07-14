@@ -27,7 +27,7 @@
 
 Feet flat on the floor. Hand on chest, hand on belly. In for four… hold… out for six. Do it. Again. Good.
 
-We aren't here for therapy. We aren't here to 'talk about feelings.' We are here to decode a machine. This is Session 01 of the 75-Session Master Curriculum. Today we look at the first law of the chassis: **Survival Is Wiring, Not Weakness.**"
+We aren't here for therapy. We aren't here to 'talk about feelings.' We are here to decode a machine. This is Session 01 of the 76-session Master Curriculum. Today we look at the first law of the chassis: **Survival Is Wiring, Not Weakness.**"
 
 ---
 
@@ -40,7 +40,7 @@ We aren't here for therapy. We aren't here to 'talk about feelings.' We are here
 
 He felt ashamed. He felt weak. Why couldn't he just 'be normal'?
 
-Here is the system logic: The Architect wasn't 'overreacting.' He was executing a perfect, high-performance survival program. 
+Here is the system logic: The Architect wasn't 'overreacting.' He was executing a perfect, high-performance survival program.
 
 In the Glass Box — the NICU where he spent his first 30 days — his environment was a war zone of alarms, lights, and pain. His nervous system learned one thing: **Danger is the baseline.** Then came the blanket night at age six — sudden violence, no warning. His 'threat dial' wasn't just turned up; it was permanently soldered to **ON**.
 
@@ -59,10 +59,10 @@ His brain developed **Neuroception** — an automatic, sub-cortical scan for dan
 
 "Here is the exact mechanism of Law #1. This is how the wiring overrides the mind."
 
-**(Draw and connect arrows in real time — big, clean, fast):**  
+**(Draw and connect arrows in real time — big, clean, fast):**
 `Original Environment (Glass Box/Blanket) → Constant Danger → Neuroception (Sub-cortical Scan) → Threat Dial Soldered to ON → Automatic Cortisol/Adrenaline Dump → Physiological Activation (Heart Rate, Scanning) → Mind Labels it “Anxiety/Weakness” → Shame fuels the next spike → Loop reinforced.`
 
-"The cost of this wiring is chronic hypervigilance. You can't sit with your back to the door because your brainstem thinks there's a predator behind it. Your jaw is tight because your system is ready to fight. 
+"The cost of this wiring is chronic hypervigilance. You can't sit with your back to the door because your brainstem thinks there's a predator behind it. Your jaw is tight because your system is ready to fight.
 
 This isn't 'anxiety.' It is physiological data. Your body is holding onto forty years of survival code that says: 'If we stop scanning, we die.'
 
@@ -86,7 +86,7 @@ That’s the mirror. That’s the machine showing you its original, brilliant co
 
 *(Stronger voice. Lean forward.)*
 
-"Here’s your tool for right now — the wiring reframe: When the panic hits, don't fight it. Name it: ‘My wiring is detecting danger.’ 
+"Here’s your tool for right now — the wiring reframe: When the panic hits, don't fight it. Name it: ‘My wiring is detecting danger.’
 
 Naming it gives your prefrontal cortex one second of air. It tells the machine you see the code.
 

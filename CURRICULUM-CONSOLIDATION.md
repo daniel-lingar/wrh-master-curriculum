@@ -8,7 +8,7 @@ Older curriculum, lecture, presentation, portal, and education-site repositories
 
 `wrh-master-curriculum` should hold the complete WRH instructional system:
 
-- 75-session curriculum architecture
+- 76-session curriculum architecture
 - session sequence and lesson files
 - facilitator scripts and delivery standards
 - participant materials

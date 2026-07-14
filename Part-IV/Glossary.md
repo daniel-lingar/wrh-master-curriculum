@@ -22,7 +22,7 @@ This **Master Glossary** provides comprehensive definitions for the proprietary 
 | **Time and Distance** | The "physics-based" strategy of adding barriers between a suicidal impulse and the means to act. | The most powerful tool for crisis mitigation. |
 | **Hardened Overlay** | Specialized administrative and safety protocols layered onto the core curriculum to mitigate risk in high-activation environments. | Essential for Federal & VA Compliance. |
 | **Somatic Redline** | The physiological threshold beyond which a participant's nervous system is too activated to process information safely. | Monitored via the Somatic Redline Protocol (HO-12.1). |
-| **System Logic Map** | The visual and conceptual framework used to track the progression of survival adaptations across the 75 sessions. | The "GPS" for the WRH curriculum. |
+| **System Logic Map** | The visual and conceptual framework used to track the progression of survival adaptations across the 76 sessions. | The "GPS" for the WRH curriculum. |
 | **Warm Handoff** | The standardized transition of a participant from the non-clinical WRH environment to a clinical safety professional. | A core component of the Crisis Escalation Protocol. |
 | **Delivery Tier** | One of three acuity-based models (Tier 1: Community, Tier 2: Structured, Tier 3: Clinical) for delivering the WRH curriculum. | Determines facilitator certification, clinical support, and safety infrastructure. |
 | **S-ACT (Activation Level)** | A 1-5 scale quantifying participant nervous system activation during a session. | Used in S-Prefix Metric Framework for adverse event reporting. |
