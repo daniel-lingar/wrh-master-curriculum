@@ -34,722 +34,172 @@
         }
     </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
             font-family: 'Inter', sans-serif;
             background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
             position: relative;
             overflow-x: hidden;
+            color: #d1d5db;
         }
-
-        /* Animated background gradient */
         body::before {
             content: '';
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 50%),
                         radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
             pointer-events: none;
             z-index: 0;
         }
-
         .sticky-nav {
             backdrop-filter: blur(20px);
             background: rgba(9, 9, 11, 0.7);
             border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
-
-        /* Accessibility: Focus Visible Styles */
-        *:focus-visible {
-            outline: 3px solid #fbbf24;
-            outline-offset: 2px;
-        }
-
-        button:focus-visible,
-        a:focus-visible {
-            outline: 3px solid #fbbf24;
-            outline-offset: 2px;
-        }
-
-        /* Markdown Styling - Premium */
-        .markdown-content {
-            line-height: 1.8;
-            position: relative;
-            z-index: 1;
-        }
-
+        .markdown-content { line-height: 1.8; position: relative; z-index: 1; }
         .markdown-content h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             color: #ffffff;
-            margin-bottom: 1.5rem;
-            margin-top: 2rem;
-            letter-spacing: -0.02em;
+            margin: 2rem 0 1.5rem;
             background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
-
         .markdown-content h2 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 2rem;
+            font-size: 1.75rem;
             font-weight: 600;
             color: #ffffff;
-            margin-bottom: 1.25rem;
-            margin-top: 2.5rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid rgba(245, 158, 11, 0.3);
-            position: relative;
+            margin: 2.5rem 0 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(245, 158, 11, 0.2);
         }
-
-        .markdown-content h2::before {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            height: 2px;
-            width: 0;
-            background: linear-gradient(90deg, #f59e0b, #fbbf24);
-            animation: slideIn 0.6s ease-out forwards;
-        }
-
-        @keyframes slideIn {
-            to {
-                width: 100%;
-            }
-        }
-
-        .markdown-content h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #fbbf24;
-            margin-bottom: 1rem;
-            margin-top: 1.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            font-size: 1.25rem;
-        }
-
-        .markdown-content h4 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #e5e7eb;
-            margin-bottom: 0.75rem;
-            margin-top: 1.25rem;
-        }
-
-        .markdown-content p {
-            color: #d1d5db;
-            margin-bottom: 1.25rem;
-            font-size: 1.05rem;
-            line-height: 1.85;
-        }
-
-        .markdown-content a {
-            color: #fbbf24;
-            text-decoration: underline;
-            font-weight: 500;
-            position: relative;
-            transition: all 0.3s ease;
-            border-bottom: 2px solid rgba(251, 191, 36, 0.3);
-        }
-
-        .markdown-content a:hover {
-            color: #f59e0b;
-            border-bottom-color: #f59e0b;
-            transform: translateX(2px);
-        }
-
-        .markdown-content a:focus-visible {
-            outline: 2px solid #fbbf24;
-            outline-offset: 2px;
-        }
-
-        .markdown-content ul, .markdown-content ol {
-            margin-bottom: 1.5rem;
-            margin-left: 2rem;
-        }
-
-        .markdown-content li {
-            color: #d1d5db;
-            margin-bottom: 0.75rem;
-            font-size: 1.05rem;
-            line-height: 1.75;
-        }
-
-        .markdown-content code {
-            background: rgba(245, 158, 11, 0.1);
-            color: #fbbf24;
-            padding: 0.35rem 0.75rem;
-            border-radius: 0.375rem;
-            font-family: 'Courier New', monospace;
-            font-size: 0.95rem;
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            font-weight: 500;
-        }
-
-        .markdown-content pre {
-            background: rgba(0, 0, 0, 0.4);
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            border-radius: 0.75rem;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            overflow-x: auto;
-            backdrop-filter: blur(10px);
-        }
-
-        .markdown-content pre code {
-            background: transparent;
-            color: #e5e7eb;
-            padding: 0;
-            border: none;
-            font-size: 0.95rem;
-        }
-
+        .markdown-content h3 { color: #fbbf24; margin: 1.75rem 0 1rem; font-size: 1.25rem; }
+        .markdown-content p { margin-bottom: 1.25rem; }
+        .markdown-content ul, .markdown-content ol { margin: 0 0 1.5rem 1.5rem; }
+        .markdown-content li { margin-bottom: 0.5rem; }
+        .markdown-content a { color: #fbbf24; text-decoration: underline; }
         .markdown-content blockquote {
             border-left: 4px solid #f59e0b;
-            padding-left: 1.5rem;
-            margin-left: 0;
-            margin-bottom: 1.5rem;
-            color: #9ca3af;
-            font-style: italic;
-            background: rgba(245, 158, 11, 0.05);
             padding: 1rem 1.5rem;
-            border-radius: 0.5rem;
-        }
-
-        .markdown-content table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 1.5rem;
-            border-radius: 0.75rem;
-            overflow: hidden;
-            border: 1px solid rgba(245, 158, 11, 0.2);
-        }
-
-        .markdown-content th {
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(59, 130, 246, 0.1));
-            color: #fbbf24;
-            padding: 1rem;
-            text-align: left;
-            font-weight: 600;
-            border-bottom: 2px solid rgba(245, 158, 11, 0.3);
-        }
-
-        .markdown-content td {
-            color: #d1d5db;
-            padding: 1rem;
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-        }
-
-        .markdown-content tr:hover {
             background: rgba(245, 158, 11, 0.05);
-        }
-
-        .markdown-content strong {
-            font-weight: 700;
-            color: #fbbf24;
-        }
-
-        .markdown-content em {
-            font-style: italic;
-            color: #e5e7eb;
-        }
-
-        .markdown-content hr {
-            border: none;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.3), transparent);
-            margin: 2rem 0;
-        }
-
-        /* Content Container */
-        .content-wrapper {
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Loading State */
-        .loading-state {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        .skeleton {
-            background: linear-gradient(90deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.05), rgba(245, 158, 11, 0.1));
-            background-size: 200% 100%;
-            animation: loading 1.5s infinite;
             border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-style: italic;
         }
-
-        @keyframes loading {
-            0% { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
-        }
-
-        /* Error State */
         .error-state {
             background: rgba(239, 68, 68, 0.1);
             border: 1px solid rgba(239, 68, 68, 0.3);
             border-radius: 0.75rem;
-            padding: 1.5rem;
+            padding: 2rem;
             color: #fca5a5;
-            margin-bottom: 2rem;
+            text-align: center;
         }
-
-        .error-state h3 {
-            color: #fca5a5;
-            margin-bottom: 0.5rem;
+        .loading-state { padding: 4rem 0; text-align: center; color: #9ca3af; }
+        .skeleton {
+            background: linear-gradient(90deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.05), rgba(245, 158, 11, 0.1));
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+            height: 20px; margin-bottom: 1rem; border-radius: 4px;
         }
-
-        .error-state p {
-            color: #fca5a5;
-            font-size: 0.95rem;
-        }
-
-        /* Reading Progress Bar */
-        .progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #f59e0b, #fbbf24, #f59e0b);
-            width: 0%;
-            z-index: 1000;
-            transition: width 0.1s ease-out;
-            box-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
-        }
-
-        /* Sidebar TOC */
-        .toc-sidebar {
-            position: fixed;
-            right: 0;
-            top: 80px;
-            width: 280px;
-            max-height: calc(100vh - 100px);
-            overflow-y: auto;
-            padding: 2rem 1.5rem;
-            background: rgba(9, 9, 11, 0.6);
-            backdrop-filter: blur(20px);
-            border-left: 1px solid rgba(245, 158, 11, 0.1);
-            z-index: 40;
-            display: none;
-        }
-
-        @media (min-width: 1400px) {
-            .toc-sidebar {
-                display: block;
-            }
-        }
-
-        .toc-sidebar.active {
-            display: block;
-        }
-
-        .toc-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 0.875rem;
-            font-weight: 700;
-            color: #fbbf24;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 1rem;
-        }
-
-        .toc-list {
-            list-style: none;
-        }
-
-        .toc-list li {
-            margin-bottom: 0.5rem;
-        }
-
-        .toc-list a {
-            color: #9ca3af;
-            text-decoration: none;
-            font-size: 0.9rem;
-            display: block;
-            padding: 0.5rem 0.75rem;
-            border-left: 2px solid transparent;
-            transition: all 0.3s ease;
-            border-radius: 0.375rem;
-        }
-
-        .toc-list a:hover,
-        .toc-list a.active {
-            color: #fbbf24;
-            border-left-color: #f59e0b;
-            background: rgba(245, 158, 11, 0.1);
-            padding-left: 1rem;
-        }
-
-        /* Scroll Indicator */
-        .scroll-indicator {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(59, 130, 246, 0.1));
-            border: 2px solid rgba(245, 158, 11, 0.3);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            z-index: 50;
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        .scroll-indicator.visible {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .scroll-indicator:hover {
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.3), rgba(59, 130, 246, 0.2));
-            border-color: #f59e0b;
-            transform: translateY(-4px);
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .fade-in-up {
-            animation: fadeInUp 0.6s ease-out;
-        }
-
-        /* Scrollbar Styling */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(9, 9, 11, 0.5);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #f59e0b, #fbbf24);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
-        }
-
-        /* Content Area */
-        main {
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Mobile Menu */
-        .mobile-toc-toggle {
-            display: none;
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, #f59e0b, #fbbf24);
-            border: none;
-            border-radius: 50%;
-            color: #09090b;
-            font-size: 1.5rem;
-            cursor: pointer;
-            z-index: 50;
-            transition: all 0.3s ease;
-            box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
-        }
-
-        @media (max-width: 1399px) {
-            .mobile-toc-toggle {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        }
+        @keyframes loading { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
     </style>
 </head>
-<body class="bg-dark text-zinc-300">
-
-    <!-- Reading Progress Bar -->
-    <div class="progress-bar" id="progressBar"></div>
-
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center space-x-4">
-                    <button id="back-button" class="p-2 hover:bg-zinc-800 rounded-lg transition-colors group" aria-label="Go back">
-                        <svg class="w-5 h-5 text-amber-500 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                        </svg>
-                    </button>
-                    <a href="../index.html" class="text-xl font-bold text-white tracking-tight font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors">Curriculum Index</a>
-                    <a href="../start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
-                    <a href="../pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                </div>
+<body class="min-h-screen flex flex-col">
+    <nav class="sticky-nav sticky top-0 z-50 h-16 flex items-center px-6">
+        <div class="max-w-7xl mx-auto w-full flex justify-between items-center">
+            <a href="../index.html" class="text-xl font-bold text-white font-display">
+                WRH <span class="text-amber-400">Master</span>
+            </a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="../index.html" class="hover:text-amber-400 transition-colors">Home</a>
+                <a href="index.html" class="text-white hover:text-amber-400 transition-colors">Curriculum</a>
+                <a href="../start-here.html" class="hover:text-amber-400 transition-colors">Start Here</a>
+                <a href="../contact.html" class="hover:text-amber-400 transition-colors">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- Sidebar TOC -->
-    <aside class="toc-sidebar" id="tocSidebar">
-        <div class="toc-title">On this page</div>
-        <ul class="toc-list" id="tocList">
-            <!-- Populated by JS -->
-        </ul>
-    </aside>
+    <main class="flex-grow py-12 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-8">
+                <button onclick="history.back()" class="text-amber-400 hover:text-amber-300 flex items-center gap-2 transition-colors">
+                    &larr; Back to Curriculum
+                </button>
+            </div>
 
-    <!-- Mobile TOC Toggle -->
-    <button class="mobile-toc-toggle" id="mobileTocToggle" aria-label="Toggle Table of Contents">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-    </button>
-
-    <!-- Main Content Area -->
-    <main class="py-12 md:py-20">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="content-wrapper">
-                <div id="content" class="markdown-content fade-in-up" aria-busy="true">
-                    <!-- Skeleton Loading State -->
-                    <div class="loading-state">
-                        <div class="skeleton h-12 w-3/4 mb-8"></div>
-                        <div class="skeleton h-4 w-full mb-4"></div>
-                        <div class="skeleton h-4 w-full mb-4"></div>
-                        <div class="skeleton h-4 w-5/6 mb-8"></div>
-                        <div class="skeleton h-8 w-1/2 mb-6"></div>
-                        <div class="skeleton h-4 w-full mb-4"></div>
-                        <div class="skeleton h-4 w-full mb-4"></div>
-                        <div class="skeleton h-4 w-4/5 mb-4"></div>
-                    </div>
+            <div id="content" class="markdown-content bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 rounded-2xl p-8 md:p-12 shadow-2xl min-h-[400px]">
+                <div class="loading-state">
+                    <div class="skeleton w-3/4 mx-auto h-12 mb-8"></div>
+                    <div class="skeleton w-full"></div>
+                    <div class="skeleton w-5/6"></div>
+                    <div class="skeleton w-full"></div>
+                    <p class="mt-4">Loading session content...</p>
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Scroll to Top -->
-    <div class="scroll-indicator" id="scrollTop">
-        <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-        </svg>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-zinc-950 border-t border-zinc-900 py-12 text-center">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p class="text-zinc-500 text-sm mb-4">
-                &copy; 2024 Capitol Contracts LLC. All rights reserved.
-            </p>
-            <div class="flex justify-center space-x-6 text-xs text-zinc-600 uppercase tracking-widest">
-                <span>UEI: HH77KN5AV5X7</span>
-                <span>CAGE: 9ZFJ6</span>
-            </div>
-        </div>
+    <footer class="py-8 px-6 border-t border-zinc-800 text-center text-sm text-zinc-500">
+        <p>&copy; 2024 Capitol Contracts LLC. All rights reserved.</p>
+        <p class="mt-1">UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
     </footer>
 
     <script>
-        // Progress Bar & Scroll Top
-        const progressBar = document.getElementById('progressBar');
-        const scrollTop = document.getElementById('scrollTop');
-        
-        window.addEventListener('scroll', () => {
-            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = (winScroll / height) * 100;
-            progressBar.style.width = scrolled + "%";
-
-            if (winScroll > 500) {
-                scrollTop.classList.add('visible');
-            } else {
-                scrollTop.classList.remove('visible');
-            }
-        });
-
-        scrollTop.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Mobile TOC Toggle
-        const mobileTocToggle = document.getElementById('mobileTocToggle');
-        const tocSidebar = document.getElementById('tocSidebar');
-        
-        mobileTocToggle.addEventListener('click', () => {
-            tocSidebar.classList.toggle('active');
-        });
-
-        // Load Session Content
         const contentDiv = document.getElementById('content');
         const urlParams = new URLSearchParams(window.location.search);
         const file = urlParams.get('file');
 
-        // GitHub Pages project-site base path: /rescue-boat/
-        const SITE_BASE = "/rescue-boat/";
-
-        if (!file || !/^(Part-I|Part-II|Part-III|Part-IV)\/[A-Za-z0-9_-]+\.md$/.test(file)) {
+        if (!file || !/^[a-zA-Z0-9/._-]+\.md$/.test(file)) {
             contentDiv.innerHTML = `
                 <div class="error-state">
-                    <h3>Error: Invalid Session File</h3>
-                    <p>No valid session file was specified. Please return to the curriculum and select a session to view.</p>
-                    <p class="mt-4"><a href="index.html" class="text-amber-500 underline">Return to Curriculum Index</a></p>
+                    <h3 class="text-xl font-bold mb-2">Invalid Session</h3>
+                    <p>No valid session file was specified. Please return to the curriculum index.</p>
+                    <a href="index.html" class="mt-4 inline-block text-amber-400 underline">Return to Curriculum Index</a>
                 </div>
             `;
-            contentDiv.setAttribute('aria-busy', false);
         } else {
-            // Build the absolute path to the markdown file
-            const markdownPath = SITE_BASE + file;
+            // Robust Base Path Detection
+            let base = '/';
+            if (window.location.hostname.endsWith('github.io')) {
+                const pathParts = window.location.pathname.split('/');
+                if (pathParts.length > 1 && pathParts[1] !== '') {
+                    // Check if we're in a project site (path starts with repo name)
+                    // The first part of the path is usually the repo name on github.io
+                    base = `/${pathParts[1]}/`;
+                }
+            }
 
-            // Fetch and render the markdown file
+            const markdownPath = `${base}${file.startsWith('/') ? file.slice(1) : file}`;
+
             fetch(markdownPath)
                 .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Could not load session: HTTP ${response.status}. Path: ${markdownPath}`);
-                    }
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     return response.text();
                 })
                 .then(markdown => {
-                    // Configure marked options
-                    marked.setOptions({
-                        breaks: true,
-                        gfm: true,
-                    });
-
-                    // Convert markdown to HTML
+                    marked.setOptions({ breaks: true, gfm: true });
                     const html = marked.parse(markdown);
-
-                    // Sanitize HTML to prevent XSS
-                    const sanitized = DOMPurify.sanitize(html);
-
-                    // Insert into page
-                    contentDiv.innerHTML = sanitized;
-                    contentDiv.setAttribute('aria-busy', false);
-
-                    // Generate Table of Contents
-                    generateTableOfContents();
-
-                    // Highlight active TOC item on scroll
-                    updateActiveTocItem();
+                    contentDiv.innerHTML = DOMPurify.sanitize(html);
+                    
+                    // Update Page Title
+                    const firstH1 = contentDiv.querySelector('h1');
+                    if (firstH1) document.title = `${firstH1.textContent} | WRH Master`;
                 })
                 .catch(error => {
                     contentDiv.innerHTML = `
                         <div class="error-state">
-                            <h3>Error Loading Session</h3>
-                            <p>${error.message}</p>
-                            <p class="mt-2 text-xs opacity-50">Attempted path: ${markdownPath}</p>
-                            <p style="margin-top: 1rem; font-size: 0.9rem;">Please check your connection and try again, or return to the curriculum.</p>
-                            <p class="mt-4"><a href="index.html" class="text-amber-500 underline">Return to Curriculum Index</a></p>
+                            <h3 class="text-xl font-bold mb-2">Error Loading Session</h3>
+                            <p>Failed to load session content: ${error.message}</p>
+                            <p class="mt-2 text-xs opacity-50">Path: ${markdownPath}</p>
+                            <a href="index.html" class="mt-4 inline-block text-amber-400 underline">Return to Curriculum Index</a>
                         </div>
                     `;
-                    contentDiv.setAttribute('aria-busy', false);
                 });
         }
-
-        // Generate Table of Contents from headings
-        function generateTableOfContents() {
-            const content = document.getElementById('content');
-            const headings = content.querySelectorAll('h2, h3');
-            const tocList = document.getElementById('tocList');
-            tocList.innerHTML = '';
-
-            if (headings.length === 0) {
-                tocList.innerHTML = '<li style="color: #9ca3af; font-size: 0.9rem;">No sections found</li>';
-                return;
-            }
-
-            headings.forEach((heading, index) => {
-                const id = `heading-${index}`;
-                heading.id = id;
-
-                const li = document.createElement('li');
-                const a = document.createElement('a');
-                a.href = `#${id}`;
-                a.textContent = heading.textContent;
-                a.style.paddingLeft = heading.tagName === 'H3' ? '1.5rem' : '0.75rem';
-
-                a.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    updateActiveTocItem();
-                });
-
-                li.appendChild(a);
-                tocList.appendChild(li);
-            });
-        }
-
-        // Update active TOC item based on scroll position
-        function updateActiveTocItem() {
-            const headings = document.querySelectorAll('#content h2, #content h3');
-            const tocLinks = document.querySelectorAll('.toc-list a');
-
-            window.addEventListener('scroll', () => {
-                let current = '';
-                headings.forEach(heading => {
-                    const sectionTop = heading.offsetTop;
-                    if (pageYOffset >= sectionTop - 100) {
-                        current = heading.getAttribute('id');
-                    }
-                });
-
-                tocLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('href') === `#${current}`) {
-                        link.classList.add('active');
-                    }
-                });
-            });
-        }
-
-        // Back button functionality
-        document.getElementById('back-button').addEventListener('click', function() {
-            history.back();
-        });
-
-        // Smooth scroll for anchor links
-        document.addEventListener('click', (e) => {
-            if (e.target.tagName === 'A' && e.target.getAttribute('href')?.startsWith('#')) {
-                e.preventDefault();
-                const target = document.querySelector(e.target.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-        });
     </script>
 </body>
 </html>
