@@ -25,10 +25,13 @@ A specialized operational series and toolkit focusing on crisis management, suic
 - [**IP and Usage Rights**](./IP_and_Usage_Rights.md) – Legal and proprietary information.
 
 ### **Facilitator & Participant Resources**
-- [**Facilitator-Toolkit/**](./Facilitator-Toolkit/) – Core facilitator rules, readiness checklist, and decompression protocol.
-- [**Participant-Materials/**](./Participant-Materials/) – Safety and participation rules, Plan B cards and handouts.
-- [**Glossary/**](./Glossary/) – Glossary card and pilot terms cross-reference.
-- [**Staff-Tools/**](./Staff-Tools/) – Pre/post belief-shift survey and staff instruments.
+
+> **WITHDRAWN SOURCE — NOT A DELIVERY PACKAGE.** These links support preservation and remediation only. See [release status](../PUBLIC_RELEASE_STATUS.md).
+
+- Facilitator toolkit: [Core rules](./Facilitator-Toolkit/CORE-FACILITATOR-RULES.md), [readiness checklist](./Facilitator-Toolkit/Facilitator_Readiness_Checklist.md), [decompression protocol](./Facilitator-Toolkit/Facilitator_Decompression_Protocol.md).
+- Participant source: [Safety rules](./Participant-Materials/Safety_and_Participation_Rules.md), [Plan B handout](./Participant-Materials/PLAN-B-HANDOUT.md), [wallet card](./Participant-Materials/Plan_B_Wallet_Card.md), [digital card](./Participant-Materials/Digital_Plan_B_Card.md), [mobile view](./Participant-Materials/Mobile_Plan_B_View.md).
+- Glossary source: [Glossary card](./Glossary/GLOSSARY-CARD.md), [pilot terms cross-reference](./Glossary/WRH-Pilot-Terms-Cross-Reference.md).
+- Staff source: [Pre/post belief-shift survey](./Staff-Tools/PRE-POST-BELIEF-SHIFT-SURVEY.md).
 
 ### **Standalone Reference Documents**
 - [**Compliance and Risk Management**](./Compliance_and_Risk_Management.md)

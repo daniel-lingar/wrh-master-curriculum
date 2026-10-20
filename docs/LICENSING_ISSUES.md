@@ -5,15 +5,15 @@
 
 ## 1. The conflict as observed
 
-Two incompatible licensing postures coexist in this repository:
+The repository contains conflicting reuse instructions whose legal scope requires review:
 
 1. **Root `LICENSE` (CC BY-NC 4.0):** The repository-root `LICENSE` file grants a **Creative Commons Attribution-NonCommercial 4.0 International** license — permitting sharing, redistribution, remixing, and adaptation for non-commercial purposes with attribution. (Added in commit `5d686c4`, "Add CC-BY-NC-4.0 LICENSE for WRH Master Curriculum".)
 2. **"All Rights Reserved" session footers and proprietary claims:** Ninety-five (95) Markdown files outside `new-system/` carry footers such as:
    > *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
-   
+
    Additionally, `Part-IV/IP_and_Usage_Rights.md` asserts that the curriculum is the "exclusive and proprietary intellectual property of Capitol Contracts LLC," that "all rights… are expressly reserved," and grants only a "limited, non-exclusive, non-transferable, and revocable license" to institutional purchasers — with restricted redistribution, content-integrity, and non-commercial-use conditions that conflict with the CC BY-NC 4.0 permissions.
 
-These postures are unreconciled: one invites broad non-commercial reuse, the other forbids redistribution and reserves all rights to a single company.
+The operative reuse instructions are unreconciled: the root license permits qualifying sharing/adaptation, while the IP document restricts redistribution/modification. Ownership notices and trademark claims alone do not establish that conflict. This note does not decide enforceability or which permissions apply to particular material or recipients.
 
 ## 2. Affected files / categories
 
@@ -25,14 +25,14 @@ These postures are unreconciled: one invites broad non-commercial reuse, the oth
 | Part-IV documents | 15 files (including `index.md`, `field-card.md`, Session 76, `IP_and_Usage_Rights.md`, `Glossary.md`, `Pricing_and_Tiers.md`) | "All Rights Reserved" footer |
 | `archive-imports/what-really-happened-site/` | 1 file | "All Rights Reserved" footer |
 | Root `LICENSE` | 1 file | CC BY-NC 4.0 grant |
-| `docs/REMEDIATION_TRACKER.md` (lines 52, 56, 180) | 1 file | Already flags this conflict as an unresolved Gate 2 item requiring legal review |
+| `docs/REMEDIATION_TRACKER.md` | 1 file | Already flags this conflict as an unresolved Gate 2 item requiring legal review |
 
 ## 3. Note on Creative Commons irrevocability
 
 Creative Commons licenses are **irrevocable for recipients who received the material while the CC license was valid and remain compliant with its terms**. This is a factual property of the CC BY-NC 4.0 license, stated for awareness only:
 
 - Removing or replacing the root `LICENSE` (or deleting the repository) would **not** retroactively revoke the permissions already granted to compliant recipients of versions distributed under the CC license.
-- Any future change to the licensing posture can only govern **newly distributed** versions; it cannot claw back permissions that compliant earlier recipients already hold.
+- Do not assume that a new notice removes earlier permissions in previously licensed material reused in a later version. Counsel must determine the scope of any future terms and surviving grants; this note does not resolve that question.
 
 No legal conclusion is drawn about which recipients, versions, or uses are covered — that is a question for legal review.
 

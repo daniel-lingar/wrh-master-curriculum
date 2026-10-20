@@ -1,6 +1,6 @@
 # TEMPLATE — WITHDRAWN — DO NOT DELIVER
 
-> ⚠️ **Status:** This is an unfilled template (contains placeholders such as `[insert from App B]`). It is **withdrawn from delivery** pending independent clinical review (WRH Phase 1 Repository Remediation, 2026-10-19). **Do not deliver or pilot.** Placeholders were not filled in — no values were invented.
+> ⚠️ **Status:** This is an unfilled template (contains `[Insert name of clinical lead]` and `[Insert Session Tool]` placeholders). It is **withdrawn from delivery** pending independent clinical review (WRH Phase 1 Repository Remediation, 2026-10-19). **Do not deliver or pilot.** Placeholders were not filled in — no values were invented.
 
 ---
 
