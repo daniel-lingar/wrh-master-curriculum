@@ -1,8 +1,14 @@
 # WRH Curriculum Map
 
-**Status:** Development inventory; every collection remains withdrawn from delivery under [PUBLIC_RELEASE_STATUS.md](PUBLIC_RELEASE_STATUS.md). No collection is declared canonical, approved, or clinically reviewed by this map.
+**Status:** Development inventory; every collection remains withdrawn from delivery under [PUBLIC_RELEASE_STATUS.md](PUBLIC_RELEASE_STATUS.md). No collection is approved or clinically reviewed by this map; the Phase 4 note assigns a working development spine without release authority.
 
 **Scope:** File counts reflect the Phase 1 branch. Presence and headings establish inventory, not completeness, readability, efficacy, or delivery readiness. The original Phase 1 contributor reported full reading of the 14 rewritten scripts and 13 handouts; the [concordance](new-system/CONTENT_CONCORDANCE.md) records those proposed pairings. This is not a full content review of the 76 master sessions.
+
+## First-package development direction (Phase 4)
+
+Under the owner’s delegation to choose the working package and proceed with drafting, use the eight-topic Lane D sequence as the first-package development spine, with D-01…D-08 identifiers. Lanes E and F supply its existing companion drafts, subject to full fidelity checks. Lane C is preserved as deferred source; Lane B does not automatically join this package. Lane A, including Sessions 20 and 76 and the Crisis Package, remains withdrawn and excluded from this package.
+
+This is a development assignment, not delivery authority. Four setting tracks exist in the source; no setting/site is approved. The received Phase 4 patches do not implement the package: the workbook for topics 5–8 and facilitator guide for topics 1–4 remain missing, and the existing materials remain unreviewed source. The [Phase 4 scope record](docs/PHASE4_FIRST_RELEASE_RECOMMENDATION.md) and [receiving audit](docs/PHASE4_IMPORT_VERIFICATION.md) distinguish completed analysis from outstanding drafting. Earlier unresolved-authority statements below describe baseline history or broader future collections; they do not require another selection of the first development package.
 
 ## Collections and relationships
 
