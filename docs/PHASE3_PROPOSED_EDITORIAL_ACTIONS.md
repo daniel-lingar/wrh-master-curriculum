@@ -4,10 +4,10 @@
 
 **Scope:** Register entries WRH-ER-016–WRH-ER-797 from the Phase 3 inventory ([PHASE3_READING_LEDGER.md](PHASE3_READING_LEDGER.md), [PHASE3_REVIEW_BACKLOG.md](PHASE3_REVIEW_BACKLOG.md)), baseline `9ee354b42f622dcdc789f017ca8dc189bb649f0c`. Actions are stated per claim family or pattern, with the governing register entries named; per-entry disposition remains a reviewer decision recorded in the register's field 6.
 
-## A. Passages proposed for NARROWING (claim says more than any cited support could carry)
+## A. Passages proposed for review of scope and possible NARROWING
 
 1. **Universal/deterministic mechanism wording** (177 entries tagged universal-deterministic; P1 subset in backlog T7). Proposal: where a mechanism is taught, the wording should distinguish "can," "often," and "in this account" from "is," "always," and "never," unless a reviewer records support for the absolute form. No replacement sentences are supplied here; narrowing a clinical teaching point is a reviewer decision (see PCC-013 for the pattern in Session 01).
-2. **The "one second of air" timing** (53 entries / 132 occurrences; ER-005/ER-014 pattern). Proposal: treat the duration as a labeled metaphor or remove the number, per PCC-005/PCC-014, and resolve Session 50's same-sentence "three seconds" inconsistency as part of the same disposition.
+2. **The "one second of air" timing** (53 wording entries / 139 entry-location records at 72 literal phrase positions; ER-005/ER-014 pattern). Proposal: treat the duration as a labeled metaphor or remove the number, per PCC-005/PCC-014, and resolve Session 50's same-sentence "three seconds" inconsistency as part of the same disposition.
 3. **Numerical details inside narratives** (36 numerical entries). Proposal: figures that function as physiology (heart rate, seconds, percentages) need a source or removal; figures that are clearly one person's remembered experience should be framed as such, not as measurements.
 
 ## B. Passages proposed for SOURCING (claim may be supportable; no source is recorded)
@@ -17,8 +17,8 @@
 
 ## C. Passages proposed for CLEARER ATTRIBUTION (claim is a theory, metaphor, or one person's account presented as established fact)
 
-6. **Session Goals that state mechanisms as the session's established content** (e.g., Session 02's epigenetic-inheritance goal, ER-016's family; Session 43's "biological reality" goal). Proposal: goals should be worded as what the session *presents* (a framework, an account, a metaphor), not as findings, unless a reviewer records support.
-7. **Book-title segment heading** (Session 37, "The Body Keeps Score"). Proposal: attribute or rename; a heading is still a representation.
+6. **Session Goals that state mechanisms as the session's established content** (e.g., Session 02's epigenetic-inheritance goal, ER-022; Session 43's "biological reality" goal). Proposal: goals should be worded as what the session *presents* (a framework, an account, a metaphor), not as findings, unless a reviewer records support.
+7. **Segment heading** (Session 37, "The Body Keeps Score"). Proposal: review whether an external-source attribution is appropriate. No exact book-title match or infringement is established in this inventory.
 8. **Whiteboard causal chains presented as "the exact mechanism"** (e.g., Session 20's Deconstruction Loop; Session 44's chain). Proposal: label chains as the curriculum's model, not as established mechanism, pending reviewer disposition of each chain's content.
 9. **Lived-experience generalizations** — passages where the Architect narrative's particulars become universal physiology mid-paragraph. Proposal: preserve the lived-experience account intact; separate the generalizing sentence for sourcing/narrowing under A/B. (This follows the Phase 2 rule: preserve lived-experience accounts while examining the scientific explanations attached to them.)
 

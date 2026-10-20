@@ -2,11 +2,11 @@
 
 **Baseline:** `9ee354b42f622dcdc789f017ca8dc189bb649f0c` (Phase 2 head, draft PR #3).
 **Standard:** each session below was read in full text (every line) in Phase 3, except where noted.
-File existence, length, and headings do not establish substantive review — the ledger records actual full-text reading.
+File existence, length, and headings do not establish substantive review. Read statuses and reader notes below are the submitting producer’s reported activity. The receiving audit independently verified the baseline blobs and citations; it did not observe the reader batches or repeat a full reading of all sessions. This ledger does not certify exhaustive claim extraction. See [PHASE3_IMPORT_VERIFICATION.md](PHASE3_IMPORT_VERIFICATION.md).
 
 Prelim counts are preliminary-worklist entries (re-)verified / corrected / not-found per session.
 New claims = material claims found by the Phase 3 full read that were absent from the preliminary worklist.
-Claim records per session include both prelim-verified and new claims.
+Claim records per session are the producer-reported input records, including prelim-verified and new claims. They are not final deduplicated location totals. The preliminary worklist and batch transcripts were not supplied, so the receiving audit cannot independently reconstruct those historical processing counts.
 
 | Session | Path | Baseline blob (git SHA-1) | Lines | Reader | Read status | Prelim (total/ver/corr/nf) | Claim records |
 |---|---|---|---|---|---|---|---|
@@ -95,9 +95,9 @@ Claim records per session include both prelim-verified and new claims.
 
 ## Separate document (not a numbered session)
 
-| Document | Path | Read status | Characterization |
-|---|---|---|---|
-| Session 12 pilot portal | `Part-I/Session_12_Pilot_Portal.md` | READ FOR CHARACTERIZATION | 51-line internal-only index packaging Session 12's Version 5.0 assets; self-described 'Hardened / Pilot Ready'; no withdrawal header; no script content of its own. Contains certification/compliance assertions that a future inventory should capture (examples noted in findings report). NOT claim-inventoried in this phase; NOT counted among the 76 numbered sessions. |
+| Document | Path | Baseline blob (git SHA-1) | Read status | Characterization |
+|---|---|---|---|---|
+| Session 12 pilot portal | `Part-I/Session_12_Pilot_Portal.md` | `c22b600d4c4fd5754b24d505986a5ee2fe68ca87` | READ FOR CHARACTERIZATION | 51-line internal-only index packaging Session 12's Version 5.0 assets; self-described 'Hardened / Pilot Ready'; no withdrawal header; no script content of its own. Contains certification/compliance assertions that a future inventory should capture (visible in the pinned portal source). NOT claim-inventoried in this phase; NOT counted among the 76 numbered sessions. |
 
 ## Findings per session (reader notes)
 
@@ -105,7 +105,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 03** (B1): All 5 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol (line 26), the 'Attachment equals survival' refrain (line 43), the nausea somatic-marker sentence (line 65), the shelter-sequencing guidance (line 67), and the naming continuation (line 89); no not-found entries.
 
-**Session 04** (B1): All 6 prelim entries verified verbatim at the cited lines, including WRH-ER-031, whose quote reproduces the baseline's printed spelling 'Angxiety' in the line-63 whiteboard chain exactly as it appears. Missed by prelim: the Anchor protocol, the Somatic Record statement (line 65), the somatic-marker sentence (line 67), the controlled-releases technique claim (line 69), and the naming continuation (line 91).
+**Session 04** (B1): All 6 prelim entries verified verbatim at the cited lines, including WRH-ER-043, whose quote reproduces the baseline's printed spelling 'Angxiety' in the line-63 whiteboard chain exactly as it appears. Missed by prelim: the Anchor protocol, the Somatic Record statement (line 65), the somatic-marker sentence (line 67), the controlled-releases technique claim (line 69), and the naming continuation (line 91).
 
 **Session 05** (B1): All 6 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol, the 'productivity wasn't a choice' summary (line 49), the Mechanism opening label (line 63), the somatic-marker sentence (line 65), and the session's entire naming statement (line 91), for which this session has no prelim entry.
 
@@ -113,13 +113,13 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 07** (B1): All 6 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol (line 26), the somatic-marker sentence (line 65), and the naming statement (line 91).
 
-**Session 08** (B1): All 6 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol, the 'hypervigilance wasn't a choice' summary (line 49), and the naming statement (line 91). Anomaly: WRH-ER-058's technique sentence ('imperfection is not death' / unanswered email) is word-for-word identical to Session 05's WRH-ER-039 despite this session's different topic, suggesting copied boilerplate.
+**Session 08** (B1): All 6 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol, the 'hypervigilance wasn't a choice' summary (line 49), and the naming statement (line 91). Anomaly: WRH-ER-057's technique sentence ('imperfection is not death' / unanswered email) is word-for-word identical to Session 05's WRH-ER-057 despite this session's different topic, suggesting copied boilerplate.
 
 **Session 09** (B1): All 6 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol, the 'freeze wasn't a choice' summary (line 49), the somatic-marker sentence (line 65), and the naming statement (line 91).
 
 **Session 10** (B1): All 7 prelim entries verified verbatim at the cited lines. Missed by prelim: the Anchor protocol (line 26), the somatic-marker sentence (line 65), and the naming statement (line 91).
 
-**Session 11** (B1): Six prelim entries verified verbatim; one corrected (WRH-ER-078: prelim flattened the four separate lines 84–87 into a single space-joined string — passage and line range are correct in substance, exact line-by-line text recorded in the claim entry). Missed by prelim: the Anchor protocol, the 'correctly identified' claim (line 49), the Institutional Retraumatization label (line 63), the somatic-marker sentence (line 65), and the naming statement (line 98).
+**Session 11** (B1): Six prelim entries verified verbatim; one corrected (WRH-ER-112: prelim flattened the four separate lines 84–87 into a single space-joined string — passage and line range are correct in substance, exact line-by-line text recorded in the claim entry). Missed by prelim: the Anchor protocol, the 'correctly identified' claim (line 49), the Institutional Retraumatization label (line 63), the somatic-marker sentence (line 65), and the naming statement (line 98).
 
 **Session 12** (B1): All 7 prelim entries verified verbatim at the cited lines (Session_12_Pilot_Portal.md ignored as instructed; all entries concern Session_12_Internal_Behavioral_Conflict_Systems.md). Missed by prelim: the Anchor protocol (line 26) and the Internal Parts Audit exercise introduction (line 74).
 
@@ -143,7 +143,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 23** (B2): All 5 prelim quotes verified verbatim at their stated lines. Prelim missed the somatic-markers list (line 65), the Mechanism closing spiral lines (line 67), and the closing "one second of air" line (line 103).
 
-**Session 24** (B2): All 11 prelim quotes verified verbatim at their stated lines; Session 24's prelim entries are unusually granular, splitting lines 43 and 45 into separate entries. The only material claim missed is the co-regulation definition sentence on line 45 (B2-95).
+**Session 24** (B2): All 11 prelim quotes verified verbatim at their stated lines; Session 24's prelim entries are unusually granular, splitting lines 43 and 45 into separate entries. The only material claim missed is the co-regulation definition sentence on line 45 (WRH-ER-222).
 
 **Session 25** (B3): Prelim pass was exact (8/8 verified verbatim); it missed only the universal "Survival required…" assertion on line 43 and the pride-as-transformation marker in the Resource Audit group activity (line 87).
 
@@ -159,7 +159,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 31** (B3): Prelim pass was exact (7/7 verified verbatim); it missed the "perfect disguise" sentence (line 41), the "Hum doesn’t turn off" sentence (line 45), and the "most guys" generalization (line 69).
 
-**Session 32** (B3): Prelim pass was exact (6/6 verified verbatim), including the structural heading entry WRH-ER-211 (line 53), whose "Inevitable" wording carries a deterministic claim; it missed the Goal (line 12) and the "machine did it for him" sentence (line 49).
+**Session 32** (B3): Prelim pass was exact (6/6 verified verbatim), including the structural heading entry WRH-ER-303 (line 53), whose "Inevitable" wording carries a deterministic claim; it missed the Goal (line 12) and the "machine did it for him" sentence (line 49).
 
 **Session 33** (B3): Prelim pass was exact (7/7 verified verbatim); it missed only the Goal (line 12).
 
@@ -169,7 +169,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 36** (B4): Prelim captured the Mechanism and Shift claims but missed the Goal's same-code universality claim, the Mirror's 'doesn't lie' line, and the Anchor safety protocol and breathing reset that open this and every other batch session verbatim.
 
-**Session 37** (B4): Prelim captured the Episode/Mechanism core but missed the Goal, the Mechanism introduction's 'overrides the mind every time' framing, the Mirror generalization, and the cliffhanger's half-second/memory-of-threat claim. Note: the session's scripted title, 'The Body Keeps Score', reproduces the title of a well-known published trauma book; the file carries no attribution. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
+**Session 37** (B4): Prelim captured the Episode/Mechanism core but missed the Goal, the Mechanism introduction's 'overrides the mind every time' framing, the Mirror generalization, and the cliffhanger's half-second/memory-of-threat claim. Note: the session uses the scripted title 'The Body Keeps Score' without an external-source attribution. Whether attribution is appropriate is an editorial-review question; no exact book-title match or infringement is established here. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
 
 **Session 38** (B4): Prelim was thorough on the Episode and Mechanism; missed claims are the match/fire definitional passage, the 'logic alone never worked' closing line, the Mirror generalization, and the Threshold preview — which Session 39 then adopts as its Goal nearly verbatim. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
 
@@ -177,7 +177,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 40** (B4): Prelim captured the freeze-determinism cluster (Law statement and its restatements) but missed the Goal's 'always/only' framing and the Dissociation cliffhanger preview. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
 
-**Session 41** (B4): Prelim missed the Goal's dissociation definition and the Mirror's application of the diagnostic label to participants; the extracted Episode narrative (ER-272, ER-274) is case narrative that simultaneously functions as the session's dissociation symptom picture. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
+**Session 41** (B4): Prelim missed the Goal's dissociation definition and the Mirror's application of the diagnostic label to participants; the extracted Episode narrative (ER-392, ER-394) is case narrative that simultaneously functions as the session's dissociation symptom picture. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
 
 **Session 42** (B4): Prelim captured the Episode/Mechanism core; missed the Goal, the 'past didn't fade. It folded' passage, the Mirror generalization, and the Permission Paradox preview. The identical Anchor safety protocol (see Session 36) also opens this session unextracted.
 
@@ -207,7 +207,7 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 55** (B5): All 5 prelim quotes verified verbatim at their pinned lines. One missed item added: this session's instance of the recurring "system has to acknowledge" update formula (line 67).
 
-**Session 56** (B5): All 4 prelim quotes verified verbatim at their pinned lines (WRH-ER-360's quote is a verbatim mid-sentence fragment of line 39). Three missed items added, two of them verbatim or near-verbatim duplicates of Session 54 passages — Session 56 substantially reuses Session 54's Mechanism text, and the prelim pass under-extracted both sessions' closings.
+**Session 56** (B5): All 4 prelim quotes verified verbatim at their pinned lines (WRH-ER-524's quote is a verbatim mid-sentence fragment of line 39). Three missed items added, two of them verbatim or near-verbatim duplicates of Session 54 passages — Session 56 substantially reuses Session 54's Mechanism text, and the prelim pass under-extracted both sessions' closings.
 
 **Session 57** (B6): All 10 prelim entries verified verbatim at their claimed lines, including the 60%/30%/10% Regulation Tax diagram at line 61. The prelim pass missed the Episode closing (line 49), the 'system logic' reframe (line 41), the exact-mechanism intro (line 58), and the Resource Budget intro (line 74).
 
@@ -221,13 +221,13 @@ Claim records per session include both prelim-verified and new claims.
 
 **Session 62** (B6): All 9 prelim entries verified verbatim at their claimed lines; the naming entry sits at line 104 (not 101–103) because the decompression exercise is longer, and the prelim line was correct. The prelim pass missed the opening culture-of-toughness sentence of line 45, the 'system logic' reframe (line 41), the exact-mechanism intro (line 58), the Mechanism closing (line 63), and the decompression protocol intro (line 74).
 
-**Session 63** (B6): All 9 prelim entries verified verbatim at their claimed lines; ER-422 covers line 43 in full. The prelim pass missed the Goal (line 12), the opening corporate-culture sentence of line 45, the 'system logic' reframe (line 41), the exact-mechanism intro (line 58), the Mechanism closing (line 63), and the protocol intro (line 74).
+**Session 63** (B6): All 9 prelim entries verified verbatim at their claimed lines; ER-621 covers line 43 in full. The prelim pass missed the Goal (line 12), the opening corporate-culture sentence of line 45, the 'system logic' reframe (line 41), the exact-mechanism intro (line 58), the Mechanism closing (line 63), and the protocol intro (line 74).
 
-**Session 64** (B6): All 9 prelim entries verified verbatim at their claimed lines, but three are partial-line quotes: ER-432 covers only the last two sentences of line 43, ER-433 only the middle of line 45, and ER-434 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12), the Mechanism closing (line 63), and all three academic translations at lines 80–82.
+**Session 64** (B6): All 9 prelim entries verified verbatim at their claimed lines, but three are partial-line quotes: ER-636 covers only the last two sentences of line 43, ER-638 only the middle of line 45, and ER-641 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12), the Mechanism closing (line 63), and all three academic translations at lines 80–82.
 
-**Session 65** (B6): All 10 prelim entries verified verbatim at their claimed lines, with the same partial-line pattern as Session 64: ER-441 covers only the last two sentences of line 43, ER-442 only the middle of line 45, and ER-443 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12) and the Mechanism closing (line 63).
+**Session 65** (B6): All 10 prelim entries verified verbatim at their claimed lines, with the same partial-line pattern as Session 64: ER-653 covers only the last two sentences of line 43, ER-655 only the middle of line 45, and ER-658 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12) and the Mechanism closing (line 63).
 
-**Session 66** (B6): All 9 prelim entries verified verbatim at their claimed lines, with the same partial-line pattern as Sessions 64–65: ER-451 covers only the last two sentences of line 43, ER-452 only the middle of line 45, and ER-453 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12), the Mechanism closing (line 63), and all three relational translations at lines 80–82.
+**Session 66** (B6): All 9 prelim entries verified verbatim at their claimed lines, with the same partial-line pattern as Sessions 64–65: ER-669 covers only the last two sentences of line 43, ER-671 only the middle of line 45, and ER-674 only the last sentence of line 49; the uncovered sentences are recorded as NEW. The prelim pass also missed the Goal (line 12), the Mechanism closing (line 63), and all three relational translations at lines 80–82.
 
 **Session 67** (B7): All 10 prelim entries verified verbatim at their cited lines; the prelim pass missed the Session Overview Goal (line 12), the line-43 'constantly scanning' mechanism passage, and the line-63 diagnostic attribution — 3 NEW claims added.
 
