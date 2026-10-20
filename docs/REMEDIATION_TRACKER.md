@@ -4,15 +4,17 @@
 
 > **THIS TRACKER DOES NOT PASS ANY GATE.** Delivery remains withheld until all six published release gates are satisfied and a version-specific release decision is documented. A draft PR, source inventory, claim list, or new warning does not constitute clinical approval, legal clearance, or delivery authorization.
 
+**Phase 2 update (2026-10-20):** An AI-assisted source assessment was completed for all 15 starter register claims (classifications and per-source inspection status recorded in [EVIDENCE_REGISTER.md](EVIDENCE_REGISTER.md)); proposed corrections were drafted in [PROPOSED_CONTENT_CORRECTIONS_PHASE2.md](PROPOSED_CONTENT_CORRECTIONS_PHASE2.md) (unapproved; no session or crisis content altered); and an independent-review handoff was prepared in [INDEPENDENT_REVIEW_BRIEF.md](INDEPENDENT_REVIEW_BRIEF.md). **AI-assisted research is not independent review. No reviewer has been engaged, no decision recorded, and no gate is satisfied by this work.**
+
 The six gate texts below are quoted verbatim. Interpretation and remaining work are planning proposals, not additional agency requirements or evidence that a gate has passed. No independent reviewer or reviewer decision is recorded in Phase 1. Claims about absent records are limited to this repository; external records have not been ruled out. Review expertise is required across the named domains; the gate does not prescribe four separate people.
 
 ## Gate 1 — Evidence
 
 **Gate text (verbatim):** "Claim-level evidence register with source and reviewer documentation."
 
-**Present:** [EVIDENCE_BASE.md](EVIDENCE_BASE.md) supplies the seven-field schema. [EVIDENCE_REGISTER.md](EVIDENCE_REGISTER.md) contains 15 starter entries with exact source passages, baseline locators, unverified evidence status, and pending independent-review fields. The starter is part of this branch; it is not an untracked working-tree file.
+**Present:** [EVIDENCE_BASE.md](EVIDENCE_BASE.md) supplies the seven-field schema. [EVIDENCE_REGISTER.md](EVIDENCE_REGISTER.md) contains 15 starter entries with exact source passages, baseline locators, unverified evidence status, and pending independent-review fields. The starter is part of this branch; it is not an untracked working-tree file. **Phase 2 (2026-10-20):** an AI-assisted source assessment was completed for all 15 claims — 0 supported exactly as written, 3 conflicting with the evidence, 9 supporting only a narrower statement, 6 describing theory/metaphor — with per-source full-text/abstract inspection status recorded in the register. [PROPOSED_CONTENT_CORRECTIONS_PHASE2.md](PROPOSED_CONTENT_CORRECTIONS_PHASE2.md) drafts unapproved corrections; [INDEPENDENT_REVIEW_BRIEF.md](INDEPENDENT_REVIEW_BRIEF.md) prepares the reviewer handoff with a blank decision record. All independent-review fields remain PENDING.
 
-**Remaining:** Extend coverage to every material claim; inspect and record supporting primary/authoritative sources, applicability, limitations, and uncertainty; document qualified reviewer decisions; identify revisions implementing those decisions. Unsupported claims must remain explicitly unsupported until reviewed, revised, or retired. General research does not validate WRH.
+**Remaining:** Extend coverage to every material claim; qualified independent reviewers must disposition the Phase 2 assessments and proposed corrections (see [INDEPENDENT_REVIEW_BRIEF.md](INDEPENDENT_REVIEW_BRIEF.md) §6 questions) and document their decisions; identify revisions implementing those decisions. Unsupported claims must remain explicitly unsupported until reviewed, revised, or retired. General research does not validate WRH. AI-assisted research does not satisfy this gate.
 
 **Status:** `IN PROGRESS`.
 
