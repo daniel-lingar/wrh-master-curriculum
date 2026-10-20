@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # Core Lesson 2 — Safety vs. Familiarity
 
 ## Corrections Track
@@ -229,6 +231,8 @@ When something feels wrong, identify whether the problem is **danger** or simply
 ### 1. Core Connection
 
 **Safety and familiarity are not the same thing.**
+
+Something familiar can feel normal without being safe, and something unfamiliar can feel wrong without being dangerous.
 
 A response that made sense in one environment may not fit another.
 

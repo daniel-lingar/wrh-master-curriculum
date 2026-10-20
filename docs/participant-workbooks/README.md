@@ -1,19 +1,19 @@
 # WRH Participant Workbooks
 
-## Phase 4 Purpose
+## Lane D development purpose
 
-This directory contains the **participant-facing implementation layer** for the WRH Core Spine. Each workbook translates a lesson into a practical format participants can read, write on, practice, and carry forward without changing the underlying lesson.
+This directory contains the **participant-facing implementation layer** for the eight-topic WRH Lane D development package. Each workbook translates a lesson into a practical format participants can read, write on, practice, and carry forward without changing the underlying lesson.
 
 > The workbook should not become a second textbook. The Core Lesson explains what participants need to understand; the workbook asks, **“What does this look like when you apply it?”**
 
 ## Current Preparation Status
 
-The Phase 4 directory contains the first workbook source file. `Workbook_Lessons_01_04.md` **is present in this repository** but is **NOT approved for delivery** — presence ≠ approval. The file must complete Batch 1 verification and approval before use with participants.
+`Workbook_Lessons_01_04.md` **is present in this repository** but is **NOT approved for delivery** — presence ≠ approval. The file must complete Batch 1 verification and approval before use with participants. `Workbook_Lessons_05_08.md` was authored in Phase 5 as an **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY**; it is likewise not approved for delivery.
 
 | Planned file | Batch | Lessons | Status |
 |---|---:|---|---|
-| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight / Flight / Freeze / Shutdown; Impact vs. Intention | **Present in repo — NOT approved for delivery** (pending Batch 1 verification) |
-| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | Pending Batch 1 verification (file not present) |
+| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight, Flight, Freeze & Shutdown; Impact vs. Intention | **Present in repo — NOT approved for delivery** (pending Batch 1 verification) |
+| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | **Present in repo (Phase 5 development draft) — NOT approved for delivery** |
 
 ## Standard Workbook Shell
 
@@ -67,4 +67,4 @@ It also incorporates the Phase 2 action framework:
 
 > **Accountability Check → Boundary Check → Next Action.**
 
-All workbook content must remain plain-language, non-diagnostic, and free of forced disclosure. Batch 1 should be verified across Corrections, Reentry, Veteran, and Workplace settings before production moves to Lessons 9–16.
+All workbook content must remain plain-language, non-diagnostic, and free of forced disclosure. The package covers D-01–D-08 only. Lane C's Lessons 9–16 are deferred expansion material, not a promised workbook continuation. Review setting applicability separately for all four tracks. Self-ratings are optional reflection prompts, not validated outcomes; participation may be spoken, written, listening, or passing without a reason.

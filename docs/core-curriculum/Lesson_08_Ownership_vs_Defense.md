@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # Core Lesson 8 — Ownership vs. Defense
 
 ## Corrections Track
@@ -150,7 +152,7 @@ Notice when an explanation is being used to avoid acknowledging a preventable pa
 
 Defending yourself can protect against shame or judgment.
 
-But avoiding responsibility prevents learning from the event.
+For this exercise, examine what happened and identify any part you could handle differently.
 
 **Separate**
 

@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # Core Lesson 7 — Accountability vs. Blame
 
 ## Corrections Track
@@ -32,9 +34,7 @@ Staff may believe:
 
 Reality can be more complicated.
 
-Circumstances influence behavior.
-
-They do not erase personal choice.
+For this exercise, identify the circumstances, any choices that were available, and what was outside the person's control.
 
 ### 3. Recognizable Scenario
 
@@ -163,7 +163,7 @@ Difficult circumstances can genuinely interfere with success.
 
 Acknowledging them is not weakness.
 
-Using them to avoid examining your own choices prevents change.
+For this exercise, describe the obstacles and identify any available next action.
 
 **Separate**
 

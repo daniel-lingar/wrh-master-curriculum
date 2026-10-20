@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # Core Lesson 6 — Control vs. Influence
 
 ## Corrections Track
@@ -10,7 +12,7 @@ I do not control other people, institutional decisions, rules, schedules, or out
 
 I do control my choices, behavior, preparation, communication, and response.
 
-Knowing the difference prevents wasted effort and unnecessary conflict.
+In this exercise, sort what you control, what you can influence, and what is outside your control.
 
 ### 2. Environmental Translation
 
@@ -345,6 +347,10 @@ Communicate the issue appropriately.
 Document relevant facts if necessary.
 
 Continue performing my own responsibilities.
+
+**Carry It**
+
+> **“I don't need control of the whole situation to take useful action.”**
 
 ### 5. Accountability Check
 
