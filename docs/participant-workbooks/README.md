@@ -8,12 +8,12 @@ This directory contains the **participant-facing implementation layer** for the 
 
 ## Current Preparation Status
 
-The Phase 4 directory contains the first workbook source file. `Workbook_Lessons_01_04.md` **is present in this repository** but is **NOT approved for delivery** — presence ≠ approval. The file must complete Batch 1 verification and approval before use with participants.
+The Phase 4 directory contains the first workbook source file. `Workbook_Lessons_01_04.md` **is present in this repository** but is **NOT approved for delivery** — presence ≠ approval. The file must complete Batch 1 verification and approval before use with participants. `Workbook_Lessons_05_08.md` was authored in Phase 5 as an **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY**; it is likewise not approved for delivery.
 
 | Planned file | Batch | Lessons | Status |
 |---|---:|---|---|
-| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight / Flight / Freeze / Shutdown; Impact vs. Intention | **Present in repo — NOT approved for delivery** (pending Batch 1 verification) |
-| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | Pending Batch 1 verification (file not present) |
+| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight, Flight, Freeze & Shutdown; Impact vs. Intention | **Present in repo — NOT approved for delivery** (pending Batch 1 verification) |
+| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | **Present in repo (Phase 5 development draft) — NOT approved for delivery** |
 
 ## Standard Workbook Shell
 
