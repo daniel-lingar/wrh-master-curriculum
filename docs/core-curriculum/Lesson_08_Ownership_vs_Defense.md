@@ -152,7 +152,7 @@ Notice when an explanation is being used to avoid acknowledging a preventable pa
 
 Defending yourself can protect against shame or judgment.
 
-But avoiding responsibility prevents learning from the event.
+For this exercise, examine what happened and identify any part you could handle differently.
 
 **Separate**
 

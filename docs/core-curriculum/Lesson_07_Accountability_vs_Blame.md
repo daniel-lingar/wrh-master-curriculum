@@ -34,9 +34,7 @@ Staff may believe:
 
 Reality can be more complicated.
 
-Circumstances influence behavior.
-
-They do not erase personal choice.
+For this exercise, identify the circumstances, any choices that were available, and what was outside the person's control.
 
 ### 3. Recognizable Scenario
 
@@ -165,7 +163,7 @@ Difficult circumstances can genuinely interfere with success.
 
 Acknowledging them is not weakness.
 
-Using them to avoid examining your own choices prevents change.
+For this exercise, describe the obstacles and identify any available next action.
 
 **Separate**
 

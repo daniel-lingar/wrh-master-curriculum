@@ -4,6 +4,18 @@
 
 ## Core Lessons 5–8
 
+### How to read this development guide
+
+Blockquotes and track tables contain participant-facing teaching examples. Other text is facilitator-only preparation and review guidance. None authorizes delivery.
+
+### Participation and reflection standard
+
+Use the provided or a fictional scenario; no personal disclosure is required. Offer spoken, written, listening, and pass options without requiring an explanation. These are proposed WRH learning choices, not claims about a site's attendance, records, privacy, or accommodation policies. Site and accessibility review must settle those policies before delivery. Partner work is optional; every partner prompt may be answered privately or skipped.
+
+Self-ratings are optional reflection prompts, not validated tests, grades, clinical measures, or evidence of effectiveness. Facilitators are not instructed to collect, score, or report them as outcomes. The guide's descriptors illustrate self-reflection; they do not establish measurement validity or replace the workbook's checkbox format.
+
+> **QUALIFIED-REVIEW DEPENDENCY — NOT AN ACUTE-EVENT PROCEDURE.** The inherited sections titled “Room Dynamics & De-escalation” below are unapproved discussion scripts preserved for review. Their titles do not establish de-escalation competence, effectiveness, or authority. This guide supplies no response procedure or authority for acute distress, present danger, or heated conflict. Qualified clinical/site review and a separately approved site protocol are prerequisites for delivery. Ordinary discussion prompts are not that protocol.
+
 ### Facilitator Operating Standard
 
 The facilitator is not there to prove a participant wrong.
@@ -19,6 +31,27 @@ No forced disclosure. No diagnostic language. No assumption that the participant
 ---
 
 # CORE LESSON 5 — PERCEPTION VS. FACT
+
+## Development teaching plan — D-05
+
+**Draft objectives:** Distinguish the observed event from its interpretation; identify missing information; draft a question that checks an interpretation.
+
+**Preparation:** Read all four tracks of Lesson 5; select the group's proposed setting track. Prepare that track's scenario and Workbook Lesson 5. Review the participation/reflection standard and the unmet review dependencies above. Do not mix another track's facts into the chosen scenario.
+
+**Teaching sequence:** Introduce the title, learning choices, and distinction (5 minutes); read the selected track scenario and separate its supplied facts from assumptions (5 minutes); work the lesson's Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It steps using the scenario and workbook §§4–9 (20 minutes); use Accountability/Boundary Checks and invite an available Next Action, including “none identified” (5 minutes). These times are planning estimates, not tested dosage or outcome claims. The existing five-minute example below is an optional shared illustration, not a replacement for the selected track's workbook scenario.
+
+**Track practice:** Use the corresponding workbook §9 scenario; this table records the lesson's scenario and Carry-Forward. Other quoted anchors below are cross-track discussion examples, not replacements for these track lines.
+
+| Track | Lesson scenario | Track Carry-Forward |
+|---|---|---|
+| Corrections | A staff member asks a participant to come to an office. The participant immediately thinks: “I'm in trouble.” They become angry before learning why they were called. The fact is only that they were asked to come to the office. The rest is interpretation. | **Check the facts before acting on the story.** |
+| Reentry | Someone applies for a job and does not hear back. They immediately decide: “They saw my record and don't want me.” They become angry and stop applying elsewhere. They may eventually learn the position was filled before the application was reviewed. | **Uncertainty is not proof.** |
+| Veteran | A coworker suddenly leaves a meeting after receiving a message. The participant assumes: “Something is wrong.” They become concerned and begin changing plans based on that assumption. Later they learn the coworker had a family matter. | **Observation is not conclusion.** |
+| Workplace | A supervisor sends a short email: “See me when you get a chance.” The employee immediately assumes they are in trouble. They spend the morning anxious and defensive. The supervisor simply wanted to discuss a schedule change. | **Facts first. Story second.** |
+
+**Discussion and understanding check:** Ask “What is supplied by this scenario?”, “What remains unknown?”, and “What action, if any, is available within this person's role?” Invite the participant to use the scenario, write privately, listen, or pass. Do not assess a participant's real incident or require agreement, admissions, or disclosure.
+
+**Closing:** Read the selected track's Carry-Forward and Workbook Lesson 5 §13 shared Carry-It as separately labeled lines. Invite optional private self-reflection and a Next Action. Do not promise benefit or a particular result.
 
 ## 1. Facilitator Anchor
 
@@ -124,7 +157,7 @@ Facilitator:
 
 ### Facilitator Reminder
 
-The score measures **skill application**, not whether the participant's perception was ultimately correct.
+These optional self-ratings describe personal reflection on practice. They are not validated measures of skill application, clinical progress, or whether a perception was correct.
 
 ---
 
@@ -176,6 +209,27 @@ Participant states:
 
 # CORE LESSON 6 — CONTROL VS. INFLUENCE
 
+## Development teaching plan — D-06
+
+**Draft objectives:** Sort control, influence, and outside control; identify an available action, if any, without assuming control of an outcome.
+
+**Preparation:** Read all four tracks of Lesson 6; select the group's proposed setting track. Prepare that track's scenario and Workbook Lesson 6. Review the participation/reflection standard and the unmet review dependencies above. Do not mix another track's facts into the chosen scenario.
+
+**Teaching sequence:** Introduce the title, learning choices, and distinction (5 minutes); read the selected track scenario and separate its supplied facts from assumptions (5 minutes); work the lesson's Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It steps using the scenario and workbook §§4–9 (20 minutes); use Accountability/Boundary Checks and invite an available Next Action, including “none identified” (5 minutes). These times are planning estimates, not tested dosage or outcome claims. The existing five-minute example below is an optional shared illustration, not a replacement for the selected track's workbook scenario.
+
+**Track practice:** Use the corresponding workbook §9 scenario; this table records the lesson's scenario and Carry-Forward. Other quoted anchors below are cross-track discussion examples, not replacements for these track lines.
+
+| Track | Lesson scenario | Track Carry-Forward |
+|---|---|---|
+| Corrections | A participant becomes angry because staff will not change a decision. They argue repeatedly, believing that if they push hard enough, the decision will change. The decision does not change. The participant receives additional consequences for the way they handled the disagreement. | **Control your response. Influence what you can. Stop fighting what you cannot.** |
+| Reentry | A person applies for several jobs. They become angry because employers do not respond. They spend hours thinking about what the employers should have done instead of submitting another application or improving their résumé. | **Work the part you can actually move.** |
+| Veteran | A civilian coworker repeatedly misses deadlines. The participant becomes increasingly frustrated and tries to force the coworker to change. The coworker remains responsible for their own work. The participant is responsible for their own response. | **Do your part without taking ownership of someone else's.** |
+| Workplace | An employee is frustrated by a coworker's behavior. They repeatedly complain to everyone around them. Their own work begins suffering. | **Put your effort where your effort can matter.** |
+
+**Discussion and understanding check:** Ask “What is supplied by this scenario?”, “What remains unknown?”, and “What action, if any, is available within this person's role?” Invite the participant to use the scenario, write privately, listen, or pass. Do not assess a participant's real incident or require agreement, admissions, or disclosure.
+
+**Closing:** Read the selected track's Carry-Forward and Workbook Lesson 6 §13 shared Carry-It as separately labeled lines. Invite optional private self-reflection and a Next Action. Do not promise benefit or a particular result.
+
 ## 1. Facilitator Anchor
 
 ### Core Trap
@@ -199,7 +253,7 @@ The opposite trap is:
 
 > **“I can't control it, so there is nothing I can do.”**
 
-Both eliminate agency.
+Use these two statements as discussion examples; ask what actions, if any, are available in the scenario.
 
 ### Facilitator Reframe
 
@@ -312,6 +366,27 @@ Participant states:
 ---
 
 # CORE LESSON 7 — ACCOUNTABILITY VS. BLAME
+
+## Development teaching plan — D-07
+
+**Draft objectives:** Distinguish actual responsibility from blame; examine circumstances and available choices without assuming choice or taking false responsibility.
+
+**Preparation:** Read all four tracks of Lesson 7; select the group's proposed setting track. Prepare that track's scenario and Workbook Lesson 7. Review the participation/reflection standard and the unmet review dependencies above. Do not mix another track's facts into the chosen scenario.
+
+**Teaching sequence:** Introduce the title, learning choices, and distinction (5 minutes); read the selected track scenario and separate its supplied facts from assumptions (5 minutes); work the lesson's Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It steps using the scenario and workbook §§4–9 (20 minutes); use Accountability/Boundary Checks and invite an available Next Action, including “none identified” (5 minutes). These times are planning estimates, not tested dosage or outcome claims. The existing five-minute example below is an optional shared illustration, not a replacement for the selected track's workbook scenario.
+
+**Track practice:** Use the corresponding workbook §9 scenario; this table records the lesson's scenario and Carry-Forward. Other quoted anchors below are cross-track discussion examples, not replacements for these track lines.
+
+| Track | Lesson scenario | Track Carry-Forward |
+|---|---|---|
+| Corrections | A participant receives a consequence after an argument. They explain: “The officer started it.” That may be relevant. But it does not answer: “What did you do once the conflict started?” | **Own your part without carrying theirs.** |
+| Reentry | A person misses an important appointment. They blame transportation, the weather, the reminder system, and the person who gave them the appointment. Some of those factors may be real. The appointment was still missed. | **Do not argue about all the blame. Find your part and work it.** |
+| Veteran | A project fails because several people missed important steps. The participant immediately focuses on the person who made the largest mistake. Later, they recognize that they saw a problem earlier but did not speak up. | **Own your piece of the mission.** |
+| Workplace | A customer complaint results from a mistake made by another employee. The participant did not cause the mistake. Instead of helping resolve the problem, they spend the next twenty minutes explaining why it was not their fault. | **Responsibility is about what you do next, not just who gets blamed.** |
+
+**Discussion and understanding check:** Ask “What is supplied by this scenario?”, “What remains unknown?”, and “What action, if any, is available within this person's role?” Invite the participant to use the scenario, write privately, listen, or pass. Do not assess a participant's real incident or require agreement, admissions, or disclosure.
+
+**Closing:** Read the selected track's Carry-Forward and Workbook Lesson 7 §13 shared Carry-It as separately labeled lines. Invite optional private self-reflection and a Next Action. Do not promise benefit or a particular result.
 
 ## 1. Facilitator Anchor
 
@@ -434,6 +509,27 @@ Participant states:
 ---
 
 # CORE LESSON 8 — OWNERSHIP VS. DEFENSE
+
+## Development teaching plan — D-08
+
+**Draft objectives:** Separate an explanation, an accurate defense, and actual contribution; practice a factual response without assuming there must be fault to admit.
+
+**Preparation:** Read all four tracks of Lesson 8; select the group's proposed setting track. Prepare that track's scenario and Workbook Lesson 8. Review the participation/reflection standard and the unmet review dependencies above. Do not mix another track's facts into the chosen scenario.
+
+**Teaching sequence:** Introduce the title, learning choices, and distinction (5 minutes); read the selected track scenario and separate its supplied facts from assumptions (5 minutes); work the lesson's Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It steps using the scenario and workbook §§4–9 (20 minutes); use Accountability/Boundary Checks and invite an available Next Action, including “none identified” (5 minutes). These times are planning estimates, not tested dosage or outcome claims. The existing five-minute example below is an optional shared illustration, not a replacement for the selected track's workbook scenario.
+
+**Track practice:** Use the corresponding workbook §9 scenario; this table records the lesson's scenario and Carry-Forward. Other quoted anchors below are cross-track discussion examples, not replacements for these track lines.
+
+| Track | Lesson scenario | Track Carry-Forward |
+|---|---|---|
+| Corrections | A participant is confronted about an argument. They immediately respond: “He started it.” The other person's behavior may be relevant. But the participant also threatened the person after the argument began. The defense explains the beginning of the conflict. It does not address the participant's own actions. | **Tell the truth about your part—even when the whole accusation is not true.** |
+| Reentry | A person misses an appointment. They explain: “Nobody reminded me.” That may be true. But they also knew about the appointment and did not make transportation arrangements. | **Explain the circumstances. Own the preventable part.** |
+| Veteran | A project fails. The participant immediately explains: * another person missed their task * resources were inadequate * leadership changed priorities * circumstances changed All of those things may be true. But the participant also recognized a problem early and did not raise it. | **Own your decision without claiming the entire outcome.** |
+| Workplace | A project misses its deadline. The employee says: “I couldn't finish because Sarah didn't send me the information.” Sarah was late. But the employee also waited until the deadline approached before reporting the problem. | **Stop defending long enough to find the part you can fix.** |
+
+**Discussion and understanding check:** Ask “What is supplied by this scenario?”, “What remains unknown?”, and “What action, if any, is available within this person's role?” Invite the participant to use the scenario, write privately, listen, or pass. Do not assess a participant's real incident or require agreement, admissions, or disclosure.
+
+**Closing:** Read the selected track's Carry-Forward and Workbook Lesson 8 §13 shared Carry-It as separately labeled lines. Invite optional private self-reflection and a Next Action. Do not promise benefit or a particular result.
 
 ## 1. Facilitator Anchor
 
@@ -633,7 +729,7 @@ When the room gets stuck, use the same sequence across all four lessons:
 
 > **“What can you influence or change?”**
 
-### 7. Require a practical next step.
+### 7. Invite a practical next step.
 
 > **“What will you do differently?”**
 
@@ -643,25 +739,11 @@ When the room gets stuck, use the same sequence across all four lessons:
 
 For Lessons **5–8**, the facilitator framework has a consistent operational architecture:
 
-**Recognize the pattern**
-↓
-**Separate fact from interpretation**
-↓
-**Explain without excusing**
-↓
-**Protect legitimate boundaries**
-↓
-**Identify personal responsibility**
-↓
-**Restore agency**
-↓
-**Practice a different response**
-↓
-**Carry the lesson forward**
+The lesson application order is **Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It**. Present the scenario before applying the steps. Accountability Check, Boundary Check, Next Action, and Carry-Forward are supporting lesson sections; workbook self-reflection and optional reflection follow the workbook's headings. A discussion redirect is not a substitute lesson sequence.
 
 The facilitator does not have to make the participant agree with the curriculum.
 
-The facilitator has to keep the participant engaged with the question:
+The draft invites discussion of this question, with passing allowed:
 
 > **“Regardless of what happened around me, what is true about my behavior, what part is mine, and what can I do differently?”**
 

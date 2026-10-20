@@ -8,6 +8,10 @@
 
 ---
 
+> **Practice choices:** Use a provided scenario or a fictional situation. Words such as “I” and “my” may refer to that character. You may write, speak, listen, or pass on an exercise without giving a reason. No personal account is needed.
+
+Self-ratings are optional prompts for your own reflection. They are not validated tests, grades, clinical measures, or proof that this curriculum works. This draft does not ask facilitators to collect or report them as outcomes.
+
 # CORE LESSON 1
 
 # WHAT IS A SURVIVAL RESPONSE?
@@ -341,7 +345,7 @@ Something can feel unfamiliar without being dangerous.
 
 Your first reaction can provide useful information.
 
-They are not always the final evidence.
+It is not always the final evidence.
 
 The goal is not to ignore caution.
 
@@ -1227,7 +1231,7 @@ The four lessons deliberately use the same working sequence:
 
 > **Recognize → Name → Explain → Separate → Interrupt → Practice → Accountability → Boundary → Next Action → Carry It**
 
-The participant is never required to disclose trauma, identify another person, or tell a personal story to demonstrate mastery.
+The participant is never required to disclose trauma, identify another person, or tell a personal story to practice the lesson.
 
 The exercises can be completed using:
 
@@ -1238,9 +1242,7 @@ The exercises can be completed using:
 
 Each workbook Carry-It Statement is the shared cross-track statement for that lesson. The lesson files also carry setting-specific Carry It and Carry-Forward lines for the Corrections, Reentry, Veteran, and Workplace tracks; those track lines remain in the lesson files and are not replaced by the workbook statement.
 
-The **core lesson does not change by population**.
-
-The Corrections, Reentry, Veteran, and Workplace applications belong in the **Systems Application Layer**, preserving the architectural firewall.
+The four settings have separate lesson examples. Use the example for your setting, or a clearly labeled fictional situation.
 
 ## The four lessons build a deliberate progression
 

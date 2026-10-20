@@ -8,7 +8,7 @@ This guide covers Core Lessons 1–4 of the four-track (Lane D) sequence: What I
 
 ### How wording is marked in this guide
 
-- **Participant-facing wording** — lines a facilitator may say aloud or write on the board — appears in blockquotes and is labeled **Say:**. Use it as written, or keep its meaning and plain wording if you adapt it.
+- **Participant-facing examples** appear in blockquotes and track tables. A **Say:** label marks an example spoken prompt; other quotations include scenario dialogue, teaching anchors, and example answers. These are draft teaching examples, not delivery authorization. Unquoted notes are for facilitators only.
 - **Facilitator notes** — everything outside the blockquotes — are preparation and delivery guidance for the facilitator only. Do not read facilitator notes aloud. Research and review notes appear only in facilitator notes, never in participant-facing wording.
 
 ### Facilitator Operating Standard
@@ -31,14 +31,14 @@ Each lesson is taught in the setting track that matches the group: **Corrections
 
 ### Participation standard (all four lessons)
 
-Every exercise in these lessons can be completed four ways, and each way counts as full participation:
+Proposed WRH learning choices for all four lessons (subject to site and accessibility review):
 
 1. Speak in the group.
 2. Write privately in the workbook without sharing it.
 3. Work with the provided scenario or a fictional situation instead of a personal one.
-4. Listen and complete the written sections silently.
+4. Listen or observe without speaking or completing written work. A participant may pass on any exercise without explaining why.
 
-No participant is required to disclose a personal experience, identify another person, or explain a decision to pass. State this at the start of every lesson, not only when someone hesitates.
+No WRH exercise requires personal disclosure or an explanation for passing. These are proposed learning choices, not a claim about institutional attendance, records, or accommodation policies. Those policies require separate review. State the choices when introducing each lesson.
 
 ### Self-assessment standard (all four lessons)
 
@@ -46,7 +46,7 @@ Each lesson ends with a Recognize / Own / Change self-rating (0–2). Facilitato
 
 > **⚠ QUALIFIED-REVIEW DEPENDENCY — READ BEFORE ANY USE OF THIS GUIDE**
 >
-> This guide does **not** contain clinical screening, crisis-response, or escalation procedures, and none are authorized by it. Lessons 1 and 3 touch on escalation, shutdown, and distress, and Lesson 3 discusses silence that can be misread by others. What a facilitator or site must do when a participant becomes acutely distressed — including any de-escalation, pause, referral, or escalation step — is **not decided here** and requires qualified clinical review and a site-specific decision before delivery. Until that review exists, the only facilitator actions this guide authorizes in such a moment are ordinary teaching actions: pause the exercise, offer the participation choices above (including stopping and writing privately), and return to the provided scenario. Do not improvise a clinical response from this guide.
+> This guide does **not** contain clinical screening, crisis-response, or escalation procedures, and none are authorized by it. Lessons 1 and 3 touch on escalation, shutdown, and distress, and Lesson 3 discusses silence that can be misread by others. What a facilitator or site must do when a participant becomes acutely distressed — including any de-escalation, pause, referral, or escalation step — is **not decided here** and requires qualified clinical review and a site-specific decision before delivery. This development guide grants no response authority for an acute event. Its ordinary discussion prompts and participation choices are not an acute-event procedure. Qualified review and a separately approved site protocol are prerequisites for delivery; this guide does not supply that protocol.
 
 ---
 
@@ -54,7 +54,7 @@ Each lesson ends with a Recognize / Own / Change self-rating (0–2). Facilitato
 
 ## 1. Objectives
 
-By the end of the lesson, participants can:
+Draft learning objectives — participants are invited to practice:
 
 - Describe, in plain words, that the body can react to a perceived threat before all the facts are known.
 - Name at least one of their own early signals (body, mind, or behavior) from the workbook checklist.
@@ -72,7 +72,7 @@ Facilitator prepares before the session:
 - Write the core distinction and the track's interrupt question on the board before the group arrives.
 - Review the participation standard above; be ready to state it in the first two minutes.
 
-Facilitator note — breathing option in the workbook: Workbook Lesson 1, Interrupt section, offers an optional pause with slow breathing as one checkbox among several. Present it exactly as the workbook does — optional, uncounted, and skippable — and do not present any breathing pattern as a validated technique or a required step. Phase 4 evidence review found general support only for the broad concept of slow breathing practiced voluntarily over time; WRH's scripted uses are unvalidated. If a participant says breathing focus makes them feel worse, the workbook's other interrupt options (ask what is actually happening, ask for clarification, take appropriate space, listen before defending) are complete alternatives, not lesser ones.
+Facilitator note — breathing option in the workbook: Workbook Lesson 1, Interrupt section, offers an optional pause with slow breathing as one checkbox among several. Present it exactly as the workbook does — optional, uncounted, and skippable — and do not present any breathing pattern as a validated technique or a required step. The Phase 4 dossier records research on several breathing practices and their different conditions. It does not validate this WRH workbook option or establish its suitability for any participant or setting. If a participant says breathing focus makes them feel worse, the workbook's other interrupt options (ask what is actually happening, ask for clarification, take appropriate space, listen before defending) are complete alternatives, not lesser ones.
 
 Facilitator note — naming: the lessons teach naming as putting the reaction into words ("My body is reacting as if something bad is about to happen"). Do not add a mechanism claim for naming — no timing, brain, or "air" claim is part of this lesson, and none is supported for this use. Naming here is a description step, nothing more.
 
@@ -91,7 +91,7 @@ Common versions:
 * “They started it by making me feel that way.”
 * “If I feel threatened, it is a threat.”
 
-The opposite trap is equally important:
+A related trap is:
 
 > **“A real reaction means I have no responsibility for anything that followed.”**
 
@@ -132,7 +132,7 @@ Teach in this order. Times are a guide for a single session; do not cut the part
 2. **Core connection (5 minutes).** Teach the track's Core Connection: a person can react to perceived threat before fully processing what is happening; the body may tense, attention may narrow, and the person may become angry, defensive, silent, or ready to leave.
 3. **Scenario (5 minutes).** Read the track's Recognizable Scenario aloud (see the track table in §5). Ask only: what happened first, and what did the person assume?
 4. **Seven-Step Application (20 minutes).** Work the track's steps in order — Recognize, Name, Explain, Separate, Interrupt, Practice, Carry It — using the scenario, not a participant's personal history. Participants complete Workbook Lesson 1 §§4–8 alongside each step.
-5. **Accountability and Boundary Checks (5 minutes).** Teach both questions exactly as the lesson states them: “What part belongs to me?” and “What part does not belong to me?” Keep both. Accountability without the boundary check becomes taking responsibility for other people's actions.
+5. **Accountability and Boundary Checks (5 minutes).** Teach both questions exactly as the lesson states them: “What part belongs to me?” and “What part does not belong to me?” Keep both. Use both questions; do not ask participants to take responsibility for other people's actions.
 6. **Next Action and Carry-Forward (5 minutes).** Each participant completes Workbook §12 (one specific behavior) and hears the track's Carry-Forward line (§5 table) and the workbook's shared Carry-It Statement: “Notice the response. Get the facts. Choose the next move.”
 
 ## 5. Track Distinctions — Lesson 1
@@ -177,7 +177,7 @@ Participant writes (Step 2):
 
 > **What do I actually know?**
 
-Expected content: the person said three words and nothing else yet.
+Expected content: the person said “We need to talk,” and the scenario has not supplied a reason yet.
 
 ### Minute 3 — Assumption
 
@@ -213,7 +213,7 @@ Use the provided scenario first. Personal examples are always optional and may s
 
 ## 8. Participation Choices
 
-For this lesson, each of these is complete participation:
+Proposed learning choices for this lesson (see the front-matter site/accessibility boundary):
 
 - Answer a discussion prompt aloud, using the scenario.
 - Complete Workbook §§4–12 in writing and share nothing aloud.
@@ -259,11 +259,11 @@ If someone presses another participant for a personal example:
 
 ### Distress during the lesson
 
-> **⚠ QUALIFIED-REVIEW DEPENDENCY:** This lesson's material — threat, tension, strong reactions — can itself be activating. This guide authorizes only the ordinary teaching actions in the front-matter dependency note (pause, offer the participation choices, return to the scenario). Any further response to a distressed participant is a clinical and site decision that has **not** been made in this document and is flagged here for qualified review. Do not present the workbook's optional breathing checkbox as a distress procedure.
+> **⚠ QUALIFIED-REVIEW DEPENDENCY:** This lesson's material — threat, tension, strong reactions — can itself be activating. The front-matter dependency note supplies no acute-distress response procedure or authority. The clinical and site response remains undecided and requires qualified review before delivery. Do not present the workbook's optional breathing checkbox as a distress procedure.
 
 ## 10. Checks for Understanding
 
-Ask these before the closing. A correct answer uses the scenario or the workbook's wording, not a personal disclosure. If the group cannot answer one, reteach that step before moving on.
+Ask these before the closing. A correct answer uses the scenario or the workbook's wording, not a personal disclosure. Offer to revisit unclear steps; do not require an answer or inspect private writing as a condition of passing.
 
 1. **Definition:** “In your own words: what is a survival response in this lesson?” (Expected: the body reacting to a perceived threat before the facts are known.)
 2. **Distinction:** “A response explains a reaction. What does it not do?” (Expected: it does not excuse or determine the behavior that follows.)
@@ -297,7 +297,7 @@ Workbook Lesson 1, §14. Facilitator reminder: reflection tool only — see the 
 
 ## 1. Objectives
 
-By the end of the lesson, participants can:
+Draft learning objectives — participants are invited to practice:
 
 - State the lesson's two-sided distinction in both directions: unfamiliar does not automatically mean unsafe, and familiar does not automatically mean safe.
 - Identify one way discomfort, suspicion, or an urge to reject can appear when something is unfamiliar (Workbook Lesson 2, §§4–5).
@@ -308,7 +308,7 @@ By the end of the lesson, participants can:
 ## 2. Preparation
 
 - Confirm the group's track and teach only that track's scenario and lines from Lesson 2.
-- Read Lesson 2 in full, all four tracks. Note: every track now states the distinction in both directions in its Core Connection; teach both directions in every track — do not teach only “unfamiliar is not unsafe.”
+- Read Lesson 2 in full, all four tracks. Teach both halves of the shared workbook distinction in every track — do not teach only “unfamiliar is not unsafe.” The track files vary in how explicitly they state each half.
 - Have Workbook Lesson 2 available for every participant, plus the private writing option.
 - Write both halves of the core distinction on the board before the group arrives:
   > **“Unfamiliar does not automatically mean unsafe.”**
@@ -360,7 +360,7 @@ Instead, add the evidence check:
 
 **Facilitator:**
 
-> **Say:** “That history is exactly why suspicion can become familiar. The lesson doesn't ask you to ignore it. It asks what evidence you have about *this* situation, separate from the ones before it.”
+> **Say:** “You are describing past situations. The lesson doesn't ask you to ignore them. It asks what evidence you have about *this* situation, separate from the ones before it.”
 
 That response keeps the participant's experience in the room without letting it decide the current case by itself.
 
@@ -445,7 +445,7 @@ Facilitator note: the practicum's correct outcome is **not** accepting the help.
 
 ## 8. Participation Choices
 
-For this lesson, each of these is complete participation:
+Proposed learning choices for this lesson (see the front-matter site/accessibility boundary):
 
 - Work the scenario and the workbook Interrupt questions (§8: know / assume / evidence for / evidence still needed / boundary) in writing, sharing nothing aloud.
 - Answer a prompt using an invented example.
@@ -526,7 +526,7 @@ Workbook Lesson 2, §14. Facilitator reminder: reflection tool only — see the 
 
 ## 1. Objectives
 
-By the end of the lesson, participants can:
+Draft learning objectives — participants are invited to practice:
 
 - Name the four response directions this lesson teaches — toward conflict (fight), away (flight), into stillness (freeze), and into shutdown — as patterns, in the Corrections track's words, “not permanent boxes or excuses.”
 - Identify their most common pattern and its earliest recognizable sign (Workbook Lesson 3, §§4–5).
@@ -674,7 +674,7 @@ Facilitator note: accept any honest answer, including “nothing yet.” The wor
 
 ## 8. Participation Choices
 
-For this lesson, each of these is complete participation:
+Proposed learning choices for this lesson (see the front-matter site/accessibility boundary):
 
 - Complete Workbook §§4–12 in writing using the scenario, sharing nothing aloud.
 - Identify a pattern from the workbook checklists (Fight / Flight / Freeze / Shutdown / “it depends on the situation”) without describing a personal episode.
@@ -706,7 +706,7 @@ Facilitator note: never require a participant to demonstrate, describe, or expla
 
 ### Participant Goes Silent During Discussion
 
-> **Say:** “Written work counts fully in this lesson. Keep going in the workbook; we'll check understanding at the end from the written sections if you prefer.”
+> **Say:** “Written work counts fully in this lesson. Keep going in the workbook; you can use the scenario or pass on the check for understanding.”
 
 Facilitator note: do not name the silence, do not interpret it as the lesson's content, and do not ask the participant to explain it. Offering the written route is a teaching action, not a clinical one.
 
@@ -714,7 +714,7 @@ Facilitator note: do not name the silence, do not interpret it as the lesson's c
 
 ### Distress or Escalation in the Room
 
-> **⚠ QUALIFIED-REVIEW DEPENDENCY:** This lesson discusses escalation and shutdown directly, and its Corrections scenario involves confrontation. This guide does **not** author any de-escalation, distress-response, or escalation procedure. The facilitator actions authorized here are the ordinary teaching actions in the front-matter dependency note only. Any procedure for a participant who becomes acutely distressed or escalated during this lesson must come from qualified clinical review and the site's own decision, and is flagged here as an unmet dependency for delivery.
+> **⚠ QUALIFIED-REVIEW DEPENDENCY:** This lesson discusses escalation and shutdown directly, and its Corrections scenario involves confrontation. This guide does **not** author any de-escalation, distress-response, or escalation procedure. Ordinary teaching prompts do not constitute a response procedure for an acute event. Any procedure for a participant who becomes acutely distressed or escalated during this lesson must come from qualified clinical review and the site's own decision, and is flagged here as an unmet dependency for delivery.
 
 ## 10. Checks for Understanding
 
@@ -750,7 +750,7 @@ Workbook Lesson 3, §14. Facilitator reminder: reflection tool only — see the 
 
 ## 1. Objectives
 
-By the end of the lesson, participants can:
+Draft learning objectives — participants are invited to practice:
 
 - State the core distinction: intention tells us what a person meant; impact tells us what happened; both can matter.
 - Identify, from the scenario, all four elements the lesson separates: what was intended, what was actually done, how the other person experienced it, and what consequence followed.
@@ -903,7 +903,7 @@ Facilitator note: the practicum measures the rewrite against one test only — d
 
 ## 8. Participation Choices
 
-For this lesson, each of these is complete participation:
+Proposed learning choices for this lesson (see the front-matter site/accessibility boundary):
 
 - Work entirely from the scenario and workbook sections, sharing nothing aloud.
 - Complete the Name section (§5) in writing only, including “the sentence I most want to say.”
@@ -949,7 +949,7 @@ This mirrors the guide for Lessons 5–8: the facilitator does not reward self-c
 
 ### Conflict Between Participants in the Room
 
-> **⚠ QUALIFIED-REVIEW DEPENDENCY:** If a real disagreement between participants becomes heated during this lesson, do not use the lesson's content as a mediation or de-escalation procedure — it is teaching material, not a conflict protocol, and this guide authors no such procedure. Pause the exercise and use only the ordinary teaching actions in the front-matter dependency note. Any site procedure for in-session conflict is a site and qualified-review decision, flagged here as an unmet dependency.
+> **⚠ QUALIFIED-REVIEW DEPENDENCY:** If a real disagreement between participants becomes heated during this lesson, do not use the lesson's content as a mediation or de-escalation procedure — it is teaching material, not a conflict protocol, and this guide authors no such procedure. The front-matter dependency note does not authorize a response to an acute conflict. Any site procedure for in-session conflict is a site and qualified-review decision, flagged here as an unmet dependency.
 
 ## 10. Checks for Understanding
 
@@ -1022,7 +1022,7 @@ When the room gets stuck, use the same sequence across all four lessons:
 
 > **“What is one small thing you can do next?”**
 
-### 7. Require a practical next step.
+### 7. Invite a practical next step.
 
 > **“What will you do differently?”**
 
@@ -1034,25 +1034,11 @@ Facilitator note: this is a teaching redirect for a stuck discussion. It is not 
 
 With Lessons **1–4** covered here and Lessons **5–8** covered in Facilitator_Guide_Lessons_05_08.md, the facilitator framework for the eight-topic sequence exists in draft for all eight lessons:
 
-**Recognize the pattern**
-↓
-**Separate fact from interpretation**
-↓
-**Explain without excusing**
-↓
-**Protect legitimate boundaries**
-↓
-**Identify personal responsibility**
-↓
-**Restore agency**
-↓
-**Practice a different response**
-↓
-**Carry the lesson forward**
+The lesson application order is **Recognize → Name → Explain → Separate → Interrupt → Practice → Carry It**. Present the scenario before applying the steps. Accountability Check, Boundary Check, Next Action, and Carry-Forward are supporting lesson sections; workbook self-reflection and optional reflection follow the workbook's headings. A discussion redirect is not a substitute lesson sequence.
 
 The facilitator does not have to make the participant agree with the curriculum.
 
-The facilitator has to keep the participant engaged with the question:
+The draft invites discussion of this question, with passing allowed:
 
 > **“Regardless of what happened around me, what is true about my behavior, what part is mine, and what can I do differently?”**
 

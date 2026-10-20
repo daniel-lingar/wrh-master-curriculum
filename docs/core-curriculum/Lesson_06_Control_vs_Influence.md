@@ -12,7 +12,7 @@ I do not control other people, institutional decisions, rules, schedules, or out
 
 I do control my choices, behavior, preparation, communication, and response.
 
-Knowing the difference prevents wasted effort and unnecessary conflict.
+In this exercise, sort what you control, what you can influence, and what is outside your control.
 
 ### 2. Environmental Translation
 

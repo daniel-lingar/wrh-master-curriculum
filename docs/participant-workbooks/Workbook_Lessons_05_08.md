@@ -12,6 +12,10 @@ This workbook has not been approved for use with participants. It is a developme
 
 ---
 
+> **Practice choices:** Use a provided scenario or a fictional situation. Words such as “I” and “my” may refer to that character. You may write, speak, listen, or pass on an exercise without giving a reason. No personal account is needed.
+
+Self-ratings are optional prompts for your own reflection. They are not validated tests, grades, clinical measures, or proof that this curriculum works. This draft does not ask facilitators to collect or report them as outcomes.
+
 # CORE LESSON 5
 
 # PERCEPTION VS. FACT
@@ -365,7 +369,7 @@ Where this shows up depends on your setting:
 
 ## 3. THE CORE DISTINCTION
 
-> **What I control, what I can influence, and what is outside my control are three different categories. Knowing the difference prevents wasted effort and unnecessary conflict.**
+> **What I control, what I can influence, and what is outside my control are three different categories. In this exercise, sort what you control, what you can influence, and what is outside your control.**
 
 ---
 
@@ -648,7 +652,7 @@ Accountability does not require pretending other people did nothing wrong. It re
 
 Accountability is also not the same as accepting all blame. A person can acknowledge their mistakes without claiming responsibility for everything that happened around them.
 
-Circumstances influence behavior. They do not erase personal choice. Circumstances matter, and rebuilding still requires identifying the part that is actually yours.
+For this exercise, identify the circumstances, any choices that were available, and what was outside the person's control. Do not assume that a person had a choice just because an exercise asks about it.
 
 Where this shows up depends on your setting:
 
@@ -719,7 +723,7 @@ What might be driving this response?
 
 People often focus on the other person's wrongdoing because it feels unfair to acknowledge their own part. People naturally protect themselves when responsibility feels threatening, and people often defend themselves quickly because being associated with a mistake can feel threatening.
 
-Difficult circumstances can genuinely interfere with success. Acknowledging them is not weakness. Using them to avoid examining your own choices prevents change.
+Difficult circumstances can genuinely interfere with success. Acknowledging them is not weakness. For this exercise, describe the obstacles and identify any available next action.
 
 What might be driving my focus on blame?
 
@@ -880,7 +884,7 @@ Complete this sentence with a specific behavior:
 
 > **The next time something goes wrong, before defending myself or blaming someone else, I will ____________________________________.**
 
-One concrete step that prevents the same problem from happening the same way again:
+One concrete step I could try when handling a similar problem:
 
 > ---
 
@@ -1024,7 +1028,7 @@ What might be driving this response?
 
 When consequences feel threatening, defending yourself can feel like protection. Defending yourself can also protect against shame or judgment, and people naturally defend themselves when their competence or reputation feels threatened.
 
-That explains the instinct. It does not make the defense accurate or useful, and avoiding responsibility prevents learning from the event.
+That explains the instinct. It does not make the defense accurate or useful, and this exercise asks you to examine what happened and identify any part you could handle differently.
 
 What might be driving my defense?
 
@@ -1199,7 +1203,7 @@ Complete this sentence with a specific behavior:
 
 > **The next time I am confronted with a problem, I will ____________________________________.**
 
-One concrete safeguard or early communication that prevents the same problem:
+One concrete safeguard or early communication I could try:
 
 > ---
 
@@ -1257,7 +1261,7 @@ The four lessons use the same working sequence as Batch 1:
 
 > **Recognize → Name → Explain → Separate → Interrupt → Practice → Accountability → Boundary → Next Action → Carry It**
 
-The participant is never required to disclose trauma, identify another person, or tell a personal story to demonstrate mastery.
+The participant is never required to disclose trauma, identify another person, or tell a personal story to practice the lesson.
 
 The exercises can be completed using:
 
