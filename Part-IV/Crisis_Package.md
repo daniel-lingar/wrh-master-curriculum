@@ -1,3 +1,13 @@
+> # ⚠️ WITHDRAWN FROM DELIVERY — PENDING INDEPENDENT CLINICAL REVIEW
+>
+> **Date:** 2026-10-19 (WRH Phase 1 Repository Remediation)
+>
+> This document is **WITHDRAWN FROM DELIVERY** pending independent clinical review. The release gates for this curriculum are not satisfied.
+>
+> **Do not deliver, pilot, or distribute these materials** until the release gates are satisfied. All substantive source text is preserved below, unchanged, for review purposes only.
+
+---
+
 # Universal Crisis Package: Program-Wide Safety & Hardening
 
 [**HOME**](../index.md) | [**PART I**](../Part-I/index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)

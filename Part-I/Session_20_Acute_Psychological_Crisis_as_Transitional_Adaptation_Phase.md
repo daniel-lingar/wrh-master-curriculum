@@ -1,3 +1,15 @@
+> # ⚠️ WITHDRAWN FROM DELIVERY — PENDING INDEPENDENT CLINICAL REVIEW
+>
+> **Date:** 2026-10-19 (WRH Phase 1 Repository Remediation)
+>
+> This session is **WITHDRAWN FROM DELIVERY** pending independent clinical review. The release gates for this curriculum are not satisfied.
+>
+> **Blocking review item:** this session's **"necessary deconstruction" framing of suicidal ideation** (Session Overview and the facilitator episode *"The Necessary Deconstruction"*) has not been cleared by an independent clinician and must not be delivered in its current form.
+>
+> **Do not deliver, pilot, or distribute this session** until the release gates are satisfied. All substantive source text is preserved below, unchanged, for review purposes only.
+
+---
+
 # Session 20: Acute Psychological Crisis as Transitional Adaptation Phase
 
 ![Version](https://img.shields.io/badge/System_Logic-v5.0--Stabilized-blue)

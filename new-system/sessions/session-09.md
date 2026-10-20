@@ -720,21 +720,23 @@ What is the smallest safe movement I can make?”
 
 “Next session we move to Law #10.
 
-Session 10 is called Dissociative Protective Disengagement States.
+Session 10 is called Physiological Stress Response and Bodily Signaling.
 
 The plain-language title is:
 
-Leaving Your Body Was the Only Exit Left.
+The Body Moves Before the Mind Knows Why.
 
-We are going to look at what happens when the body cannot leave, but the mind does.
+We are going to look at what happens in the body before the mind understands why.
 
-Why a person can feel behind glass.
+Why your chest can tighten before you know what scared you.
 
-Why the world can feel foggy or unreal.
+Why your stomach can drop before you know what is wrong.
 
-Why numbness may not mean you do not care.
+Why numbness can arrive before the meaning does.
 
-Sometimes the mind creates distance because staying fully present would be too much.
+That gap — the body moving before the mind knows why — is not proof that you are broken.
+
+It is the nervous system doing its job at its own speed.
 
 You do not have to understand it yet.
 
@@ -764,7 +766,7 @@ See you next session.”
 - If someone says, “I am just lazy,” redirect to the mechanism: “Maybe. But let’s first ask whether the body is locking around threat.”
 - Avoid telling participants to “just do it.” That language often increases freeze.
 - Encourage small, concrete, measurable interruption points.
-- Session 10 moves into dissociation because prolonged freeze can become disengagement, fog, numbness, or leaving the moment internally.
+- Session 10 moves into body-first signaling because the natural next question after freeze is: what is the body reporting before the mind has meaning?
 - WRH is education, not treatment, legal advice, or crisis care. Refer participants to counselors, peer supports, case managers, advocates, medical providers, or crisis resources when needed.
 
 ---

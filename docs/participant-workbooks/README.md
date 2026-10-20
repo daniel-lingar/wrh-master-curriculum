@@ -8,12 +8,12 @@ This directory contains the **participant-facing implementation layer** for the 
 
 ## Current Preparation Status
 
-The Phase 4 directory is prepared for the first approved workbook batch. `Workbook_Lessons_01_04.md` will be added here when the complete Batch 1 participant-workbook source is supplied and approved.
+The Phase 4 directory contains the first workbook source file. `Workbook_Lessons_01_04.md` **is present in this repository** but is **NOT approved for delivery** — presence ≠ approval. The file must complete Batch 1 verification and approval before use with participants.
 
 | Planned file | Batch | Lessons | Status |
 |---|---:|---|---|
-| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight / Flight / Freeze / Shutdown; Impact vs. Intention | Pending approved content |
-| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | Pending Batch 1 verification |
+| `Workbook_Lessons_01_04.md` | 1 | 1–4: Survival Response; Safety vs. Familiarity; Fight / Flight / Freeze / Shutdown; Impact vs. Intention | **Present in repo — NOT approved for delivery** (pending Batch 1 verification) |
+| `Workbook_Lessons_05_08.md` | 2 | 5–8: Perception vs. Fact; Control vs. Influence; Accountability vs. Blame; Ownership vs. Defense | Pending Batch 1 verification (file not present) |
 
 ## Standard Workbook Shell
 
