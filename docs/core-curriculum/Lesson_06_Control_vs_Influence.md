@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # Core Lesson 6 — Control vs. Influence
 
 ## Corrections Track
@@ -345,6 +347,10 @@ Communicate the issue appropriately.
 Document relevant facts if necessary.
 
 Continue performing my own responsibilities.
+
+**Carry It**
+
+> **“I don't need control of the whole situation to take useful action.”**
 
 ### 5. Accountability Check
 

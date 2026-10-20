@@ -1,3 +1,5 @@
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
 # WRH PARTICIPANT WORKBOOK
 
 ## PHASE 4 — BATCH 1
@@ -109,6 +111,8 @@ When pressure rises, my most common pattern is:
 
 ☐ **Something else:** ______________________________
 
+These four labels are covered in detail in Lesson 3. For this lesson, use whichever description fits, or “something else.”
+
 Complete:
 
 > **When I notice this pattern, I usually ____________________________________.**
@@ -182,7 +186,7 @@ My early warning sign is:
 When I notice it, I can:
 
 ☐ Pause before answering
-☐ Take one slow breath
+☐ Pause — breathe slowly only if it feels comfortable to you (optional; skip it if it does not)
 ☐ Ask what is actually happening
 ☐ Ask for clarification
 ☐ Lower my voice
@@ -335,7 +339,7 @@ Something can feel familiar without being safe.
 
 Something can feel unfamiliar without being dangerous.
 
-Your instincts can provide useful information.
+Your first reaction can provide useful information.
 
 They are not always the final evidence.
 
@@ -620,11 +624,11 @@ You do not need to identify anyone.
 
 # CORE LESSON 3
 
-# FIGHT / FLIGHT / FREEZE / SHUTDOWN
+# FIGHT, FLIGHT, FREEZE & SHUTDOWN
 
 ## 1. LESSON TITLE
 
-### **Fight / Flight / Freeze / Shutdown**
+### **Fight, Flight, Freeze & Shutdown**
 
 ---
 
@@ -867,7 +871,7 @@ I will know I used my interruption strategy when:
 
 ## 13. CARRY-IT STATEMENT
 
-> ### **I may not choose the first reaction. I can practice the next one.**
+> ### **I may not control the first reaction. I can practice the next one.**
 
 ---
 
@@ -1028,7 +1032,7 @@ Explain:
 
 ### Remember
 
-> **You can have a good intention and still need to correct a harmful behavior.**
+> **You can have a good intention and still need to correct behavior that created a problem.**
 
 And:
 
@@ -1232,6 +1236,8 @@ The exercises can be completed using:
 * a fictional situation
 * the provided scenario
 
+Each workbook Carry-It Statement is the shared cross-track statement for that lesson. The lesson files also carry setting-specific Carry It and Carry-Forward lines for the Corrections, Reentry, Veteran, and Workplace tracks; those track lines remain in the lesson files and are not replaced by the workbook statement.
+
 The **core lesson does not change by population**.
 
 The Corrections, Reentry, Veteran, and Workplace applications belong in the **Systems Application Layer**, preserving the architectural firewall.
@@ -1250,7 +1256,7 @@ The Corrections, Reentry, Veteran, and Workplace applications belong in the **Sy
 
 ↓
 
-**Lesson 3 — Fight / Flight / Freeze / Shutdown**
+**Lesson 3 — Fight, Flight, Freeze & Shutdown**
 
 > **Create an interruption point between reaction and action.**
 

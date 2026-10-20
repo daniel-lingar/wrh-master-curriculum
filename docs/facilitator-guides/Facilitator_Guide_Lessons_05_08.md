@@ -1,4 +1,6 @@
-# PHASE 3 — FACILITATOR EXECUTION MATRIX
+> **UNAPPROVED DEVELOPMENT DRAFT — NOT FOR DELIVERY.** Part of the WRH Lane D development package (Phase 5). Package record: docs/PHASE5_PACKAGE_MANIFEST.md.
+
+# FACILITATOR EXECUTION MATRIX
 
 ## Core Lessons 5–8
 
@@ -596,8 +598,8 @@ Participant states:
 
 | Lesson                          | Core Trap                                         | Facilitator Reframe                                   | Anchor Line                                                        |
 | ------------------------------- | ------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------ |
-| **5. Perception vs. Fact**      | “My interpretation is a fact.”                    | Perception is information; check it against evidence. | **“Notice it. Name it. Check it.”**                                |
-| **6. Control vs. Influence**    | “I must control the outcome—or nothing matters.”  | Separate control, influence, and what is outside you. | **“You don't control everything, but you don't control nothing.”** |
+| **5. Perception vs. Fact**      | “My interpretation is a fact.”                    | Perception is information; check it against evidence. | **“What you felt is real. What you think it means still needs to be checked.”** |
+| **6. Control vs. Influence**    | “I must control the outcome—or nothing matters.”  | Separate control, influence, and what is outside you. | **“Stop spending control on things you don't control. Use influence where it actually exists.”** |
 | **7. Accountability vs. Blame** | “If they are responsible, I'm not.”               | Identify your actual part without carrying theirs.    | **“Someone else's responsibility does not cancel yours.”**         |
 | **8. Ownership vs. Defense**    | “My explanation proves I have no responsibility.” | Keep the explanation; add accurate ownership.         | **“You can defend what is false without defending what is true.”** |
 
@@ -637,9 +639,9 @@ When the room gets stuck, use the same sequence across all four lessons:
 
 ---
 
-# PHASE 3 COMPLETION STANDARD
+# COMPLETION STANDARD — LESSONS 5–8
 
-With Lessons **1–8** now covered, the facilitator framework has a consistent operational architecture:
+For Lessons **5–8**, the facilitator framework has a consistent operational architecture:
 
 **Recognize the pattern**
 ↓
