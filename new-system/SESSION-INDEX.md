@@ -19,10 +19,16 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 | 11 | Institutional Interaction and Retraumatization Risk | When Systems Misread the Body | [session-11.md](./sessions/session-11.md) |
 | 12 | Internal Behavioral Conflict Systems | Two Survival Systems Can Fight Inside One Person | [session-12.md](./sessions/session-12.md) |
 | 13 | Dissociative Protective Disengagement States | Leaving Your Body Was the Only Exit Left | [session-13.md](./sessions/session-13.md) |
+| 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | [session-14.md](./sessions/session-14.md) |
 
 ## Completed Participant Handouts
 
-| Session | Plain-Language Teaching Title | File |
+> **Important:** Handout file numbers do **not** reliably indicate which session they
+> belong to (e.g. handout-10 pairs with Session 13, handout-13 pairs with Session 14,
+> and Session 10 has no handout). See [CONTENT_CONCORDANCE.md](./CONTENT_CONCORDANCE.md)
+> for the content-verified session ↔ handout pairings.
+
+| Handout | Plain-Language Teaching Title | File |
 |---:|---|---|
 | 01 | The Body Learns Survival Before the Mind Has Words | [handout-01.md](./handouts/handout-01.md) |
 | 02 | The Pain Did Not Start With You | [handout-02.md](./handouts/handout-02.md) |
@@ -42,7 +48,10 @@ This index tracks the word-for-word facilitator-script rewrite of the WRH Master
 
 | Session | Formal Title | Plain-Language Teaching Title | Status |
 |---:|---|---|---|
-| 14 | Misclassification of Functional Inhibition as Noncompliance | They Called It Noncompliance Because They Could Not See Freeze | Next after Session 13 |
+| — | — | — | None pending in the 01–14 rewrite set |
+
+Note: Session 14's cliffhanger teases a Session 15 ("Nervous System Hijack and
+Survival State Dominance"), which has not been rewritten in this lane.
 
 ## Numbering Note
 

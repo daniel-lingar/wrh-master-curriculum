@@ -24,6 +24,18 @@ A specialized operational series and toolkit focusing on crisis management, suic
 - [**Certification Path**](./Certification_Path.md) – Facilitator prerequisites and levels.
 - [**IP and Usage Rights**](./IP_and_Usage_Rights.md) – Legal and proprietary information.
 
+### **Facilitator & Participant Resources**
+- [**Facilitator-Toolkit/**](./Facilitator-Toolkit/) – Core facilitator rules, readiness checklist, and decompression protocol.
+- [**Participant-Materials/**](./Participant-Materials/) – Safety and participation rules, Plan B cards and handouts.
+- [**Glossary/**](./Glossary/) – Glossary card and pilot terms cross-reference.
+- [**Staff-Tools/**](./Staff-Tools/) – Pre/post belief-shift survey and staff instruments.
+
+### **Standalone Reference Documents**
+- [**Compliance and Risk Management**](./Compliance_and_Risk_Management.md)
+- [**Facilitator Prerequisites**](./Facilitator_Prerequisites.md)
+- [**Safety Language Template**](./Safety_Language_Template.md)
+- [**Field Card**](./field-card.md)
+
 ---
 [**BACK TO TOP**](#) | [**CURRICULUM INDEX**](../index.md)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*

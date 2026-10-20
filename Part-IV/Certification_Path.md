@@ -1,5 +1,13 @@
 # **WRH Master Curriculum: Facilitator Credentialing and Certification Pathway**
 
+> # ⚠️ UNAPPROVED DRAFT — AUTHORITY CLAIMS UNVERIFIED
+>
+> **Date:** 2026-10-19 (WRH Phase 1 Repository Remediation)
+>
+> This document is an **unapproved draft**. It describes a **"Capitol Contracts LLC Certification Board"** and claims alignment with federal-agency requirements (including VA, DoD, DOL, and SAMHSA) for which **no supporting records were found in this repository**. This boundary is factual and limited to this repository: it does not claim that such a board, such records, or such an organization cannot exist elsewhere.
+>
+> Treat every certification level, credential requirement, and agency-alignment claim below as **draft text pending verification**, not as an established credentialing authority.
+
 [**HOME**](../../index.md) | [**PART I**](../../Part-I/index.md) | [**PART II**](../../Part-II/index.md) | [**PART III**](../../Part-III/index.md) | [**PART IV**](../../Part-IV/index.md)
 
 ---

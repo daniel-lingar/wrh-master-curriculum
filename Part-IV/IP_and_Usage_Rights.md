@@ -32,6 +32,8 @@ Capitol Contracts LLC disclaims all liability for the direct or indirect deliver
 
 ## **5.0 Federal and Institutional Compliance Mandates**
 
+> ⚠️ **UNVERIFIED CLAIMS (2026-10-19):** The compliance-certification assertion below ("will immediately void the compliance certification of the delivery") and the VA/DoD clinical practice guideline and Joint Commission alignment assertions are **unverified — no supporting records were found in this repository**. The existing text is preserved unchanged for review; do not rely on these statements as established compliance facts.
+
 The WRH Master Curriculum is meticulously designed to align with and support **Department of Veterans Affairs (VA) and Department of Defense (DoD) clinical practice guidelines**, as well as **Joint Commission standards** for behavioral health services. Adherence to the provided scripts, protocols, and facilitator guidelines is paramount. Any unauthorized deviation from the established curriculum content or delivery methodology will immediately void the compliance certification of the delivery and may result in the revocation of usage rights.
 
 ---

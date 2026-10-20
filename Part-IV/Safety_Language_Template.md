@@ -1,3 +1,9 @@
+# TEMPLATE — WITHDRAWN — DO NOT DELIVER
+
+> ⚠️ **Status:** This is an unfilled template (contains placeholders such as `[insert from App B]`). It is **withdrawn from delivery** pending independent clinical review (WRH Phase 1 Repository Remediation, 2026-10-19). **Do not deliver or pilot.** Placeholders were not filled in — no values were invented.
+
+---
+
 # Standardized Safety Language Template
 
 [**HOME**](../index.md) | [**PART I**](../Part-I/index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)

@@ -1,3 +1,13 @@
+> # ⚠️ WITHDRAWN FROM DELIVERY — PENDING INDEPENDENT CLINICAL REVIEW
+>
+> **Date:** 2026-10-19 (WRH Phase 1 Repository Remediation)
+>
+> This session is **WITHDRAWN FROM DELIVERY** pending independent clinical review. The release gates for this curriculum are not satisfied.
+>
+> **Do not deliver, pilot, or distribute this session** until the release gates are satisfied. All substantive source text is preserved below, unchanged, for review purposes only.
+
+---
+
 # Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework
 
 ![Version](https://img.shields.io/badge/System_Logic-v5.0--Stabilized-blue)
@@ -236,6 +246,11 @@ The goal of staying alive is not to argue with that conclusion. It is to add new
 ---
 
 ### SECTION 11: SAFETY REFERENCE CARD TEMPLATE (Printable – one per participant)
+
+> # TEMPLATE — WITHDRAWN — DO NOT DELIVER
+>
+> ⚠️ This safety-plan worksheet section is an **unfilled template** (e.g., "Local VA Emergency: [insert from App B]" — no value has been supplied). It is **withdrawn from delivery** pending independent clinical review (2026-10-19). **Do not distribute to participants.** The placeholder was not filled in — no value was invented.
+
 | Front of Card | Back of Card |
 |---------------|---------------|
 | **My Personal Warning Signs (3):** <br>1. _________________ <br>2. _________________ <br>3. _________________ | **Professional Resources:** <br>988 (Press 1) – Veterans Crisis Line <br>741741 – Crisis Text Line <br>Local VA Emergency: [insert from App B] |
