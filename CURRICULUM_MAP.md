@@ -84,3 +84,7 @@ The rewrite README/index now list the existing 14 scripts and 13 handouts; the w
 **Catalog regeneration control:** The inherited catalog builder previously serialized master-session source despite the empty checked-in catalog. The Phase 1 follow-up changes ordinary catalog builds to emit only the withdrawn stub; two regression tests cover clean builds and replacement of a populated catalog. The checked-in catalog and explorer remain unchanged. This closes a regeneration path, not a release gate.
 
 **Gates satisfied: 0 of 6.** See the [release tracker](docs/REMEDIATION_TRACKER.md).
+
+### Phase 5 receiving audit
+
+Both companion batches now exist for Lane D. The [package manifest](docs/PHASE5_PACKAGE_MANIFEST.md) pins all twelve components and documents topic alignment, editorial revisions and unresolved review dependencies. The [package register](docs/PHASE5_LANE_D_CLAIM_REGISTER.md) contains 151 representative entries, including receiving additions for the previously omitted Lessons 1–4 guide; it is not an exhaustive or scientifically verified inventory. D-01–D-08 IDs, application order and facilitator development conventions are recorded for this package under the existing owner delegation. Lane C remains deferred; Lane A/crisis material remains excluded and withdrawn. No gate or delivery status changes.
